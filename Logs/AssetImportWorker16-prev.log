@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/staging' branch; Version is '6000.2.13f1 (abdb44fca7f7) revision 11262788'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor" at "2025-12-05T15:18:54.5409939Z"
 OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 31860 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor" at "2025-12-04T22:40:44.40808Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-12-04T22:40:44Z
+Date: 2025-12-05T15:18:54Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.2.13f1\Editor\Unity.exe
@@ -13,11 +13,11 @@ C:\Program Files\Unity\Hub\Editor\6000.2.13f1\Editor\Unity.exe
 -name
 AssetImportWorker16
 -projectPath
-C:/GIT_Projects/prj1/FastFood
+C:/GIT_Projects/prj1/VRProject4-TitlePending
 -logFile
 Logs/AssetImportWorker16.log
 -srvPort
-64782
+64267
 -licensingIpc
 LicenseClient-Raptor
 -job-worker-count
@@ -28,8 +28,8 @@ LicenseClient-Raptor
 1
 -name
 AssetImport
-Successfully changed project path to: C:/GIT_Projects/prj1/FastFood
-C:/GIT_Projects/prj1/FastFood
+Successfully changed project path to: C:/GIT_Projects/prj1/VRProject4-TitlePending
+C:/GIT_Projects/prj1/VRProject4-TitlePending
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -65,12 +65,12 @@ C:/GIT_Projects/prj1/FastFood
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29396]  Target information:
+Player connection [32944]  Target information:
 
-Player connection [29396]  * "[IP] 192.168.10.94 [Port] 0 [Flags] 2 [Guid] 1379352208 [EditorId] 1379352208 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N6LDBOS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [32944]  * "[IP] 192.168.10.94 [Port] 0 [Flags] 2 [Guid] 669338335 [EditorId] 669338335 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N6LDBOS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [29396] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [29396] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [32944] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32944] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -82,11 +82,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 16.78 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.69 ms.
+Refreshing native plugins compatible for Editor in 25.36 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.58 ms.
 Initialize engine version: 6000.2.13f1 (abdb44fca7f7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/GIT_Projects/prj1/FastFood/Assets
+[Subsystems] Discovering subsystems at path C:/GIT_Projects/prj1/VRProject4-TitlePending/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -98,7 +98,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
@@ -108,17 +108,17 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/
 	ResponseStatus: Unsupported protocol version '1.17.4'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Raptor"
 [Licensing::IpcConnector] LicenseClient-Raptor channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13" at "2025-12-04T22:40:45.0354536Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13" at "2025-12-05T15:18:55.1230557Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              037b7e671a7240f49ff3f34449cf1cc1
-  Correlation Id:          8b443b1067030043d42fc3d4d67f1055
-  External correlation Id: 5680533965242503317
+  Session Id:              2827c9c5cfe54e2f93fba9cc0c8f4f10
+  Correlation Id:          8c1fe4599fc8f946a6c5550c5295a36a
+  External correlation Id: 1918891363214359732
   Machine Id:              /Gk3cS3RbuDCQMU5P993206Xbmc=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Raptor-6000.2.13" (connect: 0.00s, validation: 0.00s, handshake: 0.54s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13-notifications" at "2025-12-04T22:40:45.5735173Z"
-[Licensing::Module] Licensing Background thread has ended after 1.17s
-[Licensing::Module] Licensing is initialized (took 0.64s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Raptor-6000.2.13" (connect: 0.00s, validation: 0.00s, handshake: 0.47s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13-notifications" at "2025-12-05T15:18:55.589433Z"
+[Licensing::Module] Licensing Background thread has ended after 1.05s
+[Licensing::Module] Licensing is initialized (took 0.57s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 2475892980188-UnityPersXXXX
@@ -126,41 +126,41 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.648391 seconds.
-- Loaded All Assemblies, in  0.919 seconds
+Registered in 0.573116 seconds.
+- Loaded All Assemblies, in  0.801 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 221 ms
+Android Extension - Scanning For ADB Devices 217 ms
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.477 seconds
-Domain Reload Profiling: 1394ms
-	BeginReloadAssembly (96ms)
+- Finished resetting the current domain, in  0.434 seconds
+Domain Reload Profiling: 1233ms
+	BeginReloadAssembly (84ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (681ms)
-	LoadAllAssembliesAndSetupDomain (107ms)
-		LoadAssemblies (93ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (599ms)
+	LoadAllAssembliesAndSetupDomain (85ms)
+		LoadAssemblies (82ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (104ms)
-			TypeCache.Refresh (103ms)
-				TypeCache.ScanAssembly (95ms)
+		AnalyzeDomain (83ms)
+			TypeCache.Refresh (82ms)
+				TypeCache.ScanAssembly (75ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (478ms)
+	FinalizeReload (434ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (446ms)
+		SetupLoadedEditorAssemblies (407ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (302ms)
+			InitializePlatformSupportModulesInManaged (276ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (40ms)
-			ProcessInitializeOnLoadAttributes (70ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (64ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -170,8 +170,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.529 seconds
-Refreshing native plugins compatible for Editor in 6.40 ms, found 14 plugins.
+- Loaded All Assemblies, in  0.474 seconds
+Refreshing native plugins compatible for Editor in 6.66 ms, found 14 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -202,39 +202,39 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.867 seconds
-Domain Reload Profiling: 1388ms
-	BeginReloadAssembly (112ms)
+- Finished resetting the current domain, in  0.812 seconds
+Domain Reload Profiling: 1281ms
+	BeginReloadAssembly (99ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (357ms)
-		LoadAssemblies (247ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (324ms)
+		LoadAssemblies (212ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (170ms)
-			TypeCache.Refresh (123ms)
-				TypeCache.ScanAssembly (113ms)
-			BuildScriptInfoCaches (36ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (867ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (108ms)
+			BuildScriptInfoCaches (37ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (812ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (708ms)
+		SetupLoadedEditorAssemblies (678ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (95ms)
-			ProcessInitializeOnLoadAttributes (526ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (511ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -272,458 +272,740 @@ WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 8.78 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 7.05 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8037 unused Assets / (8.9 MB). Loaded Objects now: 8803.
-Memory consumption went from 154.4 MB to 145.6 MB.
-Total: 15.285200 ms (FindLiveObjects: 0.643400 ms CreateObjectMapping: 0.265100 ms MarkObjects: 10.925700 ms  DeleteObjects: 3.449600 ms)
+Unloading 8054 unused Assets / (8.1 MB). Loaded Objects now: 8815.
+Memory consumption went from 159.5 MB to 151.5 MB.
+Total: 11.443500 ms (FindLiveObjects: 0.591900 ms CreateObjectMapping: 0.242000 ms MarkObjects: 8.025000 ms  DeleteObjects: 2.583600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11119.359508 seconds.
-  path: Assets/CabinDecor/kitchen props/models
-  artifactKey: Guid(4874504f6d96500429ad837bdfe2281e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/models using Guid(4874504f6d96500429ad837bdfe2281e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3a5727ce25e200e7b51935bcebd7978') in 0.108522 seconds
+  Time since last request: 71032.889523 seconds.
+  path: Assets/Scenes/BedroomScenes/Bedroom LightMaps/BedroomScene1/ReflectionProbe-0.png
+  artifactKey: Guid(185996c47ea34b94f9a51320ef27d9a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/BedroomScenes/Bedroom LightMaps/BedroomScene1/ReflectionProbe-0.png using Guid(185996c47ea34b94f9a51320ef27d9a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe327812148391c7990b27692f81839d') in 0.1484317 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/CabinDecor/kitchen props/models/coloured-mugs.fbx
-  artifactKey: Guid(bc8c29201cb724446a7429fabead425c) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/models/coloured-mugs.fbx using Guid(bc8c29201cb724446a7429fabead425c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bd880d68719c1629f500fe0c1535b5d') in 0.0844141 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CabinDecor/kitchen props/materials/counter.mat
-  artifactKey: Guid(cc562f63147f83443989c4ee021af5d5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/materials/counter.mat using Guid(cc562f63147f83443989c4ee021af5d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de1f4d98004e7c7bfe3aac3f4875d58d') in 0.0437489 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/CabinDecor/kitchen props/textures/china-plate_albedo.tga
-  artifactKey: Guid(15c4173953b8d2c4dbf27b536ed08bd3) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/textures/china-plate_albedo.tga using Guid(15c4173953b8d2c4dbf27b536ed08bd3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a8eb063e8cd35c5daa973073a1d0c51') in 0.0288168 seconds
+  Time since last request: 1.635101 seconds.
+  path: Assets/Scenes/BedroomScenes/Bedroom LightMaps/BedroomScene1 1/Lightmap-2_comp_dir.png
+  artifactKey: Guid(8c129c339b55f634bbd14212d8039f46) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/BedroomScenes/Bedroom LightMaps/BedroomScene1 1/Lightmap-2_comp_dir.png using Guid(8c129c339b55f634bbd14212d8039f46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c106fdbb1de197b971c9a1da2f4a54db') in 0.0246518 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/CabinDecor/kitchen props/textures/toaster_albedo2.tga
-  artifactKey: Guid(96c6b84433c383d41a055b98a5ce2288) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/textures/toaster_albedo2.tga using Guid(96c6b84433c383d41a055b98a5ce2288) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '745599a3e1e001f0147fd9d64a9e9dd2') in 0.0154942 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/CabinDecor/kitchen props/materials/knives.mat
-  artifactKey: Guid(b27f687fc7f53a64d83610085bd6035b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/materials/knives.mat using Guid(b27f687fc7f53a64d83610085bd6035b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '328ed5e655d69f9e44610018ee6bc017') in 0.0174852 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+  Time since last request: 57.539215 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Textures/Rug_1.png
+  artifactKey: Guid(5f7693d3af0d3884292dac28baaa53fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Textures/Rug_1.png using Guid(5f7693d3af0d3884292dac28baaa53fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92b31fd73ba4409964c7d7049fc59728') in 0.047738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/CabinDecor/kitchen props/textures/mug-normal.tga
-  artifactKey: Guid(db1216cfa141bc049b1ce44010d094b1) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/textures/mug-normal.tga using Guid(db1216cfa141bc049b1ce44010d094b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e918ac1e52d802fc01c1062a3a216f0d') in 0.0171966 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  path: Assets/FurnishedCabin/Textures/Rug_Curtains_MAT_AlbedoTransparency.png
+  artifactKey: Guid(9e8bdb50df85d05429c3cdee0cb0c25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Rug_Curtains_MAT_AlbedoTransparency.png using Guid(9e8bdb50df85d05429c3cdee0cb0c25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1633d3d6be8751cb0e295d77efab1c47') in 0.0177058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/rug_b.prefab
+  artifactKey: Guid(9be9cf2bdd96e56418d6a0815d9176d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/rug_b.prefab using Guid(9be9cf2bdd96e56418d6a0815d9176d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '686570710159d93b1174fc2757645db9') in 1.4901204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FurnishedCabin/Textures/Rug_Curtains_MAT_MetallicSmoothness.png
+  artifactKey: Guid(e2c7c7aaef6b6d94fad6625c3c937d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Textures/Rug_Curtains_MAT_MetallicSmoothness.png using Guid(e2c7c7aaef6b6d94fad6625c3c937d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83d5b2f6efb8d9244f59cc98383bdb95') in 0.0132118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Rug_N.png
+  artifactKey: Guid(7f7b53da64f751048b47d48f41089031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc/Rug_N.png using Guid(7f7b53da64f751048b47d48f41089031) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24151853720d31f64fecb95ec9fa34fe') in 0.0281887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FurnishedCabin/Meshes/Materials/Rug_Curtains_MAT.mat
+  artifactKey: Guid(70e2b7f0f28b4254d8a72d522585d74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/Materials/Rug_Curtains_MAT.mat using Guid(70e2b7f0f28b4254d8a72d522585d74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a9fad6ab4da0b96f383db58118996d7') in 1.1196847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.951171 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_01_02.fbx
+  artifactKey: Guid(b967766edf4c22645b84fc7a0a815c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_01_02.fbx using Guid(b967766edf4c22645b84fc7a0a815c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33f369acd46df453c404f5399d74f54f') in 0.1946588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_03_02.fbx
+  artifactKey: Guid(6ddb670162ab8f04eb99c7e7ffca3f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_03_02.fbx using Guid(6ddb670162ab8f04eb99c7e7ffca3f76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f9d9608a890e6c6af262fa8b62e244c') in 0.0527863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_05_02.fbx
+  artifactKey: Guid(c924d0aedcb15ae428ce1faf3c3dafb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_05_02.fbx using Guid(c924d0aedcb15ae428ce1faf3c3dafb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1a57ced0501de664973a57de0b15144') in 0.0565598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/CabinDecor/kitchen props/textures/breakfast-bar_normal.tga
-  artifactKey: Guid(caceb824322daf54b9c6888b8eb9de29) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/textures/breakfast-bar_normal.tga using Guid(caceb824322daf54b9c6888b8eb9de29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e73cbcd0fe98e59b5e7f3d2acbd34560') in 0.0155879 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_02_01.fbx
+  artifactKey: Guid(bdebe3b3692e8194d85f68de09178594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_02_01.fbx using Guid(bdebe3b3692e8194d85f68de09178594) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5089ac8bc4daef038e22b2ea8d3bcbe') in 0.0533963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/CabinDecor/kitchen props/textures/plates-albedo-dirty.tga
-  artifactKey: Guid(d3427f1ee2064b846aec623841dba6dc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/textures/plates-albedo-dirty.tga using Guid(d3427f1ee2064b846aec623841dba6dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf61804c8df0b8c681bfa65e28bdb1ce') in 0.0153915 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_04_01.fbx
+  artifactKey: Guid(80e8941a230a5dc4fb7f610f6a5c0bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_04_01.fbx using Guid(80e8941a230a5dc4fb7f610f6a5c0bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a3027fcdf093ae5889231a6db76261d') in 0.0583299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_04_04.fbx
+  artifactKey: Guid(1a9ee0993dd54954b863920b1470836f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_04_04.fbx using Guid(1a9ee0993dd54954b863920b1470836f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4eabde3bf77328d03891f211b399c527') in 0.0521635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_02_02.fbx
+  artifactKey: Guid(3be358a2343306841a071b21e32ac2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_02_02.fbx using Guid(3be358a2343306841a071b21e32ac2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45d487c1210a8649c091a00edabf845d') in 0.0502708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/CabinDecor/kitchen props/textures/mug_albedo.tga
-  artifactKey: Guid(a9b20be183b460c429e825cd64baf74a) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/textures/mug_albedo.tga using Guid(a9b20be183b460c429e825cd64baf74a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '25deeee4bd7ec948272420844c07bb98') in 0.0134428 seconds
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_04_01.fbx
+  artifactKey: Guid(ee377737e0e4af845988a6fd0b6bec4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_04_01.fbx using Guid(ee377737e0e4af845988a6fd0b6bec4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e526b0deb2e9a14b9a9d1cbaeeeb8bad') in 0.0518633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_02_04.fbx
+  artifactKey: Guid(45822bfa19170d64ca25c89d6321b28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_02_04.fbx using Guid(45822bfa19170d64ca25c89d6321b28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '862c872e8df76add6b8b04e43577a226') in 0.0502999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_03_03.fbx
+  artifactKey: Guid(ecfc4a80d04ed7a44b2735be05e98425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_03_03.fbx using Guid(ecfc4a80d04ed7a44b2735be05e98425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c323e6f43427b0e89f93d84f945248c8') in 0.0489152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_07_01.fbx
+  artifactKey: Guid(1b6d8528502c9644c99e093f0397a842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_07_01.fbx using Guid(1b6d8528502c9644c99e093f0397a842) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06343cdbe8d003e84773c02b94965b31') in 0.052332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_03_01.fbx
+  artifactKey: Guid(b5bf6026d9f943946a05c455a3010728) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_03_01.fbx using Guid(b5bf6026d9f943946a05c455a3010728) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b993d248f1c241ec94671b079f61178e') in 0.0496665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_08_03.fbx
+  artifactKey: Guid(322ed80b8b9bb2941b78a69de96ee023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_08_03.fbx using Guid(322ed80b8b9bb2941b78a69de96ee023) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c43693382d28c1cb71bd1dd2afb4b50') in 0.0497714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_06_03.fbx
+  artifactKey: Guid(49130b42a0c16004b8812b76c0ec3832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_06_03.fbx using Guid(49130b42a0c16004b8812b76c0ec3832) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8124363de369cbf1591d8c01ec25ffe4') in 0.0478312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_05_02.fbx
+  artifactKey: Guid(6dda2f21f1ad18044b21825a2c75e386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_05_02.fbx using Guid(6dda2f21f1ad18044b21825a2c75e386) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '825b7fba36f8933b1c1faaa82221a84c') in 0.0501718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_05_01.fbx
+  artifactKey: Guid(d5f41989d862b4242b54f888c150d97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_05_01.fbx using Guid(d5f41989d862b4242b54f888c150d97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3281fa6010ff291c963acae0311dc369') in 0.0496257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_04_02.fbx
+  artifactKey: Guid(8c6da69fae219a343b5f1aa592854ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_04_02.fbx using Guid(8c6da69fae219a343b5f1aa592854ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9f59f42672cada3ed160f419516aead') in 0.0568358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_02_03.fbx
+  artifactKey: Guid(3c478c4d9c2b75f4b9f8974787d860dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_02_03.fbx using Guid(3c478c4d9c2b75f4b9f8974787d860dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79aa3d19b6698ba53edca0e4906c44ed') in 0.0556749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_07_01.fbx
+  artifactKey: Guid(2ecea0e23a6d8d245bbee0e40c16ebf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_07_01.fbx using Guid(2ecea0e23a6d8d245bbee0e40c16ebf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a2e528614e618d0deff7dfaa0795587') in 0.0566746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_07_03.fbx
+  artifactKey: Guid(fdead94246855b343ac5676b4b58134f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_07_03.fbx using Guid(fdead94246855b343ac5676b4b58134f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2ba7d33e068a3dd26f63b8bed50a647') in 0.052329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_04_02.fbx
+  artifactKey: Guid(14df10423bd764e4c8bf053bf27b06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_04_02.fbx using Guid(14df10423bd764e4c8bf053bf27b06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb5d2c3ab38c502ad8272056ce929f6f') in 0.0509386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_08_01.fbx
+  artifactKey: Guid(435ecdbebb800a74bbae6e829100a47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_08_01.fbx using Guid(435ecdbebb800a74bbae6e829100a47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e45189ebb225e728d5243aa0059f520e') in 0.0504424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_08_04.fbx
+  artifactKey: Guid(39a5979733d61444eb816468f0f51ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_08_04.fbx using Guid(39a5979733d61444eb816468f0f51ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd3a67e3110cc0b0a2ac69a87ec02306') in 0.0511868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_04_03.fbx
+  artifactKey: Guid(1362f968fedf57d4da5de28432985aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_04_03.fbx using Guid(1362f968fedf57d4da5de28432985aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49a1f9b8cdcbbe71a798796018d2039b') in 0.0517802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_07_02.fbx
+  artifactKey: Guid(c685bce8c892aa747bc9cbe251e9d547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_07_02.fbx using Guid(c685bce8c892aa747bc9cbe251e9d547) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0a880afa2a55bbb6bcc22027ef2a49e') in 0.0514733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_04_03.fbx
+  artifactKey: Guid(50cfa7c849314b8489db3cc181a31990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_04_03.fbx using Guid(50cfa7c849314b8489db3cc181a31990) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd1a7028baaef8c4e42431b3e0ad966a') in 0.0492892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_08_02.fbx
+  artifactKey: Guid(4f7ac2c36d7e212498b035c42830b098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_08_02.fbx using Guid(4f7ac2c36d7e212498b035c42830b098) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a24ebcfa5d5c22eaa503b9abbe238c5a') in 0.0508649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_06_02.fbx
+  artifactKey: Guid(d7446ed5f94d18747903f15f5606e802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_06_02.fbx using Guid(d7446ed5f94d18747903f15f5606e802) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '644d6f001fc3bb85ac92594b07346562') in 0.0544615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_01_04.fbx
+  artifactKey: Guid(2fb9549f061b6094c95b2fcae13357dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_01_04.fbx using Guid(2fb9549f061b6094c95b2fcae13357dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57c136b4f6b6b6560b5ffc7c92b69846') in 0.054697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_05_01.fbx
+  artifactKey: Guid(36bcf2bae39f91a4d855de92e11742b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_05_01.fbx using Guid(36bcf2bae39f91a4d855de92e11742b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f768f388a6043f9af6334799714b2e93') in 0.055827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_01_01.fbx
+  artifactKey: Guid(2ddf436f457ee924a887b0be739af988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_01_01.fbx using Guid(2ddf436f457ee924a887b0be739af988) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '37fbca236dd349314d11fb96b8e19e49') in 0.0507755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.008948 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_07_02.fbx
+  artifactKey: Guid(c685bce8c892aa747bc9cbe251e9d547) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_07_02.fbx using Guid(c685bce8c892aa747bc9cbe251e9d547) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86d476fff621cc5b14c76fe16c68ac19') in 0.0836508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_07_01.prefab
+  artifactKey: Guid(86d7edb0f984f0148ac8ceb4d7e5a949) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_07_01.prefab using Guid(86d7edb0f984f0148ac8ceb4d7e5a949) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1546d055ecaf1174e068e38d8d66625') in 0.0172177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_02_02.prefab
+  artifactKey: Guid(57f77c3a7d356eb42b23fd20e9252999) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_02_02.prefab using Guid(57f77c3a7d356eb42b23fd20e9252999) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4272f532c31584210671a1c60d39aa35') in 0.0181661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_03_03.prefab
+  artifactKey: Guid(b0b5bcbdd5014354b9ff642a993b9afc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_03_03.prefab using Guid(b0b5bcbdd5014354b9ff642a993b9afc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0af0a365f41707dad362c37812b55678') in 0.0158226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_04_01.prefab
+  artifactKey: Guid(6958131b474cd624584c455d02513397) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_04_01.prefab using Guid(6958131b474cd624584c455d02513397) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87715d800fc0437dfbbbdc7aac3ca212') in 0.017786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_04_04.fbx
+  artifactKey: Guid(1a9ee0993dd54954b863920b1470836f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_04_04.fbx using Guid(1a9ee0993dd54954b863920b1470836f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0b787f020a7f178318d015eb3598bdc') in 0.0469037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_08_03.prefab
+  artifactKey: Guid(d59bfe2372a359646812d4127aee1154) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_08_03.prefab using Guid(d59bfe2372a359646812d4127aee1154) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '321a713249de91c53d45527d8b2c65e6') in 0.0144252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/Plants/Materials
+  artifactKey: Guid(e6ed1e41d872d904081dfbaf9ea337f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Materials using Guid(e6ed1e41d872d904081dfbaf9ea337f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e734951640c1e262916a2495d923006b') in 0.0100274 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/CabinDecor/kitchen props/textures/knives_metal.tga
-  artifactKey: Guid(ed628e40ad4784c4ea4120a900d1d05b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/textures/knives_metal.tga using Guid(ed628e40ad4784c4ea4120a900d1d05b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd00216b264b39d9b1224e07d28749a69') in 0.0119414 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_09_02.fbx
+  artifactKey: Guid(c2b6ed666ca91dc45bda7572b4c97245) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_09_02.fbx using Guid(c2b6ed666ca91dc45bda7572b4c97245) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '757518c5154bf9d6ad62e265775e2303') in 0.0606296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_08_01.prefab
+  artifactKey: Guid(3792f6aea7248474c9b792521a16bffc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_08_01.prefab using Guid(3792f6aea7248474c9b792521a16bffc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ada263244a507f689590e21d6a1e2511') in 0.0134585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_08_03.fbx
+  artifactKey: Guid(322ed80b8b9bb2941b78a69de96ee023) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_08_03.fbx using Guid(322ed80b8b9bb2941b78a69de96ee023) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '678be28de642f2e8654b97c82b1ec7ed') in 0.0569269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_05_03.prefab
+  artifactKey: Guid(869129c6b5957cb47990a7d6bfde5694) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_05_03.prefab using Guid(869129c6b5957cb47990a7d6bfde5694) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3bd89880daa71b47e96c9074740b4e97') in 0.0124114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_02_02.prefab
+  artifactKey: Guid(58ae5ffa58af7e8408246d351688267b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_02_02.prefab using Guid(58ae5ffa58af7e8408246d351688267b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cdf210b294502b93b365c73c6cbb7ad2') in 0.0130712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_01_04.fbx
+  artifactKey: Guid(2fb9549f061b6094c95b2fcae13357dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_01_04.fbx using Guid(2fb9549f061b6094c95b2fcae13357dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24e0204f1b10a7fc5ad3cae2908441dd') in 0.0426616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_05_01.fbx
+  artifactKey: Guid(36bcf2bae39f91a4d855de92e11742b6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_05_01.fbx using Guid(36bcf2bae39f91a4d855de92e11742b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad8b7346cbb18e303a560cc0eb386d36') in 0.0582484 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_09_01.fbx
+  artifactKey: Guid(5582818fce0333442b79138b3beaef28) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_09_01.fbx using Guid(5582818fce0333442b79138b3beaef28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a36470edcbe4199d5039186e02da53e') in 0.0491819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_09_01.prefab
+  artifactKey: Guid(6662ac34b3a5b194d8afe54b8fc22548) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_09_01.prefab using Guid(6662ac34b3a5b194d8afe54b8fc22548) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c88e59e5520491bd4fcc19631a16ece6') in 0.0120042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_06_02.fbx
+  artifactKey: Guid(571f6da6470ab6f4ab3923c2e64bf6b6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_06_02.fbx using Guid(571f6da6470ab6f4ab3923c2e64bf6b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe93175e8cc61c6178f738cbd1ffe3d3') in 0.0420847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/Plants
+  artifactKey: Guid(65fbc1371d88a964ead588322ed8445b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants using Guid(65fbc1371d88a964ead588322ed8445b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '577a9a57a0a238645369912742278537') in 0.0072608 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/CabinDecor/kitchen props/textures/coffee-cups_normal.tga
-  artifactKey: Guid(6ef770adaeac3694f8c47303dc3e89ce) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/textures/coffee-cups_normal.tga using Guid(6ef770adaeac3694f8c47303dc3e89ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '860ad225dea6f7392a53fcf129848867') in 0.0135802 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_04_01.fbx
+  artifactKey: Guid(ee377737e0e4af845988a6fd0b6bec4c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_04_01.fbx using Guid(ee377737e0e4af845988a6fd0b6bec4c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53e363eda1bb74554c0f3524a0b6f198') in 0.0454008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/CabinDecor/kitchen props/materials/breakfast-bar.mat
-  artifactKey: Guid(07629005d589058469287e37c2829820) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/materials/breakfast-bar.mat using Guid(07629005d589058469287e37c2829820) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9fe8dd25c0ae070f826ac334778cffa5') in 0.013888 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_05_04.fbx
+  artifactKey: Guid(50ac02233211c754bbdc7d99c7f701c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_05_04.fbx using Guid(50ac02233211c754bbdc7d99c7f701c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '381b54f75dca1c5ca47a4f2fa1183bd7') in 0.0480549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/CabinDecor/kitchen props/materials/mugb.mat
-  artifactKey: Guid(f48424f1fffe39b4f873284f4ee6d4e8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/materials/mugb.mat using Guid(f48424f1fffe39b4f873284f4ee6d4e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf220aec623681384212514c0283b63a') in 0.0151088 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/CabinDecor/kitchen props/prefabs/dish-rack-full.prefab
-  artifactKey: Guid(dcd0587b065a66040bf53ce3ab8edf86) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/prefabs/dish-rack-full.prefab using Guid(dcd0587b065a66040bf53ce3ab8edf86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb2d8cb189f120aed8a80d7a652ef3d6') in 0.0230257 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/CabinDecor/kitchen props/models/toaster.fbx
-  artifactKey: Guid(2faafd7c39cf18b4d83d3d729c4f9a04) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/models/toaster.fbx using Guid(2faafd7c39cf18b4d83d3d729c4f9a04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9b9e75eb6ad4b818493c703f4b3cd7d') in 0.0131921 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_06_02.fbx
+  artifactKey: Guid(d7446ed5f94d18747903f15f5606e802) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_06_02.fbx using Guid(d7446ed5f94d18747903f15f5606e802) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '455d6be11af72b325e5ab6c8afe8fee4') in 0.0604347 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
 ========================================================================
 Received Import Request.
-  Time since last request: 40.934239 seconds.
-  path: Assets/CabinDecor/kitchen props/textures/breakfast-bar_metal.tga
-  artifactKey: Guid(385c3639ab561534da42850764dabacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/textures/breakfast-bar_metal.tga using Guid(385c3639ab561534da42850764dabacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bb6020fa06cc1996d0e7059771d34f2') in 1.1366687 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/CabinDecor/kitchen props/textures/mug-normal.tga
-  artifactKey: Guid(db1216cfa141bc049b1ce44010d094b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/textures/mug-normal.tga using Guid(db1216cfa141bc049b1ce44010d094b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69e927638b0db0c126a259c4b53bce67') in 1.0628414 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/CabinDecor/kitchen props/textures/mug-metal.tga
-  artifactKey: Guid(3e06b809254c60344a00b44ed88ae99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/textures/mug-metal.tga using Guid(3e06b809254c60344a00b44ed88ae99a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfdb18c6a3245178080ef8fdd094beca') in 0.0738773 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/CabinDecor/kitchen props/textures/coffee-cups_metal.tga
-  artifactKey: Guid(b891e16690447314da461703edb98573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/textures/coffee-cups_metal.tga using Guid(b891e16690447314da461703edb98573) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '538f33ebb54d56c01bd694d61db810fb') in 0.7433751 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CabinDecor/kitchen props/prefabs/dish-rack-full.prefab
-  artifactKey: Guid(dcd0587b065a66040bf53ce3ab8edf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/prefabs/dish-rack-full.prefab using Guid(dcd0587b065a66040bf53ce3ab8edf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40ae2c9546d00c95aa8c16ad4286892a') in 23.3173415 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 57
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.034876 seconds.
-  path: Assets/CabinDecor/kitchen props/materials/counter.mat
-  artifactKey: Guid(cc562f63147f83443989c4ee021af5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/materials/counter.mat using Guid(cc562f63147f83443989c4ee021af5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c43766b8f1f8fa081993cd8f1f1bd2f4') in 0.1064105 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/CabinDecor/kitchen props/materials/toaster-2.mat
-  artifactKey: Guid(d80f90649d0bf7448a779585d221995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/materials/toaster-2.mat using Guid(d80f90649d0bf7448a779585d221995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66906e8b8740fcdf593715da74712bac') in 0.3308041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/CabinDecor/kitchen props/materials/knives.mat
-  artifactKey: Guid(b27f687fc7f53a64d83610085bd6035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/materials/knives.mat using Guid(b27f687fc7f53a64d83610085bd6035b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9495e2844388f7fccf43e981cb63430') in 0.061063 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.183362 seconds.
-  path: Assets/Scenes/BedroomSceenes/BedroomScene1/Lightmap-0_comp_dir.png
-  artifactKey: Guid(e1360debde6ea534cb10e0f9d2bdfe82) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/BedroomSceenes/BedroomScene1/Lightmap-0_comp_dir.png using Guid(e1360debde6ea534cb10e0f9d2bdfe82) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23ca14512286a32a3464f207cb354897') in 0.0145567 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Scenes/BedroomSceenes/BedroomScene1/LightingData.asset
-  artifactKey: Guid(91da66318b24ba94db681f628053aa17) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/BedroomSceenes/BedroomScene1/LightingData.asset using Guid(91da66318b24ba94db681f628053aa17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cacc062df2668a9c2c76bda44f5cab97') in 0.0121072 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Scenes/BedroomSceenes/BedroomScene1/ReflectionProbe-1.png
-  artifactKey: Guid(bfe4d4b784d2bbd418524978a2bf9c0e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Scenes/BedroomSceenes/BedroomScene1/ReflectionProbe-1.png using Guid(bfe4d4b784d2bbd418524978a2bf9c0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f65cfc706bf81dc8cb8b044d450a01b3') in 0.0142649 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.018250 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Prefabs/UI/MinMaxSlider.prefab
-  artifactKey: Guid(657321a07c3561043af55547ec4b0ed7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Prefabs/UI/MinMaxSlider.prefab using Guid(657321a07c3561043af55547ec4b0ed7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e0119be3783f6cce935fe72d13a912c2') in 0.0216341 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Scene/FFK Sample Scene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Scene/FFK Sample Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/Brick Project Studio/Fast Food Restaurant Kit/Scene/FFK Sample Scene.unity additively'
-Loaded scene 'Assets/Brick Project Studio/Fast Food Restaurant Kit/Scene/FFK Sample Scene.unity'
-	Deserialize:            26.332 ms
-	Integration:            136.213 ms
-	Integration of assets:  0.004 ms
-	Thread Wait Time:       0.041 ms
-	Total Operation Time:   162.590 ms
- -> (artifact id: 'eec32f4a05972945c94d8ceab56b91c8') in 1.0336309 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2191
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/CabinDecor/3Dfrk/Frames with pictures/Prefabs/Paint_07.prefab
-  artifactKey: Guid(1906dcb2568c13f4c962c7e0c0d82ac3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/CabinDecor/3Dfrk/Frames with pictures/Prefabs/Paint_07.prefab using Guid(1906dcb2568c13f4c962c7e0c0d82ac3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '97aa8aaea98e25fa85e98d8fd9d4adf1') in 0.0156201 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoScene.unity
-  artifactKey: Guid(319dafa5c80f29f428dc1e0d03f04177) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoScene.unity using Guid(319dafa5c80f29f428dc1e0d03f04177) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoScene.unity additively'
-Loaded scene 'Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoScene.unity'
-	Deserialize:            21.944 ms
-	Integration:            154.460 ms
-	Integration of assets:  0.518 ms
-	Thread Wait Time:       0.009 ms
-	Total Operation Time:   176.931 ms
- -> (artifact id: 'cc8478410fda5ff7572bb7579155c4c4') in 0.4304062 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3583
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.439004 seconds.
-  path: Assets/CabinDecor/kitchen props/models/coloured-mugs.fbx
-  artifactKey: Guid(bc8c29201cb724446a7429fabead425c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/models/coloured-mugs.fbx using Guid(bc8c29201cb724446a7429fabead425c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbbc4152532587e9c735852d47f579b0') in 0.0605947 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CabinDecor/kitchen props/models/knife1.fbx
-  artifactKey: Guid(d2e2a853635ce0541a57bf54bb3b3249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/models/knife1.fbx using Guid(d2e2a853635ce0541a57bf54bb3b3249) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3068199c4c17eb8c9653c5f576dc1b14') in 0.0214152 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/CabinDecor/kitchen props/models/stool.fbx
-  artifactKey: Guid(a9a2fe8bb1566d04382f04d14066f8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/models/stool.fbx using Guid(a9a2fe8bb1566d04382f04d14066f8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90610d236de2769103a573b4ff25e2a7') in 0.0345768 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/CabinDecor/kitchen props/models/mug.fbx
-  artifactKey: Guid(4e6db54670ea84d4298ec673c60ca3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/models/mug.fbx using Guid(4e6db54670ea84d4298ec673c60ca3c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82389a0f0c168ef243e0a542dfa78bfd') in 0.0274046 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/CabinDecor/kitchen props/models/dish-rack.fbx
-  artifactKey: Guid(dbfd5a0d3687f5943866e159c822d788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/models/dish-rack.fbx using Guid(dbfd5a0d3687f5943866e159c822d788) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '329a6fdd7e73d3bf8778d067c565c24a') in 0.0204904 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.886946 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Prefabs/UI/TextButton.prefab
-  artifactKey: Guid(e5db301629853dd4a99835fa70099d79) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Prefabs/UI/TextButton.prefab using Guid(e5db301629853dd4a99835fa70099d79) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c3b18e9e707884b755962f6e315cda8a') in 0.0199533 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/CabinDecor/3Dfrk/Frames with pictures/Prefabs/Paint_03.prefab
-  artifactKey: Guid(ec2a6eb55d6bac64f8e60e43c3cb20ad) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/CabinDecor/3Dfrk/Frames with pictures/Prefabs/Paint_03.prefab using Guid(ec2a6eb55d6bac64f8e60e43c3cb20ad) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '70f262c3c51464aecdd3ec5e9a6a37e3') in 0.0104206 seconds
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_02_01.fbx
+  artifactKey: Guid(bdebe3b3692e8194d85f68de09178594) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_02_01.fbx using Guid(bdebe3b3692e8194d85f68de09178594) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ede2471ec74afd952b94736e3777d86') in 0.0521996 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/CabinDecor/3Dfrk/Frames with pictures/Prefabs/Paint_01.prefab
-  artifactKey: Guid(eded3844e29c2ec40bc278e2cbd31279) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
-Start importing Assets/CabinDecor/3Dfrk/Frames with pictures/Prefabs/Paint_01.prefab using Guid(eded3844e29c2ec40bc278e2cbd31279) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '65fbdf12a25ce113ea41e08e7a20a4c6') in 0.0106616 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_10_01.prefab
+  artifactKey: Guid(e32eb0f254cdc7747ba8416dfef94574) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_10_01.prefab using Guid(e32eb0f254cdc7747ba8416dfef94574) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55fee8850466952c62a3f1e846bf41b2') in 0.0126195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_05_01.fbx
+  artifactKey: Guid(d5f41989d862b4242b54f888c150d97a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_05_01.fbx using Guid(d5f41989d862b4242b54f888c150d97a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27b2436d9173d0073b7e42251bdc0d5c') in 0.0502064 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.558750 seconds.
-  path: Assets/CabinDecor/kitchen props/prefabs/plate-stack-small.prefab
-  artifactKey: Guid(2b2f272f9ab448a429a68c3a3308d4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/prefabs/plate-stack-small.prefab using Guid(2b2f272f9ab448a429a68c3a3308d4fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44878229456f5d6359481b1edd97fd0b') in 1.6543429 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015947 seconds.
-  path: Assets/CabinDecor/kitchen props/materials/platesb.mat
-  artifactKey: Guid(e9d7a1ade38403b4e91e2ac80017c20e) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/materials/platesb.mat using Guid(e9d7a1ade38403b4e91e2ac80017c20e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0cd0ce6021d34b641ce581c963e6c94d') in 0.0167992 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/CabinDecor/kitchen props/materials/counter.mat
-  artifactKey: Guid(cc562f63147f83443989c4ee021af5d5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/materials/counter.mat using Guid(cc562f63147f83443989c4ee021af5d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '974b8d389485f6838f6670663b4c58d1') in 0.0163286 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_04_02.prefab
+  artifactKey: Guid(47a5dd14a7a48f143b1deda77b169ec8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_04_02.prefab using Guid(47a5dd14a7a48f143b1deda77b169ec8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63d10f648a892f24d72ba1df18cca0c7') in 0.0117918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/CabinDecor/kitchen props/materials/breakfast-bar.mat
-  artifactKey: Guid(07629005d589058469287e37c2829820) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/materials/breakfast-bar.mat using Guid(07629005d589058469287e37c2829820) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4433c25ecb48ee04da862f4c22fbfa69') in 0.017368 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_10_01.fbx
+  artifactKey: Guid(adc85775fa4a1d1448404bedbb030651) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_10_01.fbx using Guid(adc85775fa4a1d1448404bedbb030651) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '19e644bba7f497a6743ccc53c117c1ff') in 0.0563392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.037676 seconds.
-  path: Assets/CabinDecor/kitchen props/materials/counter.mat
-  artifactKey: Guid(cc562f63147f83443989c4ee021af5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/materials/counter.mat using Guid(cc562f63147f83443989c4ee021af5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '631a4bd8c5a2cf24c3290d9c01be79fd') in 0.0188376 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Materials/Main Mirror.mat
+  artifactKey: Guid(82fcf43a2225c344ca850cfe4de4222a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Materials/Main Mirror.mat using Guid(82fcf43a2225c344ca850cfe4de4222a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32ab750fd78f964d9a8bb18669b42950') in 0.0130469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CabinDecor/kitchen props/materials/toaster-2.mat
-  artifactKey: Guid(d80f90649d0bf7448a779585d221995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/materials/toaster-2.mat using Guid(d80f90649d0bf7448a779585d221995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4388c4063421f6123972f107ffc89e0') in 0.0299292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/CabinDecor/kitchen props/materials/toaster.mat
-  artifactKey: Guid(88b6dc8c22c60a54fafc2024e3bd1c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/materials/toaster.mat using Guid(88b6dc8c22c60a54fafc2024e3bd1c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b0266323ccb134fd3c5471c828922ba') in 0.0230338 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/CabinDecor/kitchen props/materials/platesb.mat
-  artifactKey: Guid(e9d7a1ade38403b4e91e2ac80017c20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/materials/platesb.mat using Guid(e9d7a1ade38403b4e91e2ac80017c20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df1ff7c0e3f5f97b110fe1fdbbe07c45') in 0.0208882 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/CabinDecor/kitchen props/materials/mug.mat
-  artifactKey: Guid(e451e71003a14534abad869c41c8e733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/materials/mug.mat using Guid(e451e71003a14534abad869c41c8e733) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c852533b967935417135b8359903eaca') in 0.020282 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.750906 seconds.
-  path: Assets/CabinDecor/kitchen props/models/breakfast-bar-support.fbx
-  artifactKey: Guid(f662251454558504b9d7d576219f8a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/models/breakfast-bar-support.fbx using Guid(f662251454558504b9d7d576219f8a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcfdde98c750899a89419a775c323969') in 0.0235132 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/CabinDecor/kitchen props/models/coloured-mugs.fbx
-  artifactKey: Guid(bc8c29201cb724446a7429fabead425c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CabinDecor/kitchen props/models/coloured-mugs.fbx using Guid(bc8c29201cb724446a7429fabead425c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f084a1632fdf9b1dcc2b7a51289c808') in 0.9872693 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
-
-========================================================================
-Received Import Request.
-  Time since last request: 112.709354 seconds.
-  path: Assets/CabinDecor/kitchen props/materials/china-plate.mat
-  artifactKey: Guid(ef66d3256f1c3f641a845f9c1968dc13) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/materials/china-plate.mat using Guid(ef66d3256f1c3f641a845f9c1968dc13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05dcb148fdb305879fd60ba4a0d5f031') in 0.0216839 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/CabinDecor/kitchen props/materials/counter.mat
-  artifactKey: Guid(cc562f63147f83443989c4ee021af5d5) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/materials/counter.mat using Guid(cc562f63147f83443989c4ee021af5d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0107b404c02554f388cf064204b54285') in 0.0139516 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_03_01.fbx
+  artifactKey: Guid(d1c0fcdff820dd14795689bbc593257f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_03_01.fbx using Guid(d1c0fcdff820dd14795689bbc593257f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c068beaba6dffb7376d5d3e9f19ef9b') in 0.0471565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/CabinDecor/kitchen props/materials/mug.mat
-  artifactKey: Guid(e451e71003a14534abad869c41c8e733) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/materials/mug.mat using Guid(e451e71003a14534abad869c41c8e733) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41aea189639f15b2e20f6f1040a69bfa') in 0.0133091 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_06_03.fbx
+  artifactKey: Guid(49130b42a0c16004b8812b76c0ec3832) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_06_03.fbx using Guid(49130b42a0c16004b8812b76c0ec3832) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d8b48ff0be9605ab9e2eb04a1e1abc6') in 0.0466063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/CabinDecor/kitchen props/materials/drainer.mat
-  artifactKey: Guid(54e920447cfb1e54889e79e9fb4b896f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/CabinDecor/kitchen props/materials/drainer.mat using Guid(54e920447cfb1e54889e79e9fb4b896f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9cd8670ac4309b19c645457eee8b2ac') in 0.0159501 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_04_02.fbx
+  artifactKey: Guid(8c6da69fae219a343b5f1aa592854ce8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_04_02.fbx using Guid(8c6da69fae219a343b5f1aa592854ce8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d4621fd37aeb33a52df790fb6b4a2c4') in 0.0473713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_10_03.prefab
+  artifactKey: Guid(d902b0e0e9dcf5b469e618e9a8f855cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_10_03.prefab using Guid(d902b0e0e9dcf5b469e618e9a8f855cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '12114c71efe716491c1aa44fc9b57882') in 0.012771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_02_01.prefab
+  artifactKey: Guid(91fb15e9d2bcf1c4bbf25fac679dde2a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_02_01.prefab using Guid(91fb15e9d2bcf1c4bbf25fac679dde2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55288d25f9966554029f3b1d76c901e3') in 0.0103649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_05_01.prefab
+  artifactKey: Guid(633918f494031c54a8df36493bbcf7ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_05_01.prefab using Guid(633918f494031c54a8df36493bbcf7ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e3865169a18b2bc10ef312a6fc6ac1d') in 0.0130071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_04_01.prefab
+  artifactKey: Guid(9aa44f11e7d38674097128cc98843b3b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_04_01.prefab using Guid(9aa44f11e7d38674097128cc98843b3b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35a4ce3320cfb40c3329d68d80bf2de4') in 0.0134514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.399867 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_02_01.fbx
+  artifactKey: Guid(82a2dedbcdc47ac4a92072d5b7b0cac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_02_01.fbx using Guid(82a2dedbcdc47ac4a92072d5b7b0cac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d1a8d522aa6df4b094a220c178a16fd') in 0.052461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_10_03.fbx
+  artifactKey: Guid(c44ff891baa3604469826eabdd8b60e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_10_03.fbx using Guid(c44ff891baa3604469826eabdd8b60e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c7808e50db67ef93cfbf9dfa937181d') in 0.0490243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_02_01.fbx
+  artifactKey: Guid(bdebe3b3692e8194d85f68de09178594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_02_01.fbx using Guid(bdebe3b3692e8194d85f68de09178594) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c806234807d6512260b07482dc2953f') in 0.0499211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_03_01.fbx
+  artifactKey: Guid(d1c0fcdff820dd14795689bbc593257f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_03_01.fbx using Guid(d1c0fcdff820dd14795689bbc593257f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29ecf55a4f1bd840f7ace3b05bc3504e') in 0.0491779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_04_04.fbx
+  artifactKey: Guid(1a9ee0993dd54954b863920b1470836f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_04_04.fbx using Guid(1a9ee0993dd54954b863920b1470836f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c30a1778ecc9de8d0ea017eebe870799') in 0.050462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_02_02.fbx
+  artifactKey: Guid(3be358a2343306841a071b21e32ac2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_02_02.fbx using Guid(3be358a2343306841a071b21e32ac2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '949e8f3a15aec81e834c6d411e07afc0') in 0.0513096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_02_04.fbx
+  artifactKey: Guid(45822bfa19170d64ca25c89d6321b28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_02_04.fbx using Guid(45822bfa19170d64ca25c89d6321b28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f9b17374f1547272137082481767f0d') in 0.0509535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_10_01.fbx
+  artifactKey: Guid(adc85775fa4a1d1448404bedbb030651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_10_01.fbx using Guid(adc85775fa4a1d1448404bedbb030651) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59988c017012544e37e6e44a22ecd30d') in 0.0519576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_06_02.fbx
+  artifactKey: Guid(571f6da6470ab6f4ab3923c2e64bf6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_06_02.fbx using Guid(571f6da6470ab6f4ab3923c2e64bf6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd82f5ffcb38b0d77d9e3eee54507e2d6') in 0.0522994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_05_01.fbx
+  artifactKey: Guid(d5f41989d862b4242b54f888c150d97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_05_01.fbx using Guid(d5f41989d862b4242b54f888c150d97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0ddceaaa05ddd048ee9766957801b89') in 0.0576053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_09_02.fbx
+  artifactKey: Guid(c2b6ed666ca91dc45bda7572b4c97245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_09_02.fbx using Guid(c2b6ed666ca91dc45bda7572b4c97245) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4379bb78bfdb5c9e9bf950aa91423e5') in 0.0567423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_07_03.fbx
+  artifactKey: Guid(fdead94246855b343ac5676b4b58134f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_07_03.fbx using Guid(fdead94246855b343ac5676b4b58134f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7f339a684f3984bb878325724622892') in 0.05723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_06_03.fbx
+  artifactKey: Guid(15b8dfb77bb934e41b2be7ceda1cb977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_06_03.fbx using Guid(15b8dfb77bb934e41b2be7ceda1cb977) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c110b75c44d30f330bc820aebbac3c9') in 0.0561914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_07_02.fbx
+  artifactKey: Guid(c685bce8c892aa747bc9cbe251e9d547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_07_02.fbx using Guid(c685bce8c892aa747bc9cbe251e9d547) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32c8c1071b535003ff69ebed7a776726') in 0.0566436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_04_03.fbx
+  artifactKey: Guid(50cfa7c849314b8489db3cc181a31990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_04_03.fbx using Guid(50cfa7c849314b8489db3cc181a31990) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d733a06a9b7f1c65dd2f5f5a7d805c3') in 0.0513452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_06_02.fbx
+  artifactKey: Guid(d7446ed5f94d18747903f15f5606e802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Vase_06_02.fbx using Guid(d7446ed5f94d18747903f15f5606e802) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1c3cf9e2759e35b78c16daf020ad1ca') in 0.0519188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_07_03.fbx
+  artifactKey: Guid(64da57716f04dba469d024b71c4e7734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Plants/Gogo Casual Free Plants Pack/FBX/Decoration_Plant_07_03.fbx using Guid(64da57716f04dba469d024b71c4e7734) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e7f7b4c2886c4a1a1935df8a4851869') in 0.0505604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
