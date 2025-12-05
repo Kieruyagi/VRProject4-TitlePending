@@ -1,0 +1,1061 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.13f1 (abdb44fca7f7) revision 11262788'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor" at "2025-12-04T23:04:53.6665931Z"
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 31860 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-04T23:04:53Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker47
+-projectPath
+C:/GIT_Projects/prj1/FastFood
+-logFile
+Logs/AssetImportWorker47.log
+-srvPort
+64782
+-licensingIpc
+LicenseClient-Raptor
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/GIT_Projects/prj1/FastFood
+C:/GIT_Projects/prj1/FastFood
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30760]  Target information:
+
+Player connection [30760]  * "[IP] 192.168.10.94 [Port] 0 [Flags] 2 [Guid] 3966371781 [EditorId] 3966371781 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N6LDBOS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30760] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30760] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 17.71 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.75 ms.
+Initialize engine version: 6000.2.13f1 (abdb44fca7f7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GIT_Projects/prj1/FastFood/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5070 (ID=0x2f04)
+    Vendor:   NVIDIA
+    VRAM:     11854 MB
+    Driver:   32.0.15.8129
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Raptor"
+[Licensing::IpcConnector] LicenseClient-Raptor channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13" at "2025-12-04T23:04:54.3118333Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              0065473f8b5e401486ff01f36f80d02c
+  Correlation Id:          8b443b1067030043d42fc3d4d67f1055
+  External correlation Id: 2066643146294565862
+  Machine Id:              /Gk3cS3RbuDCQMU5P993206Xbmc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Raptor-6000.2.13" (connect: 0.00s, validation: 0.00s, handshake: 0.59s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13-notifications" at "2025-12-04T23:04:54.9015275Z"
+[Licensing::Module] Licensing Background thread has ended after 1.24s
+[Licensing::Module] Licensing is initialized (took 0.71s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475892980188-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.717524 seconds.
+- Loaded All Assemblies, in  1.018 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 248 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.548 seconds
+Domain Reload Profiling: 1564ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (754ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (107ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (548ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (511ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (328ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.488 seconds
+Refreshing native plugins compatible for Editor in 6.04 ms, found 14 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00087] in <1a7e38f6fac74b0d95602c9f9166f28a>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.868 seconds
+Domain Reload Profiling: 1352ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (326ms)
+		LoadAssemblies (219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (106ms)
+			BuildScriptInfoCaches (33ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (869ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (721ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (548ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 5.42 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8037 unused Assets / (7.8 MB). Loaded Objects now: 8803.
+Memory consumption went from 154.7 MB to 146.9 MB.
+Total: 11.743600 ms (FindLiveObjects: 0.619100 ms CreateObjectMapping: 0.237700 ms MarkObjects: 8.288900 ms  DeleteObjects: 2.597000 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.518 seconds
+Refreshing native plugins compatible for Editor in 8.22 ms, found 14 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00087] in <1a7e38f6fac74b0d95602c9f9166f28a>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.927 seconds
+Domain Reload Profiling: 1444ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (316ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (927ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (778ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (590ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 13.37 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8036 unused Assets / (11.2 MB). Loaded Objects now: 8821.
+Memory consumption went from 194.8 MB to 183.5 MB.
+Total: 21.896700 ms (FindLiveObjects: 1.087100 ms CreateObjectMapping: 0.600000 ms MarkObjects: 14.641000 ms  DeleteObjects: 5.566900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 39.98 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7984 unused Assets / (9.0 MB). Loaded Objects now: 8797.
+Memory consumption went from 164.4 MB to 155.4 MB.
+Total: 24.555200 ms (FindLiveObjects: 1.027100 ms CreateObjectMapping: 0.579300 ms MarkObjects: 17.906600 ms  DeleteObjects: 5.040400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly with name 'Polyperfect.Universal' already exists (Assets/polyperfect/Poly Christmas/Scripts/Polyperfect.Universal.asmdef)
+Assembly with name 'Polyperfect.Universal' already exists (Assets/CabinDecor/polyperfect/Poly Christmas/Scripts/Polyperfect.Universal.asmdef)
+Assembly with name 'Polyperfect.Universal' already exists (Assets/polyperfect/Poly Christmas/Scripts/Polyperfect.Universal.asmdef)
+Assembly with name 'Polyperfect.Universal' already exists (Assets/CabinDecor/polyperfect/Poly Christmas/Scripts/Polyperfect.Universal.asmdef)
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.505 seconds
+Assembly with name 'Polyperfect.Universal' already exists (Assets/polyperfect/Poly Christmas/Scripts/Polyperfect.Universal.asmdef)
+Assembly with name 'Polyperfect.Universal' already exists (Assets/CabinDecor/polyperfect/Poly Christmas/Scripts/Polyperfect.Universal.asmdef)
+Refreshing native plugins compatible for Editor in 7.72 ms, found 14 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Assembly with name 'Polyperfect.Universal' already exists (Assets/polyperfect/Poly Christmas/Scripts/Polyperfect.Universal.asmdef)
+Assembly with name 'Polyperfect.Universal' already exists (Assets/CabinDecor/polyperfect/Poly Christmas/Scripts/Polyperfect.Universal.asmdef)
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00087] in <1a7e38f6fac74b0d95602c9f9166f28a>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.835 seconds
+Domain Reload Profiling: 1338ms
+	BeginReloadAssembly (151ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (307ms)
+		LoadAssemblies (234ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (126ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (108ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (835ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (729ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (549ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 11.59 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8036 unused Assets / (10.8 MB). Loaded Objects now: 8824.
+Memory consumption went from 241.4 MB to 230.6 MB.
+Total: 22.044300 ms (FindLiveObjects: 1.124000 ms CreateObjectMapping: 0.588400 ms MarkObjects: 15.022900 ms  DeleteObjects: 5.307200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 13085.063368 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas
+  artifactKey: Guid(b01bde89bfb1ab84e829aa58f1f5cde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas using Guid(b01bde89bfb1ab84e829aa58f1f5cde5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ace03941f38ab1adf4471b3e4e76138b') in 0.0331181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.315762 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs
+  artifactKey: Guid(2f0f97661ded029478cf9558fb6d38eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs using Guid(2f0f97661ded029478cf9558fb6d38eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d0b651513f477cea16ea93f42fa962d') in 0.0007286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040613 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/First person character.prefab
+  artifactKey: Guid(7fcfd2b2a44cc3e4d96f3a35ef7a2a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/First person character.prefab using Guid(7fcfd2b2a44cc3e4d96f3a35ef7a2a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42c14df272bf62faafda249be5dc13d6') in 0.0238511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.287831 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas
+  artifactKey: Guid(a20f791e37da2ce4eabf7dc2fd41726a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas using Guid(a20f791e37da2ce4eabf7dc2fd41726a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e552b88e52ca1f61da4b233dbf35b3e') in 0.0004733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041796 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Bag_Gift_Christmas_A.prefab
+  artifactKey: Guid(7838625e058d23544bfff225d425dbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Bag_Gift_Christmas_A.prefab using Guid(7838625e058d23544bfff225d425dbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5acef28ce1eba49a3ee59cf152e38246') in 0.3425838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Light_String_White_5m_Christmas.prefab
+  artifactKey: Guid(747bd6e850004a14798a291803c5daa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Light_String_White_5m_Christmas.prefab using Guid(747bd6e850004a14798a291803c5daa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4fd8bd858896f4c733bc60847177033') in 0.0390649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Ginger_House.prefab
+  artifactKey: Guid(7317979e7e6948045b7182822ec3b5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Ginger_House.prefab using Guid(7317979e7e6948045b7182822ec3b5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd478c221b222d449f0f121e858c022d8') in 0.0189711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Cutlery_Fork_Christmas.prefab
+  artifactKey: Guid(c08382eb9fbf1ab4dbb6a2c8a63905bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Cutlery_Fork_Christmas.prefab using Guid(c08382eb9fbf1ab4dbb6a2c8a63905bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8823588c3f3f054ec259f928bba168d3') in 0.0196401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Mistletoe_B.prefab
+  artifactKey: Guid(188d10171200cc642ab6bf02c438b703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Mistletoe_B.prefab using Guid(188d10171200cc642ab6bf02c438b703) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '153d5f56ae10e5a42db88c7009d01367') in 0.0174044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Etagere_Christmas.prefab
+  artifactKey: Guid(b41440ce47bfd3e4c907975093dfd294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Etagere_Christmas.prefab using Guid(b41440ce47bfd3e4c907975093dfd294) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e74c8b96f9d6349edd4673d57d4437aa') in 0.016602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Christmas_Stockings.prefab
+  artifactKey: Guid(e61c9848e5f6c4144a3b0d6a431d9420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Christmas_Stockings.prefab using Guid(e61c9848e5f6c4144a3b0d6a431d9420) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f117ad642f476948a211fa558bd8ce9') in 0.0150221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Cube_Open_Base.prefab
+  artifactKey: Guid(444450ae4b22e2449ab1cd7c0df5f24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Cube_Open_Base.prefab using Guid(444450ae4b22e2449ab1cd7c0df5f24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92dbab7ae48ffd1d980f6d7564c1c8d7') in 0.0157335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Cube_D.prefab
+  artifactKey: Guid(979b0a6dc2288834badf7c19739d05ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Cube_D.prefab using Guid(979b0a6dc2288834badf7c19739d05ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de400ab5f3fd8cca1f90a66d623500e3') in 0.0154318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Fish_Carp.prefab
+  artifactKey: Guid(f414741cd310cc54d94c141896f3e162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Fish_Carp.prefab using Guid(f414741cd310cc54d94c141896f3e162) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '923087a2032e84b256b2dad6d0b49cc5') in 0.0169425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Candle_Decorated_Lit_Christmas.prefab
+  artifactKey: Guid(1a3e19330166a7f4095032c5de4d8767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Candle_Decorated_Lit_Christmas.prefab using Guid(1a3e19330166a7f4095032c5de4d8767) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '901849304b6286726eea2d168888e041') in 0.0172593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Nutcracker.prefab
+  artifactKey: Guid(cc8cf3cf5dd650b49983c558e99f390d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Nutcracker.prefab using Guid(cc8cf3cf5dd650b49983c558e99f390d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22d061ab76029e5841d504c8efd4165d') in 0.0164578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Plate_Soup_Christmas.prefab
+  artifactKey: Guid(a747886a79633a649b9e82202d95d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Plate_Soup_Christmas.prefab using Guid(a747886a79633a649b9e82202d95d056) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68f7889fe5917a34d4e4b0d5c6b480d5') in 0.0159879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Plate_Dinner_Czech_B.prefab
+  artifactKey: Guid(7dc62fa4f5d0c134cb3cf55d08dab295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Plate_Dinner_Czech_B.prefab using Guid(7dc62fa4f5d0c134cb3cf55d08dab295) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bd41b5796946a7e13b3493b090257a5') in 0.0161875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gingerbread_Tree_B.prefab
+  artifactKey: Guid(4dce7315d2de9c64b8c8a63e92908610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gingerbread_Tree_B.prefab using Guid(4dce7315d2de9c64b8c8a63e92908610) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc0962140caa9d866b9dfcfaa93e0856') in 0.0171533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Light_String_White_2m_Christmas.prefab
+  artifactKey: Guid(ebaaf098508c5d0498c00258bf1152c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Light_String_White_2m_Christmas.prefab using Guid(ebaaf098508c5d0498c00258bf1152c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbf9f8e30f47ad6fb96da60216ecd0d8') in 0.0166791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Plate_Dinner_Czech_A.prefab
+  artifactKey: Guid(83f03c7d3bf7b6a45b1300d2719a3643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Plate_Dinner_Czech_A.prefab using Guid(83f03c7d3bf7b6a45b1300d2719a3643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7e89b106badbe2a33c403b9b2308236') in 0.0160256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Long_Open.prefab
+  artifactKey: Guid(104a3741cf0ee61499996f4193cf554b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Long_Open.prefab using Guid(104a3741cf0ee61499996f4193cf554b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f340ca8039af2212e4af88631e23b03') in 0.0164361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Bell_B_Christmas.prefab
+  artifactKey: Guid(50856ad0d4ad9bd4192e5005b387518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Bell_B_Christmas.prefab using Guid(50856ad0d4ad9bd4192e5005b387518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79b98d18ac166b4cbb0921453d9bf1ab') in 0.0162317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Cookie_Jam_Heart.prefab
+  artifactKey: Guid(4050e3ad3c6d44a4289459904206965b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Cookie_Jam_Heart.prefab using Guid(4050e3ad3c6d44a4289459904206965b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2215712f02d380f32d6a62fca1b2d5f5') in 0.0168623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Light_String_White_3m_Christmas.prefab
+  artifactKey: Guid(e42e48f25e1448b4a992e290f82cd854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Light_String_White_3m_Christmas.prefab using Guid(e42e48f25e1448b4a992e290f82cd854) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c21cda87a03203abe47e00244801157') in 0.0165677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Candle_Holder_Tall_B_Lit_Christmas.prefab
+  artifactKey: Guid(0cd462eacafc84942b4f577b3f37ef6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Candle_Holder_Tall_B_Lit_Christmas.prefab using Guid(0cd462eacafc84942b4f577b3f37ef6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '463f46c0220fac277b09e2cb9948ade5') in 0.0166202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Christmas_Pudding.prefab
+  artifactKey: Guid(a72aaf57bc9228949ad87082772d1922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Christmas_Pudding.prefab using Guid(a72aaf57bc9228949ad87082772d1922) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99dc237cc3f31514e623405933d91f26') in 0.0168278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Candle_Decorated_Unlit_Christmas.prefab
+  artifactKey: Guid(638926b0816c71949899e0744fdf437e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Candle_Decorated_Unlit_Christmas.prefab using Guid(638926b0816c71949899e0744fdf437e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16930e0542c67ee3e068483a969075b7') in 0.0178755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Cylinder_B.prefab
+  artifactKey: Guid(7e6404c8823a99b4590792969a07c744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Cylinder_B.prefab using Guid(7e6404c8823a99b4590792969a07c744) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53c9cd7482b9c0f2776d2089a1963234') in 0.0172886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Candle_Holder_Short_A_Lit_Christmas.prefab
+  artifactKey: Guid(5fa7736411867ff43b515b0edbb411b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Candle_Holder_Short_A_Lit_Christmas.prefab using Guid(5fa7736411867ff43b515b0edbb411b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a007af78786672b9e4621b31837d18de') in 0.0170932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Cracker_Box_Christmas.prefab
+  artifactKey: Guid(2c5865b77234166419886bf941cb324b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Cracker_Box_Christmas.prefab using Guid(2c5865b77234166419886bf941cb324b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '753b2b2b6073191d3b547a6f4e3a09ca') in 0.0173396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Cracker_B_Christmas.prefab
+  artifactKey: Guid(04539e1e3fd821b4eaeadead05d65f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Cracker_B_Christmas.prefab using Guid(04539e1e3fd821b4eaeadead05d65f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eabf934fe4b51057746c892ce042e1ff') in 0.0164703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Plate_Dinner_Christmas.prefab
+  artifactKey: Guid(c06df0a04a4be8b42a8061de9105074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Plate_Dinner_Christmas.prefab using Guid(c06df0a04a4be8b42a8061de9105074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '05cfee37f0a1c28ac8a31cbc07479404') in 0.0174634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Candle_Holder_Short_A_Unlit_Christmas.prefab
+  artifactKey: Guid(9678aca628b1ac3479d518b61ac9f14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Candle_Holder_Short_A_Unlit_Christmas.prefab using Guid(9678aca628b1ac3479d518b61ac9f14a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0ea8f266e93c0395706d008d9c30a73') in 0.0178962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Jingle_Bell_Christmas.prefab
+  artifactKey: Guid(9e63d060a71a489438bb99931dc4f8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Jingle_Bell_Christmas.prefab using Guid(9e63d060a71a489438bb99931dc4f8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd19c978d12a4d29c1267982e01004d65') in 0.0164248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gingerbread_Star_B.prefab
+  artifactKey: Guid(c4d96fe03b4f3434693d009cbd8388c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gingerbread_Star_B.prefab using Guid(c4d96fe03b4f3434693d009cbd8388c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26be939e1b839c21b4c6f6e368be28e0') in 0.0164314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Candle_Holder_Tall_A_Unlit_Christmas.prefab
+  artifactKey: Guid(a51341ef637f9a84aa5c92f8e900e0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Candle_Holder_Tall_A_Unlit_Christmas.prefab using Guid(a51341ef637f9a84aa5c92f8e900e0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f7b19f25bb388b8cd91a9849538d359') in 0.0170816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Bag_Gift_Christmas_C.prefab
+  artifactKey: Guid(a310f2abf494537438b4fff3819ad521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Bag_Gift_Christmas_C.prefab using Guid(a310f2abf494537438b4fff3819ad521) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2943b4af43ab148f5ca83b2149f04431') in 0.0261532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Light_String_Color_Big_Vertical_3m_Christmas.prefab
+  artifactKey: Guid(a95a01c640c4a524f9edf85490bd2cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Light_String_Color_Big_Vertical_3m_Christmas.prefab using Guid(a95a01c640c4a524f9edf85490bd2cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c195aac75a3546921d72c711498130a') in 0.0179445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gingerbread_Tree.prefab
+  artifactKey: Guid(1ff0b8ac0c592754b92634db0ecf7407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gingerbread_Tree.prefab using Guid(1ff0b8ac0c592754b92634db0ecf7407) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d5d8b5fef1c055062c0dee00f87a76c') in 0.0166466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Cube_Open_Lid.prefab
+  artifactKey: Guid(5131c3b3132b02243bcd85c9af31c1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Cube_Open_Lid.prefab using Guid(5131c3b3132b02243bcd85c9af31c1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a95f32049c72389650d653445f300211') in 0.0161168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Sleigh_Christmas.prefab
+  artifactKey: Guid(bdfcb529799320b45aa29f35ea838ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Sleigh_Christmas.prefab using Guid(bdfcb529799320b45aa29f35ea838ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86aa5df12806d80cb510990bc6cc41fb') in 0.0180585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Long_D.prefab
+  artifactKey: Guid(68389292e5019bf438100737b182802a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Long_D.prefab using Guid(68389292e5019bf438100737b182802a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e488768f0229ac69c5e29d933132635') in 0.0178693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Snow_Globe.prefab
+  artifactKey: Guid(a8d6e72dde5183f41a8e2eb5a5eb6047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Snow_Globe.prefab using Guid(a8d6e72dde5183f41a8e2eb5a5eb6047) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e47a01b3d78a1990be2876d55f3d13ff') in 0.0313189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Light_String_Color_Big_Vertical_2m_Christmas.prefab
+  artifactKey: Guid(30a172a09acf09c4d8c914130842c730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Light_String_Color_Big_Vertical_2m_Christmas.prefab using Guid(30a172a09acf09c4d8c914130842c730) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1de424ad5cab72c8f81ca5643d3fc0fe') in 0.0180648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Cylinde_D.prefab
+  artifactKey: Guid(429b1d22961f3734cae0cf3202494f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Cylinde_D.prefab using Guid(429b1d22961f3734cae0cf3202494f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd912574d406cede7420509fb0d8cb52') in 0.0159351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Bell_A_Christmas.prefab
+  artifactKey: Guid(bbd720a4a3b378b44a45d901c79582c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Bell_A_Christmas.prefab using Guid(bbd720a4a3b378b44a45d901c79582c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2ba003b4382e04becf84118391852ed') in 0.0164811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Plate_Dinner_English.prefab
+  artifactKey: Guid(2e4ce174d6fedb649b3dd104c2df0083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Plate_Dinner_English.prefab using Guid(2e4ce174d6fedb649b3dd104c2df0083) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5ea882af2ab5d0aebb182450d7cf0a3') in 0.0162622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gingerbread_Heart_A.prefab
+  artifactKey: Guid(ee124429ba354984887a870b7b6c49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gingerbread_Heart_A.prefab using Guid(ee124429ba354984887a870b7b6c49c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0910dd48e880b5ed023830a234b14b8c') in 0.0155853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Chimney_Christmas_2m.prefab
+  artifactKey: Guid(cf476e74f1d471b458ee0d1b49049898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Chimney_Christmas_2m.prefab using Guid(cf476e74f1d471b458ee0d1b49049898) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88ce9198173505e7ba7911d4129ba1df') in 0.0161291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Light_String_Color_Big_3m_Christmas.prefab
+  artifactKey: Guid(ab3691c921032cb4cba90f80cf907775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Light_String_Color_Big_3m_Christmas.prefab using Guid(ab3691c921032cb4cba90f80cf907775) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1334acd525a4991c30c70dddcffa8569') in 0.0186751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gravy_Boat_Christmas.prefab
+  artifactKey: Guid(2cd3a92b45007dc44aa52e29299034d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gravy_Boat_Christmas.prefab using Guid(2cd3a92b45007dc44aa52e29299034d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8752c26fee1d98b381b10a30bb3db56e') in 0.0165141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gingerbread_Snowflake.prefab
+  artifactKey: Guid(7c2517b3b9d989148b69bd24c7ef365f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gingerbread_Snowflake.prefab using Guid(7c2517b3b9d989148b69bd24c7ef365f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce269c576e6a59d7093eee080f6d095b') in 0.0169644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Long_C.prefab
+  artifactKey: Guid(9e785b17cfba9c84b854d4a92781e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Long_C.prefab using Guid(9e785b17cfba9c84b854d4a92781e1e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0365c6d6c9d1abd716a8d21c295f8d0') in 0.0175369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Candle_Holder_Short_B_Lit_Christmas.prefab
+  artifactKey: Guid(f3e3e6a4810588f4595c83096708c41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Candle_Holder_Short_B_Lit_Christmas.prefab using Guid(f3e3e6a4810588f4595c83096708c41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1702342a7713dc146f62d18a21d05fa') in 0.017569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Cutlery_Knife_Christmas.prefab
+  artifactKey: Guid(f3e9fb15bcde1ff40af145af8feddb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Cutlery_Knife_Christmas.prefab using Guid(f3e9fb15bcde1ff40af145af8feddb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae9c0cca7a7c3bb2085d6528cd9881fa') in 0.0159535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Cylinder_Open_Base.prefab
+  artifactKey: Guid(d7b16977a93790d439630add5f3fb771) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Cylinder_Open_Base.prefab using Guid(d7b16977a93790d439630add5f3fb771) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '773387d3f4c99096c90ae63a7f1a601b') in 0.0165331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Cube_B.prefab
+  artifactKey: Guid(0ad3fbe4d0fe2f04d8abc3c7e4be3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Cube_B.prefab using Guid(0ad3fbe4d0fe2f04d8abc3c7e4be3960) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01f5dd7b7c24ea1c904c27145ab6d7b4') in 0.0166932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Cutlery_Spoon_Christmas.prefab
+  artifactKey: Guid(126456ebadb2f744ab70493941ed48ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Cutlery_Spoon_Christmas.prefab using Guid(126456ebadb2f744ab70493941ed48ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00e8a7250b8f2691e7e6dbb042174633') in 0.0159124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Candle_Holder_Tall_C_Unlit_Christmas.prefab
+  artifactKey: Guid(a46824b80592bea47af36fc855a82c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Candle_Holder_Tall_C_Unlit_Christmas.prefab using Guid(a46824b80592bea47af36fc855a82c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5626ad09d728f3a0c2bd662c7f5a04b') in 0.0167108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.301583 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Materials/Buildings/M_Wall_Wallpaper_A_Christmas.mat
+  artifactKey: Guid(c93ccd9d78c2d5141bbf544465050d68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Materials/Buildings/M_Wall_Wallpaper_A_Christmas.mat using Guid(c93ccd9d78c2d5141bbf544465050d68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '523434651278075a34b675b55e0c2a80') in 0.2684873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Gift_Christmas_Cube_Open_Lid.fbx
+  artifactKey: Guid(87024de4d7afa7b48904de849541a5d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Gift_Christmas_Cube_Open_Lid.fbx using Guid(87024de4d7afa7b48904de849541a5d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7a12a4cc32286b5304c1c033dd5d9c6') in 0.0806745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Candle_Holder_Tall_A_Unlit_Christmas.fbx
+  artifactKey: Guid(1cdce9230141c314aaff241573d4b5b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Candle_Holder_Tall_A_Unlit_Christmas.fbx using Guid(1cdce9230141c314aaff241573d4b5b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5699ca644880ead60b6b113cf6ee7f16') in 0.0336785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

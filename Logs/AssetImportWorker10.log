@@ -1,0 +1,1323 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor" at "2025-12-05T15:14:49.5761825Z"
+Built from '6000.2/staging' branch; Version is '6000.2.13f1 (abdb44fca7f7) revision 11262788'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 31860 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-05T15:14:49Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+C:/GIT_Projects/prj1/VRProject4-TitlePending
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+64267
+-licensingIpc
+LicenseClient-Raptor
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/GIT_Projects/prj1/VRProject4-TitlePending
+C:/GIT_Projects/prj1/VRProject4-TitlePending
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22788]  Target information:
+
+Player connection [22788]  * "[IP] 192.168.10.94 [Port] 0 [Flags] 2 [Guid] 3673252621 [EditorId] 3673252621 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N6LDBOS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22788] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22788] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 28.12 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 1.27 ms.
+Initialize engine version: 6000.2.13f1 (abdb44fca7f7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GIT_Projects/prj1/VRProject4-TitlePending/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5070 (ID=0x2f04)
+    Vendor:   NVIDIA
+    VRAM:     11854 MB
+    Driver:   32.0.15.8129
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56564
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Raptor"
+[Licensing::IpcConnector] LicenseClient-Raptor channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13" at "2025-12-05T15:14:51.0718607Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              dfdbba26a3234bb1b6d3a1c63372440a
+  Correlation Id:          8c1fe4599fc8f946a6c5550c5295a36a
+  External correlation Id: 5666578196325019531
+  Machine Id:              /Gk3cS3RbuDCQMU5P993206Xbmc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Raptor-6000.2.13" (connect: 0.00s, validation: 0.00s, handshake: 0.91s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13-notifications" at "2025-12-05T15:14:51.9821091Z"
+[Licensing::Module] Licensing Background thread has ended after 2.41s
+[Licensing::Module] Licensing is initialized (took 1.28s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475892980188-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 1.289377 seconds.
+- Loaded All Assemblies, in  1.772 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 371 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.853 seconds
+Domain Reload Profiling: 2621ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (1349ms)
+	LoadAllAssembliesAndSetupDomain (181ms)
+		LoadAssemblies (173ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (164ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (853ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (801ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (493ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (188ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.154 seconds
+Refreshing native plugins compatible for Editor in 14.60 ms, found 14 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00087] in <1a7e38f6fac74b0d95602c9f9166f28a>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.906 seconds
+Domain Reload Profiling: 3047ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (810ms)
+		LoadAssemblies (523ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (410ms)
+			TypeCache.Refresh (305ms)
+				TypeCache.ScanAssembly (288ms)
+			BuildScriptInfoCaches (82ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1906ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1627ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (215ms)
+			ProcessInitializeOnLoadAttributes (1227ms)
+			ProcessInitializeOnLoadMethodAttributes (149ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 143.51 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8054 unused Assets / (11.4 MB). Loaded Objects now: 8814.
+Memory consumption went from 152.9 MB to 141.5 MB.
+Total: 124.221600 ms (FindLiveObjects: 1.208700 ms CreateObjectMapping: 1.112800 ms MarkObjects: 15.465300 ms  DeleteObjects: 106.433200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 70768.271679 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_KitchenTable_03.prefab
+  artifactKey: Guid(ddfdd4f303314ea4a95b95269621de86) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_KitchenTable_03.prefab using Guid(ddfdd4f303314ea4a95b95269621de86) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '9587e04d4966e45ff7cfaad22bbc9d05') in 0.8690343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Candle_Holder_Tall_B_Unlit_Christmas.fbx
+  artifactKey: Guid(8fe856520da176942ba04d34c1399081) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Candle_Holder_Tall_B_Unlit_Christmas.fbx using Guid(8fe856520da176942ba04d34c1399081) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54c977fc485f3eb663a5b80b6aa2d466') in 0.1303877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Pizza box/Pizza box crumple 1.prefab
+  artifactKey: Guid(1de5abba0b6d8f44c986ce91b1a67751) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Pizza box/Pizza box crumple 1.prefab using Guid(1de5abba0b6d8f44c986ce91b1a67751) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5e994c7130de0b2df05a55f38d1a0dd') in 0.0258381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CompositionLayers/UserSettings/Resources/CompositionLayersRuntimeSettings.asset
+  artifactKey: Guid(1d1b21e5e0d323146b8ce3245501e6ba) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CompositionLayers/UserSettings/Resources/CompositionLayersRuntimeSettings.asset using Guid(1d1b21e5e0d323146b8ce3245501e6ba) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '520bc6520f072cfc2f57ddedf16fdcbf') in 0.0154656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Materials/Lightis/Blue Light mat.mat
+  artifactKey: Guid(8c09fec7aaed03d46b75380c221f7838) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Materials/Lightis/Blue Light mat.mat using Guid(8c09fec7aaed03d46b75380c221f7838) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '724b428049fe74946ce0bba2870e40b4') in 0.0358757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_02.prefab
+  artifactKey: Guid(e865b35190d61134389351f1fb9a589f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_02.prefab using Guid(e865b35190d61134389351f1fb9a589f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75d4b1a40c69e5b0ca7d4c9e1e254bb3') in 0.0205126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Scenes/Demo 2 - Office Set 1.unity
+  artifactKey: Guid(578728e0dd306bc42b9882fa04dd56df) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/VNB - Office Set/Scenes/Demo 2 - Office Set 1.unity using Guid(578728e0dd306bc42b9882fa04dd56df) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/CabinDecor/VNB - Office Set/Scenes/Demo 2 - Office Set 1.unity additively'
+Loaded scene 'Assets/CabinDecor/VNB - Office Set/Scenes/Demo 2 - Office Set 1.unity'
+	Deserialize:            11.835 ms
+	Integration:            65.851 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.137 ms
+	Total Operation Time:   77.824 ms
+ -> (artifact id: '389aa9536d130f5273c352215ac2cee9') in 0.3944499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1400
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_02_02.prefab
+  artifactKey: Guid(6ecb0bf6d9576ac4c9db5a24641bdf73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_02_02.prefab using Guid(6ecb0bf6d9576ac4c9db5a24641bdf73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4fe33cf41470a48258097a6ca26151ea') in 0.0177094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Pillar_4x4.prefab
+  artifactKey: Guid(b6eb91e203f46fb4c8f3ae98b953a325) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Pillar_4x4.prefab using Guid(b6eb91e203f46fb4c8f3ae98b953a325) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fdfed06a2d2669963a7737047ab3ee9a') in 0.0178658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Carrot.prefab
+  artifactKey: Guid(1473e8761428dcd44a8962866ef4fc6a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Carrot.prefab using Guid(1473e8761428dcd44a8962866ef4fc6a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd6e8e1228d557d11e244b4f6f762107d') in 0.0152864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Gallon/2/Gallon 2_M_Normal.png
+  artifactKey: Guid(c084f763a1045bf4281faf6ed9a09252) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Gallon/2/Gallon 2_M_Normal.png using Guid(c084f763a1045bf4281faf6ed9a09252) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1589714ff5af0bb49abc230a4653d0c5') in 0.0792164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Bottles/1/Bottle 1 glass.prefab
+  artifactKey: Guid(1dd2d3567be8f504ca313aa2d956cfcd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Bottles/1/Bottle 1 glass.prefab using Guid(1dd2d3567be8f504ca313aa2d956cfcd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17d2f75d67e1c1e3fad536c50383b45e') in 0.0169612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Spatula_02.prefab
+  artifactKey: Guid(30c6c3fa34cd7844b8dcc7feaa58f177) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Spatula_02.prefab using Guid(30c6c3fa34cd7844b8dcc7feaa58f177) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '8bbbc17f47f2687af6bac546835642a3') in 0.0186423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Sink_02.prefab
+  artifactKey: Guid(75a81e859f47c0b488c478841c94ecc7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Sink_02.prefab using Guid(75a81e859f47c0b488c478841c94ecc7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd43c8720ef5e0c1b59be1599cb9df026') in 0.0153286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Structures/Structure 01.prefab
+  artifactKey: Guid(49f576a03ece56a4e9c640ed081f6a68) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Structures/Structure 01.prefab using Guid(49f576a03ece56a4e9c640ed081f6a68) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c087c5660340a822674c34ff49aeb5a6') in 0.4598446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4450
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Bricks/Brocken Brick 2 custom 2.prefab
+  artifactKey: Guid(99237e9e642f13f4c81db9b9bb79670c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Bricks/Brocken Brick 2 custom 2.prefab using Guid(99237e9e642f13f4c81db9b9bb79670c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1bac4977b4287a23f7ec85467d684c77') in 0.0214573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60 Outline 4.png
+  artifactKey: Guid(2f8349570a152884fb6cf7ebdc8c18b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Sprites/Circle_60x60 Outline 4.png using Guid(2f8349570a152884fb6cf7ebdc8c18b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5de41a0c9e561ec554db74323393208e') in 0.0311523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_MiniStove.prefab
+  artifactKey: Guid(e8c1fa26d90768b4eae93c605ff352cf) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_MiniStove.prefab using Guid(e8c1fa26d90768b4eae93c605ff352cf) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e15d1a802fcd32a3ca3c7329c540b319') in 0.0198025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/BedroomScene1/LightingData.asset
+  artifactKey: Guid(bfc93bb70b37bad4f83d7bdf48b7854e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Scenes/BedroomScene1/LightingData.asset using Guid(bfc93bb70b37bad4f83d7bdf48b7854e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b79f6ada17abc37b283daf0b819f1d71') in 0.0159551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 2/c/Bottle 2_Body_C_Normal.png
+  artifactKey: Guid(28fc054270e326a49bfebe3173a55ae2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 2/c/Bottle 2_Body_C_Normal.png using Guid(28fc054270e326a49bfebe3173a55ae2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9deb2944385d46b613fa60360bc2bf7') in 0.0226186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 2/d/Bottle 2_Cap_D_Height.png
+  artifactKey: Guid(f65cf84ceb0756343b52f583041adc7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 2/d/Bottle 2_Cap_D_Height.png using Guid(f65cf84ceb0756343b52f583041adc7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1da9cb0a12c12ad5228501073704adc2') in 0.0222788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Canned/Canned food 2/1/Canned food 2_D_AmbientOcclusion.png
+  artifactKey: Guid(aeb9752164dbda64ba2bbe29a9560502) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Canned/Canned food 2/1/Canned food 2_D_AmbientOcclusion.png using Guid(aeb9752164dbda64ba2bbe29a9560502) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65b2a8c625f7359f539c76304f5aa8b6') in 0.0195471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_01_02.prefab
+  artifactKey: Guid(93c24c3897ee80f47847c675d94dc13d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_01_02.prefab using Guid(93c24c3897ee80f47847c675d94dc13d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c7744e9376c3737ebe72af84c4051705') in 0.0166845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_08_02.prefab
+  artifactKey: Guid(afbd1bf8f2d4f1348936e260af20b098) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_08_02.prefab using Guid(afbd1bf8f2d4f1348936e260af20b098) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0af5611b64c72c59a9ae38a333fb8bcc') in 0.016489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_09_03.prefab
+  artifactKey: Guid(e2ea55b50dafeaf4b937eda78cfe3ec0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_09_03.prefab using Guid(e2ea55b50dafeaf4b937eda78cfe3ec0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f260d35e43733c320ebc6da66b6eded6') in 0.0179307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_09_02.prefab
+  artifactKey: Guid(80df1e6c02c6246438fa13884f1a0bf0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_09_02.prefab using Guid(80df1e6c02c6246438fa13884f1a0bf0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '27ae4e8283417ecd05f65857ab4029e2') in 0.01584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Canned/Soda can 1/D/Soda can 1_D_Emissive.png
+  artifactKey: Guid(654e7729bdea6b2478640e22ed23feb5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Canned/Soda can 1/D/Soda can 1_D_Emissive.png using Guid(654e7729bdea6b2478640e22ed23feb5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3f547672fba24d28413409ab9517e34') in 0.0255574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/FanV2.prefab
+  artifactKey: Guid(d5fdaf74a9bc91242b841883b4c65b21) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/FanV2.prefab using Guid(d5fdaf74a9bc91242b841883b4c65b21) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2249231a8505f86951bb61c9867354b0') in 0.0221308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_01_03.prefab
+  artifactKey: Guid(06c413b29e11397438e5dd264e7ebe34) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall Tiles/BR_Tile_APT_01_03.prefab using Guid(06c413b29e11397438e5dd264e7ebe34) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63e40b1496b1debb7ba879e367626578') in 0.0195608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Guitar.prefab
+  artifactKey: Guid(e29a480a127f6d344a7fb0efcb24dd73) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Prefabs/Guitar.prefab using Guid(e29a480a127f6d344a7fb0efcb24dd73) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '4835af9a0a37c20fea8d027353ef2ce5') in 0.0158322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Light_String_White_Small_3m_Christmas.prefab
+  artifactKey: Guid(b4f3a2dc312c508458524bdd7d94b3ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Light_String_White_Small_3m_Christmas.prefab using Guid(b4f3a2dc312c508458524bdd7d94b3ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f5d175ec2ac511d71e64d1899be5d4f') in 0.0191779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 2/d/Bottle 2_Cap_D_Albedo.png
+  artifactKey: Guid(dd413aae7c886e34a9f3ad14ac538935) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 2/d/Bottle 2_Cap_D_Albedo.png using Guid(dd413aae7c886e34a9f3ad14ac538935) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '620aefcd5a7eb362a8eed9c717db37e0') in 0.0216309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/Fridge.prefab
+  artifactKey: Guid(330da43e025295745907828267994ff3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/Fridge.prefab using Guid(330da43e025295745907828267994ff3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '467f8a9d9c237e35696be29b98fb7949') in 0.0182221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Canned/Canned food 1/1/Canned food_D_AmbientOcclusion.png
+  artifactKey: Guid(4e8d2c0981f98c84cbbbbaddf86b3a27) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Canned/Canned food 1/1/Canned food_D_AmbientOcclusion.png using Guid(4e8d2c0981f98c84cbbbbaddf86b3a27) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd6e014a6e9b56c72235a6dfe0e750d8b') in 0.0209194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Trash box 1/Orange/Trash box_Cap_O_Metalic.png
+  artifactKey: Guid(a998c4256fd008f4884420ae9426f1af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Trash box 1/Orange/Trash box_Cap_O_Metalic.png using Guid(a998c4256fd008f4884420ae9426f1af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf3257da04ea3a6aca6367ca55e8bffc') in 0.0219542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Parsnip.prefab
+  artifactKey: Guid(8d1a0fa409327b6408dd75559d1fa1e5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Parsnip.prefab using Guid(8d1a0fa409327b6408dd75559d1fa1e5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c477c3381c1212bb8b1026d4a48664f1') in 0.0139952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Canned/Canned food 1/1/Canned food_D_Emissive.png
+  artifactKey: Guid(93474599ca0996644b9ebf52411d23e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Canned/Canned food 1/1/Canned food_D_Emissive.png using Guid(93474599ca0996644b9ebf52411d23e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a639b924f25b98c5f7809cd0f5d133b') in 0.0197235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/Scenes/SampleScene.unity additively'
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            3.602 ms
+	Integration:            91.232 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.016 ms
+	Total Operation Time:   94.852 ms
+ -> (artifact id: '7f5b408c6de6cf58a76c4166a6a05a62') in 0.1570081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 516
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_05_01.prefab
+  artifactKey: Guid(633918f494031c54a8df36493bbcf7ed) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_05_01.prefab using Guid(633918f494031c54a8df36493bbcf7ed) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '8b2939d0df95c9e06ba49001ca187ea6') in 0.0173022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/Low Poly Pistol Weapon Pack 1/Prefabs/Weapons/Pistol_E.prefab
+  artifactKey: Guid(8147cbc638990a74995cb3f8161c7edd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Low Poly Pistol Weapon Pack 1/Prefabs/Weapons/Pistol_E.prefab using Guid(8147cbc638990a74995cb3f8161c7edd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'dd93975ff88a7f6a8336b5f28d9fe1c0') in 0.016346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Materials/Trash bin 2/Trash bin 2 Machinery mat.mat
+  artifactKey: Guid(b152080a18c835e46a45256e6a896c3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Materials/Trash bin 2/Trash bin 2 Machinery mat.mat using Guid(b152080a18c835e46a45256e6a896c3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '90c2459edbc6ddf9336149b6cc904415') in 0.0330056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Trash bin 2/Trash bin smooth 2.fbx
+  artifactKey: Guid(c1612f03eb4c6254c802c8957a26011a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Trash bin 2/Trash bin smooth 2.fbx using Guid(c1612f03eb4c6254c802c8957a26011a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '95cd8bc0f38b6774ccb775cce3748f4a') in 0.0233158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Color spray/D/Color spray_D_Albedo.png
+  artifactKey: Guid(9b44120206847b941a9113a31c77a1f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Color spray/D/Color spray_D_Albedo.png using Guid(9b44120206847b941a9113a31c77a1f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af72a9712cb5b956d1ca921ebe1c427d') in 0.0229968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Materials/Lightis/White Light mat.mat
+  artifactKey: Guid(0870a193f64ba2546b645b2747effac9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Materials/Lightis/White Light mat.mat using Guid(0870a193f64ba2546b645b2747effac9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '040fa6037f76c31e7f6fa9d405028057') in 0.0166896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Washer.prefab
+  artifactKey: Guid(f767cce13dd852b4cbd5894364ae969e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Washer.prefab using Guid(f767cce13dd852b4cbd5894364ae969e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b376be7aa3db8ef1a0ffbfc3a0aaeb40') in 0.016378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/Dryer.prefab
+  artifactKey: Guid(3103dcc75cee1ec4cba217971fd184be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/Dryer.prefab using Guid(3103dcc75cee1ec4cba217971fd184be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b72e8bdd80ecadadb11f00224f0f0d74') in 0.0196942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Candy_Cane.fbx
+  artifactKey: Guid(5d1d952274394f24ab7d166ee54c7d3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Candy_Cane.fbx using Guid(5d1d952274394f24ab7d166ee54c7d3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1dde0ef98005d803a039360636b08280') in 0.0238966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Trash bags/Trash bag 1/Trash bag 1 clean orange.prefab
+  artifactKey: Guid(ddb75111c6c4c134d94f742d8535fa03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Trash bags/Trash bag 1/Trash bag 1 clean orange.prefab using Guid(ddb75111c6c4c134d94f742d8535fa03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9006d430daea56360e90c91556ada3d8') in 0.0187459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Washer.fbx
+  artifactKey: Guid(f1da24e6f87f419458e1913c5a2fe03b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Washer.fbx using Guid(f1da24e6f87f419458e1913c5a2fe03b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b268f94f8491b28067bbb8848aa4bb72') in 0.0300442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Furniture/stool_2.prefab
+  artifactKey: Guid(a51be7f97c8591a4881c05aabc84cfee) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Furniture/stool_2.prefab using Guid(a51be7f97c8591a4881c05aabc84cfee) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7427281c01ab601c5a30747e6d323b42') in 0.0150727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/book_stp.prefab
+  artifactKey: Guid(28b61bab118a92d43b946cc4e578e1ad) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/book_stp.prefab using Guid(28b61bab118a92d43b946cc4e578e1ad) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c203fe049421e702df295cba4865c46c') in 0.0155938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Furniture/lamp_small.prefab
+  artifactKey: Guid(cf61fa18617b84044a7a5e27d47719dc) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Furniture/lamp_small.prefab using Guid(cf61fa18617b84044a7a5e27d47719dc) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0cacf9a0adbd9c6d0833bc41e8e602b8') in 0.0152429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Food/apple.prefab
+  artifactKey: Guid(0837d45161aff3946a4c5f87726c1ede) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Food/apple.prefab using Guid(0837d45161aff3946a4c5f87726c1ede) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '8c7a730ff9e9c9de721a2a67ed874425') in 0.0175322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Food/coffee_cup_f.prefab
+  artifactKey: Guid(f814b122f2e1c274389d5096984dbd52) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Food/coffee_cup_f.prefab using Guid(f814b122f2e1c274389d5096984dbd52) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b2cef640ca0083741969154291082aca') in 0.0180159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/small_painting.prefab
+  artifactKey: Guid(e58f3a007909fa84ba968739582b4af6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/small_painting.prefab using Guid(e58f3a007909fa84ba968739582b4af6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '12ea3226e141c2b0c3b3afd3d6d552f8') in 0.0149682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Corner_01.prefab
+  artifactKey: Guid(5751082ea532e49478e631f5ff9a1cfa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_02/Int_Apt_02_Corner_01.prefab using Guid(5751082ea532e49478e631f5ff9a1cfa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e597633121c7de4757746384e82097fd') in 0.0190854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Doors/Int_RR_DoorFrame_01_Man.prefab
+  artifactKey: Guid(229639aed4129534fa69a11f5305b94e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Doors/Int_RR_DoorFrame_01_Man.prefab using Guid(229639aed4129534fa69a11f5305b94e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3a43ca6fbd3aee86da77c31b601a9f2') in 0.0197208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F600_Stove_V1.prefab
+  artifactKey: Guid(178c5a3fb8e4f584ba6b07c522026967) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F600_Stove_V1.prefab using Guid(178c5a3fb8e4f584ba6b07c522026967) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd5f0e9302ff01c5261c565f044ebc68') in 0.0238741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Materials/Recycle bin/Recycle bin 1 green mat.mat
+  artifactKey: Guid(e425cd0dd4e24c94fa4f413f56f3f3e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Materials/Recycle bin/Recycle bin 1 green mat.mat using Guid(e425cd0dd4e24c94fa4f413f56f3f3e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e0f0922ae418bbb17049291ed77a5212') in 0.0216218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Light_String_Color_Big_5m_Christmas.fbx
+  artifactKey: Guid(8f067c301fa34334abf7d5ce0417b8a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Light_String_Color_Big_5m_Christmas.fbx using Guid(8f067c301fa34334abf7d5ce0417b8a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f800059d238de7f2e60d453f95e46967') in 0.0247607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/DoorFrame_Apt_03.prefab
+  artifactKey: Guid(f3e82dc7c471ff447b3ca0e0bfded076) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/DoorFrame_Apt_03.prefab using Guid(f3e82dc7c471ff447b3ca0e0bfded076) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e56a2a9304bb6412667b783ae0c42422') in 0.020814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Scenes/Render Scene.unity
+  artifactKey: Guid(0bb19e8b535ffcc4897653e37be00fb7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Scenes/Render Scene.unity using Guid(0bb19e8b535ffcc4897653e37be00fb7) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Scenes/Render Scene.unity additively'
+LightingSettings: switching bake backend from 1 to 2.
+Loaded scene 'Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Scenes/Render Scene.unity'
+	Deserialize:            6.640 ms
+	Integration:            78.110 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.029 ms
+	Total Operation Time:   84.781 ms
+ -> (artifact id: '62c4d0476fff3b8d1bf579ebe1726ae1') in 0.3172678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2118
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Office/desk_5.prefab
+  artifactKey: Guid(4569b6576b549fb40990d819bf7c5382) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Office/desk_5.prefab using Guid(4569b6576b549fb40990d819bf7c5382) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ebcf08c934908f360ab0b52a827f4de2') in 0.0178248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Office/pencil_holder.prefab
+  artifactKey: Guid(27e85d63cb9b30b4d9acc2497f67048b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Office/pencil_holder.prefab using Guid(27e85d63cb9b30b4d9acc2497f67048b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'b34c6645cd7f505a736292de51240b1e') in 0.0213823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Int into Ext/IntExt_apt_01_03.prefab
+  artifactKey: Guid(fd89e5fd063bbe449bfd219cac1ec948) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Int into Ext/IntExt_apt_01_03.prefab using Guid(fd89e5fd063bbe449bfd219cac1ec948) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'aa6a64bc49963ff7f69844e613b1a3a8') in 0.0155336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Textures/Concrete_Metallic.tif
+  artifactKey: Guid(f3fb518ec70eb4047b1c6ec34933fbce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Textures/Concrete_Metallic.tif using Guid(f3fb518ec70eb4047b1c6ec34933fbce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3abc409bd4dc6b193a840287341aea4') in 0.0207121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Trash bags/Trash bag 1/Trash bag 1 dirt green.prefab
+  artifactKey: Guid(6b68f3dfd39d10a46a5d15bc8e7b3a57) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Trash bags/Trash bag 1/Trash bag 1 dirt green.prefab using Guid(6b68f3dfd39d10a46a5d15bc8e7b3a57) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af904eba2fad463ace87cbb6c6112260') in 0.0162206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Shaders/BiRP_Fresnel.shader
+  artifactKey: Guid(b24c216c4acb0094c892a61dfbbb76b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Shaders/BiRP_Fresnel.shader using Guid(b24c216c4acb0094c892a61dfbbb76b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81dd0d86eecd7c659fc3b515757fd8f5') in 0.0222855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Color spray/Pianted/Color spray_Red_Albedo.png
+  artifactKey: Guid(5cd8254c1b2170b4293daca9451287a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Color spray/Pianted/Color spray_Red_Albedo.png using Guid(5cd8254c1b2170b4293daca9451287a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '273e036cebfcec85eeeb8e04d16ce8d6') in 0.0202798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_Base.prefab
+  artifactKey: Guid(929be27b7388507448e23941feba1828) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_02_Base.prefab using Guid(929be27b7388507448e23941feba1828) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e05e6dbf54e5faac32dcb37695fa4bb1') in 0.0157074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/Computer_apt_01.prefab
+  artifactKey: Guid(20fbfa03139c8c44185545f076543e47) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics/Computer_apt_01.prefab using Guid(20fbfa03139c8c44185545f076543e47) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '9aafa197dee828390bade10d4fbb1aeb') in 0.0150278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_04_Filled.prefab
+  artifactKey: Guid(2e2398df6726e164fb29cbffecf878a0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet/BarCabinet_Apt_04_Filled.prefab using Guid(2e2398df6726e164fb29cbffecf878a0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a0016c275ad913f5d3faba6bada6c342') in 0.0343722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 203
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/Toothbrush_02.prefab
+  artifactKey: Guid(3af3788489468634ca8551e4f49d373f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom/Toothbrush_02.prefab using Guid(3af3788489468634ca8551e4f49d373f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3cb949d207ec7bf1d3b2e2f52b82aef5') in 0.0158486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Table_Apt_02.prefab
+  artifactKey: Guid(142ac07ac204863418a6f3f9b0ac660c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting/Lamp_Table_Apt_02.prefab using Guid(142ac07ac204863418a6f3f9b0ac660c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c47126ab166f698f74f3d72e6fa801f5') in 0.0192217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Misc/Vase_Apt_01.prefab
+  artifactKey: Guid(eeba5b089ee3b4a4cbe7167afae0e4e1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Misc/Vase_Apt_01.prefab using Guid(eeba5b089ee3b4a4cbe7167afae0e4e1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3086d80f4e215727a8f273cc0bf08979') in 0.0154334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/Blender_Apt_01.prefab
+  artifactKey: Guid(8b726a9375ea2e442aa068972abf0c08) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen/Blender_Apt_01.prefab using Guid(8b726a9375ea2e442aa068972abf0c08) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e0b42a7f2dc6c886ad890297582063b0') in 0.0165892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Misc/Trash_apt_01.prefab
+  artifactKey: Guid(cd4ca976dbf626549971e19d7ef53367) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Misc/Trash_apt_01.prefab using Guid(cd4ca976dbf626549971e19d7ef53367) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f4fe0ab14c7334db37842d3a2943fd3e') in 0.0134081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.214289 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Wine Liquor Beer and Glassware - Sample/wine bottle 04_Low Poly.prefab
+  artifactKey: Guid(e0f8fa703bcf04a419f5263f5020b059) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Wine Liquor Beer and Glassware - Sample/wine bottle 04_Low Poly.prefab using Guid(e0f8fa703bcf04a419f5263f5020b059) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'fcc58861ab021b43ce164337361daf31') in 0.0387647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Food/Big Burger_01_Empty.prefab
+  artifactKey: Guid(440b75fd42ecb5f41b94162dfa6b7593) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Food/Big Burger_01_Empty.prefab using Guid(440b75fd42ecb5f41b94162dfa6b7593) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ccf736ea75f422cd6a24d60ef08bd040') in 0.0201752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Seating/FFK_Stool_01_01.prefab
+  artifactKey: Guid(4ada60c29a249cd4682acbb07b830ca1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Seating/FFK_Stool_01_01.prefab using Guid(4ada60c29a249cd4682acbb07b830ca1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '6aec2188ba4df127b9fefa069878f119') in 0.0168218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Signs/RR_Restroom_Unisex_Sign.prefab
+  artifactKey: Guid(d076477035e41e6438c5f9a92ee50194) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Signs/RR_Restroom_Unisex_Sign.prefab using Guid(d076477035e41e6438c5f9a92ee50194) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '68bc4ea316c3782f7d8458caa69632b4') in 0.0175042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Tables/FFK_Table_04_01.prefab
+  artifactKey: Guid(a1f53b61442de404396cd7bebdfcc815) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Furniture/Tables/FFK_Table_04_01.prefab using Guid(a1f53b61442de404396cd7bebdfcc815) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '548df9ddb80334c9af7440298abcb222') in 0.0188328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Electronics/FFK_Kiosk_01_01.prefab
+  artifactKey: Guid(f0d08e254301be8458ec870d434f4965) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Electronics/FFK_Kiosk_01_01.prefab using Guid(f0d08e254301be8458ec870d434f4965) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '2c123ce68b2490a2eaec759b1f2b62a8') in 0.024853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 77
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Misc/FF_Sign_01.prefab
+  artifactKey: Guid(3e68a847cfcd1e643a2285edcf75f83c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Misc/FF_Sign_01.prefab using Guid(3e68a847cfcd1e643a2285edcf75f83c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3fe4a94721c94ef867b56d0368a3fdd3') in 0.0155861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Floors Walls Ceiling Doors/Int_FFK_01_Wall_02.prefab
+  artifactKey: Guid(0252a2e3055c7a145a8cb7f2451ed176) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Fast Food Build Kit/Floors Walls Ceiling Doors/Int_FFK_01_Wall_02.prefab using Guid(0252a2e3055c7a145a8cb7f2451ed176) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '1cd94f5ce6924b63fa6fc879474b9120') in 0.019793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F800_Fan_V1.prefab
+  artifactKey: Guid(52bf3074e62b13345814afe4c87eb89b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F800_Fan_V1.prefab using Guid(52bf3074e62b13345814afe4c87eb89b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd6582ace5c1c8d4069fb6d1a5a37de29') in 0.0168009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Tray Setup/Tray_01_Setup_02.prefab
+  artifactKey: Guid(fa58b74384495f44b8de38874da8e6e5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/_Prefabs/Props/Tray Setup/Tray_01_Setup_02.prefab using Guid(fa58b74384495f44b8de38874da8e6e5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7fe364b930032b32af0684d8404c1e63') in 0.0313451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 237
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gingerbread_Man.prefab
+  artifactKey: Guid(9248fca4fba178f4da68681920808f50) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gingerbread_Man.prefab using Guid(9248fca4fba178f4da68681920808f50) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7a23d38f91736a1792596ca1b8f3e868') in 0.0140199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Bell_C_Christmas.prefab
+  artifactKey: Guid(325b87f9781ba1641a6d4d4c7a013f0c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Bell_C_Christmas.prefab using Guid(325b87f9781ba1641a6d4d4c7a013f0c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '46bc1b0281c02d32cc185b9f02fb3398') in 0.0141285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Bag_Gift_Christmas_C.prefab
+  artifactKey: Guid(a310f2abf494537438b4fff3819ad521) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Bag_Gift_Christmas_C.prefab using Guid(a310f2abf494537438b4fff3819ad521) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '6b473849c4c15fcb479960a73703da9a') in 0.0144447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Cranberry_Sauce.prefab
+  artifactKey: Guid(823d4f8551d766b449a9c98dc20acd11) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Cranberry_Sauce.prefab using Guid(823d4f8551d766b449a9c98dc20acd11) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '94523dd2fa9ef9c14dbf1e77f858026a') in 0.0134116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CabinDecor/Low Poly Pistol Weapon Pack 1/Prefabs/Attachments/Optics/Optic_Pistol_A.prefab
+  artifactKey: Guid(07b5fdf89d3b4e84b9bdc60fe35d16f0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Low Poly Pistol Weapon Pack 1/Prefabs/Attachments/Optics/Optic_Pistol_A.prefab using Guid(07b5fdf89d3b4e84b9bdc60fe35d16f0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'e27a7b44d1afdd4032bf20bd912017d5') in 0.0170803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/Low Poly Pistol Weapon Pack 1/Prefabs/Attachments/Optics/Optic_Pistol_B.prefab
+  artifactKey: Guid(fa944dda41717ce4d906d60752c65615) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Low Poly Pistol Weapon Pack 1/Prefabs/Attachments/Optics/Optic_Pistol_B.prefab using Guid(fa944dda41717ce4d906d60752c65615) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '55ca96b72b9746e2068ff63becd79034') in 0.0196837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Plate_Soup_Christmas.prefab
+  artifactKey: Guid(a747886a79633a649b9e82202d95d056) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Plate_Soup_Christmas.prefab using Guid(a747886a79633a649b9e82202d95d056) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '4c61fb1dcff5e59658f371570d5cb1c9') in 0.0148061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Mug_Christmas.prefab
+  artifactKey: Guid(af75da6d544d7eb4bbda4b8ce25b18d9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Mug_Christmas.prefab using Guid(af75da6d544d7eb4bbda4b8ce25b18d9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f917718b5a89c1e4003717e055d4b0cf') in 0.0164714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Flooring & Ceilings/Int_apt_03_Floor_02.prefab
+  artifactKey: Guid(a210596d183602d4f9abc956ba791b9e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Flooring & Ceilings/Int_apt_03_Floor_02.prefab using Guid(a210596d183602d4f9abc956ba791b9e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '930cec69caef51ffae7947a3a9448d32') in 0.0141263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/DoorFrame_Apt_01.prefab
+  artifactKey: Guid(e9a47cdb5968d66499f6b4ee53467cd4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames Windows Stairs & Doors/DoorFrame_Apt_01.prefab using Guid(e9a47cdb5968d66499f6b4ee53467cd4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '432f9c0ada585b2abd0451cfb3c3f0e1') in 0.0197354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Fridge.prefab
+  artifactKey: Guid(7b5ec1159cb969d4a8fe69fddc2f17d8) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Fridge.prefab using Guid(7b5ec1159cb969d4a8fe69fddc2f17d8) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ae5632605c1e065112acb9ae9adc1d0c') in 0.0164005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Walls/Int_RR_01_Corner_01.prefab
+  artifactKey: Guid(9fab82907283f784f961207d664b2625) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Walls/Int_RR_01_Corner_01.prefab using Guid(9fab82907283f784f961207d664b2625) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f29d2a9c4c4510701b52adcfc46f3c0d') in 0.0170663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Pillar_1x1.prefab
+  artifactKey: Guid(68a3631d9068c5246954790f8f2e4708) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Pillar_1x1.prefab using Guid(68a3631d9068c5246954790f8f2e4708) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'df0b06523af15c3ffd37cadd2bbb3495') in 0.014625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Special/Ext_apt_01_02.prefab
+  artifactKey: Guid(ec6a508d43c319f4e9a29995ea6c3489) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Special/Ext_apt_01_02.prefab using Guid(ec6a508d43c319f4e9a29995ea6c3489) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '7c3a35d88e63c8f31f8e417fb414e3a4') in 0.0168681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Walls/Int_RR_01_pillar_2x2.prefab
+  artifactKey: Guid(b17effefd1c1da643888570fb5635416) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Walls/Int_RR_01_pillar_2x2.prefab using Guid(b17effefd1c1da643888570fb5635416) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '156595d400576e4817d7daa5a1b72f82') in 0.0150526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab
+  artifactKey: Guid(893219773891c784ab469a39151879b4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab using Guid(893219773891c784ab469a39151879b4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '588bced66e7e87abb18d969b8e745862') in 0.0161119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Prefabs/Interactors/Right_NearFarInteractor.prefab
+  artifactKey: Guid(b200f6587d118224eba8467281481800) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Prefabs/Interactors/Right_NearFarInteractor.prefab using Guid(b200f6587d118224eba8467281481800) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c6cd300562e8097cd7d0faafaeecaed2') in 0.0167006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Molding/Int_Molding_Base_Apt_02.prefab
+  artifactKey: Guid(f209b4f30262ac0479f8e1072403c9cd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Molding/Int_Molding_Base_Apt_02.prefab using Guid(f209b4f30262ac0479f8e1072403c9cd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '75e512f9a5e8cd461629364ec99a54f7') in 0.0164533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Prefabs/Controllers/XR Controller Right.prefab
+  artifactKey: Guid(9f3369e30fbd31f4bb596b1a99babe83) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Prefabs/Controllers/XR Controller Right.prefab using Guid(9f3369e30fbd31f4bb596b1a99babe83) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3a1aad8f723cbac4acf80322a395f096') in 0.0221203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Collum/Int_Collum_Apt_01.prefab
+  artifactKey: Guid(e9053624939ee2d46b0cde7eff2c0e6e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Collum/Int_Collum_Apt_01.prefab using Guid(e9053624939ee2d46b0cde7eff2c0e6e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3649c3b761b60251f4fa083f6b3a736c') in 0.0156786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Prefabs/Affordances/HighlightInteractionAffordance.prefab
+  artifactKey: Guid(6b12f432fa58c224baf0d659706362be) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Prefabs/Affordances/HighlightInteractionAffordance.prefab using Guid(6b12f432fa58c224baf0d659706362be) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f955ef4ae8bf20ff4d628d7e5a228521') in 0.0194269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Trash bin 2/Trash bin 2 Machinery.prefab
+  artifactKey: Guid(768c669f5d7d2174c83d769cebee41b2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Trash bin 2/Trash bin 2 Machinery.prefab using Guid(768c669f5d7d2174c83d769cebee41b2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f6c912375c5473f0640685b740c1efd4') in 0.0169397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/int_BA_01_Ceiling_01.prefab
+  artifactKey: Guid(cb2e86b9dfb7ed64893d3d6345e3180d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/int_BA_01_Ceiling_01.prefab using Guid(cb2e86b9dfb7ed64893d3d6345e3180d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd811e2c5684c215e41e878d993377dcb') in 0.0132058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_03/Int_Apt_03_Pillar_2x2.prefab
+  artifactKey: Guid(7536b5cab7fa6894e9909e4f8ec3bd69) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_03/Int_Apt_03_Pillar_2x2.prefab using Guid(7536b5cab7fa6894e9909e4f8ec3bd69) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '654a1d5e9ef59a043546396d5c33ab23') in 0.0164812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Filler_02.prefab
+  artifactKey: Guid(586efc4ccee24ca4883a7542f1e326bb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01/Int_BA_01_Filler_02.prefab using Guid(586efc4ccee24ca4883a7542f1e326bb) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '025cdddff3b5e761648f3eef06f0ba90') in 0.0174618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_03.prefab
+  artifactKey: Guid(b5ea4c1fc5a7a044c8b2c38bf36cffe9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02/Int_BA_02_Wall_03.prefab using Guid(b5ea4c1fc5a7a044c8b2c38bf36cffe9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f110db7aa5e3c226bf12dc9da5198bb7') in 0.0173525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/Stovetop.prefab
+  artifactKey: Guid(390dd4c2d67112d42a4633c0a63e0def) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/Stovetop.prefab using Guid(390dd4c2d67112d42a4633c0a63e0def) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '88827da996e02e0b0692ef14367e562d') in 0.0153858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Materials/MaterialPipelineHandler.asset
+  artifactKey: Guid(fcbe69f7b69204d43b67d30e2487c37c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Materials/MaterialPipelineHandler.asset using Guid(fcbe69f7b69204d43b67d30e2487c37c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0784a630c6ada1cb62cb8c585d161bd6') in 0.0176159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Wall_01.prefab
+  artifactKey: Guid(c5be39b879c83f54d9bbfebe68c809be) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_01/Int_Apt_01_Wall_01.prefab using Guid(c5be39b879c83f54d9bbfebe68c809be) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '12095923a288bed9646b92a3c9000803') in 0.0167048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CabinDecor/Soda Cans/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs/SM_Aluminum_Can_01_Opened.prefab
+  artifactKey: Guid(327860819d06a964d98cea7acb224d6e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Soda Cans/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs/SM_Aluminum_Can_01_Opened.prefab using Guid(327860819d06a964d98cea7acb224d6e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '6c6afb28a71f3b102e3168692d2a3a11') in 0.0201877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 106
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Cube.prefab
+  artifactKey: Guid(2e16046ebcbcb6742a86569d82e56cce) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Prefabs/Interactables/Cube.prefab using Guid(2e16046ebcbcb6742a86569d82e56cce) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '0b3c447036c19de89957e09bccdb15e4') in 0.0274407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Prefabs/UI/Icon Button.prefab
+  artifactKey: Guid(56686f82f64b0af4688a89676403a500) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Prefabs/UI/Icon Button.prefab using Guid(56686f82f64b0af4688a89676403a500) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd0fc41b3ea08047c8033068fa0f4792b') in 0.0252909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Teleport Area.prefab
+  artifactKey: Guid(beb4e2871579447497fe41dfb108e2cd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Prefabs/Teleport/Teleport Area.prefab using Guid(beb4e2871579447497fe41dfb108e2cd) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '4e737d1eee5eafa0c1b25c88fc172bee') in 0.0262741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Trash bags/Trash bag 1/Trash bag 1 clean blue.prefab
+  artifactKey: Guid(af51cca589e1f6740a4835c4d444d1f4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Trash bags/Trash bag 1/Trash bag 1 clean blue.prefab using Guid(af51cca589e1f6740a4835c4d444d1f4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '9e06b1fb0660ac4c205b90483d4bcb54') in 0.0183324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Canned/Paint/Paint can crumple Black.prefab
+  artifactKey: Guid(85724bf6111510841a9cd676f386e650) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Canned/Paint/Paint can crumple Black.prefab using Guid(85724bf6111510841a9cd676f386e650) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '606136a17d9a796b0ce91858fc467a3d') in 0.019891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Canned/Soda/Soda can 1 orange.prefab
+  artifactKey: Guid(65ba573ef2938b54e82f575bd3896d7d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Canned/Soda/Soda can 1 orange.prefab using Guid(65ba573ef2938b54e82f575bd3896d7d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '2978cf4d8660c5439cf3fa09910bfd3b') in 0.0201833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Bricks/Brocken brick 1 custom 2.prefab
+  artifactKey: Guid(90255236d7ae58c46ac0e8e04d8443e4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Bricks/Brocken brick 1 custom 2.prefab using Guid(90255236d7ae58c46ac0e8e04d8443e4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '1cb8722f06c1ae923bde12e96f1854af') in 0.0159909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Base_SD_01.prefab
+  artifactKey: Guid(d9d9f374cc51a6b4fb75751346d70b83) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets/Cabinet_Base_SD_01.prefab using Guid(d9d9f374cc51a6b4fb75751346d70b83) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ed891bb91bddd3f768978d590b23d6eb') in 0.0198332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Soda Cans/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs/SM_Aluminum_Can_01_Closed.prefab
+  artifactKey: Guid(091c40835fc7ae44ba18d6d34a022afa) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Soda Cans/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs/SM_Aluminum_Can_01_Closed.prefab using Guid(091c40835fc7ae44ba18d6d34a022afa) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ce7a174a72e0a3d6541e7078323d911c') in 0.0208494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 106
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Fish_Carp.prefab
+  artifactKey: Guid(f414741cd310cc54d94c141896f3e162) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Fish_Carp.prefab using Guid(f414741cd310cc54d94c141896f3e162) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'c1fa50ca25483096310aa487bc49fda0') in 0.0169901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

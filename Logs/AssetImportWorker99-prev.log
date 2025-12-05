@@ -1,0 +1,731 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.13f1 (abdb44fca7f7) revision 11262788'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 31860 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor" at "2025-12-05T00:29:06.098361Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-05T00:29:06Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker99
+-projectPath
+C:/GIT_Projects/prj1/FastFood
+-logFile
+Logs/AssetImportWorker99.log
+-srvPort
+64782
+-licensingIpc
+LicenseClient-Raptor
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/GIT_Projects/prj1/FastFood
+C:/GIT_Projects/prj1/FastFood
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [37920]  Target information:
+
+Player connection [37920]  * "[IP] 192.168.10.94 [Port] 0 [Flags] 2 [Guid] 964808289 [EditorId] 964808289 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N6LDBOS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [37920] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [37920] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 15.70 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.57 ms.
+Initialize engine version: 6000.2.13f1 (abdb44fca7f7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GIT_Projects/prj1/FastFood/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5070 (ID=0x2f04)
+    Vendor:   NVIDIA
+    VRAM:     11854 MB
+    Driver:   32.0.15.8129
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Raptor"
+[Licensing::IpcConnector] LicenseClient-Raptor channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13" at "2025-12-05T00:29:06.6584771Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              a8a2084b2c4c4304a4aff5ef77d74800
+  Correlation Id:          8b443b1067030043d42fc3d4d67f1055
+  External correlation Id: 4634542897359844529
+  Machine Id:              /Gk3cS3RbuDCQMU5P993206Xbmc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Raptor-6000.2.13" (connect: 0.00s, validation: 0.00s, handshake: 0.47s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13-notifications" at "2025-12-05T00:29:07.1344642Z"
+[Licensing::Module] Licensing Background thread has ended after 1.04s
+[Licensing::Module] Licensing is initialized (took 0.56s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475892980188-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.564447 seconds.
+- Loaded All Assemblies, in  0.788 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 224 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.455 seconds
+Domain Reload Profiling: 1241ms
+	BeginReloadAssembly (77ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (594ms)
+	LoadAllAssembliesAndSetupDomain (87ms)
+		LoadAssemblies (74ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (85ms)
+			TypeCache.Refresh (84ms)
+				TypeCache.ScanAssembly (77ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (455ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (427ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (287ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (71ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.501 seconds
+Refreshing native plugins compatible for Editor in 6.75 ms, found 14 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00087] in <1a7e38f6fac74b0d95602c9f9166f28a>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.878 seconds
+Domain Reload Profiling: 1374ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (343ms)
+		LoadAssemblies (225ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (114ms)
+			BuildScriptInfoCaches (35ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (878ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (727ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (549ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 6.70 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8050 unused Assets / (8.2 MB). Loaded Objects now: 8822.
+Memory consumption went from 160.9 MB to 152.7 MB.
+Total: 12.431400 ms (FindLiveObjects: 0.812600 ms CreateObjectMapping: 0.317800 ms MarkObjects: 8.078500 ms  DeleteObjects: 3.221500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17928.237780 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Wood Floor 01.mat
+  artifactKey: Guid(049ac0e838cb3a342887cf48a2b06db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy/Wood Floor 01.mat using Guid(049ac0e838cb3a342887cf48a2b06db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '549000af74720c2366c1dc77ac609e5e') in 0.3638271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.418054 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Materials/Stovetop.mat
+  artifactKey: Guid(b96d00f00f49efb458f4d91a48364d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Materials/Stovetop.mat using Guid(b96d00f00f49efb458f4d91a48364d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '699f079009b096ba690a84d9141a8bb5') in 0.015727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/kitchen props/materials/toaster-2.mat
+  artifactKey: Guid(d80f90649d0bf7448a779585d221995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/kitchen props/materials/toaster-2.mat using Guid(d80f90649d0bf7448a779585d221995f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '948acfc61a62afef558a0cde36f9d1ff') in 0.0285491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 230.265750 seconds.
+  path: Assets/CabinDecor/Bublisher/3D Stylized Animated Dogs Kit/Textures/3D Stylized Animated Dogs Kit - MetallicSmoothness.png
+  artifactKey: Guid(515f03534871e3244bb73ff70d2db28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Bublisher/3D Stylized Animated Dogs Kit/Textures/3D Stylized Animated Dogs Kit - MetallicSmoothness.png using Guid(515f03534871e3244bb73ff70d2db28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '8c424e7cb93d15f912b9f6d60746c4ca') in 0.0377363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/XR/Settings/OpenXR Package Settings.asset
+  artifactKey: Guid(a317d05fcb39c6246a81e907d1a4a629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/OpenXR Package Settings.asset using Guid(a317d05fcb39c6246a81e907d1a4a629) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ede12356c4898fc7c456bb47cdaf8ed') in 0.0042537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CabinDecor/Bublisher/3D Stylized Animated Dogs Kit/Textures/3D Stylized Animated Dogs Kit - Normal.png
+  artifactKey: Guid(6646a3659cb3cca4c8f063dfc0ff2028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Bublisher/3D Stylized Animated Dogs Kit/Textures/3D Stylized Animated Dogs Kit - Normal.png using Guid(6646a3659cb3cca4c8f063dfc0ff2028) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14d7823ed05221acd169e0ef91d69856') in 0.0463694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Amp.prefab
+  artifactKey: Guid(76fdb8c6c13eb50498e1de4ec2841155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Amp.prefab using Guid(76fdb8c6c13eb50498e1de4ec2841155) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cc37024808ee8298c5390b0f97a9d9e') in 0.0406517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Textures/AmpTGA.tga
+  artifactKey: Guid(7c069af8ce84c64448a462fb2bfcf971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/AmpTGA.tga using Guid(7c069af8ce84c64448a462fb2bfcf971) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '472f66daf194207157d7c79305ee4fcb') in 0.0122174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.800110 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Roof_Mid_01.prefab
+  artifactKey: Guid(5a8c5bdb2890760419fa0ba36befc73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01/Ext_Apt_01_Roof_Mid_01.prefab using Guid(5a8c5bdb2890760419fa0ba36befc73e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '514ba7c677c296b34219f339caf32b97') in 0.0300575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Models/Primitive_Torus.fbx
+  artifactKey: Guid(f077c919501a44778a0c2edb6eb1a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Models/Primitive_Torus.fbx using Guid(f077c919501a44778a0c2edb6eb1a54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a7a25886e5df23dcad36d5539bc86e7') in 0.0391626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Models/Primitive_Cylinder.fbx
+  artifactKey: Guid(9e1dc1c14313460d872de39e35129b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Models/Primitive_Cylinder.fbx using Guid(9e1dc1c14313460d872de39e35129b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba8ef84c063598f77445dfa73b5c0272') in 0.0192376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_WhipMixer.fbx
+  artifactKey: Guid(5f08b7e2d7e779b489d62a277820e3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Prop_WhipMixer.fbx using Guid(5f08b7e2d7e779b489d62a277820e3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad580d39a0b506e985970cc705e10716') in 0.0158024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Mixer.prefab
+  artifactKey: Guid(0bd166eac535dfd43bc28b43190b289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Mixer.prefab using Guid(0bd166eac535dfd43bc28b43190b289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa360a76c91a69b17a645898d3fb55f0') in 0.011546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_WhipMixer.prefab
+  artifactKey: Guid(4f04852b3a3372d45b4247abcdfdfed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_WhipMixer.prefab using Guid(4f04852b3a3372d45b4247abcdfdfed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8b2f4600751859782a0cd1d829a95b8') in 0.0135599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Mistletoe_A.fbx
+  artifactKey: Guid(0b7831cda7eb62b4db840fb5082c300a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Mistletoe_A.fbx using Guid(0b7831cda7eb62b4db840fb5082c300a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c863d89a7c41c4eb90fe1268a08bc198') in 0.0163836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA_Mixer_V1.prefab
+  artifactKey: Guid(a9b89447708d3fc4b8598040bdf7c4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA_Mixer_V1.prefab using Guid(a9b89447708d3fc4b8598040bdf7c4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd16eb781baaec3ef13db097a3460ea84') in 0.0161018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/MicrowaveOven.prefab
+  artifactKey: Guid(68305497718ac414598fe53957098f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/MicrowaveOven.prefab using Guid(68305497718ac414598fe53957098f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4c224433fc5339e2913bb2224dc3d19') in 0.0123256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FurnishedCabin/Meshes/FreestandMirror.fbx
+  artifactKey: Guid(b53e9c84208cc48d8b1adc74360d8db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/FreestandMirror.fbx using Guid(b53e9c84208cc48d8b1adc74360d8db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f185516eb029f62ae8f7e386ea9e3fc') in 0.018701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Microwave_01.prefab
+  artifactKey: Guid(313d0d112f5d6c844821d1dd1ba5b6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Microwave_01.prefab using Guid(313d0d112f5d6c844821d1dd1ba5b6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb136e0253f585911ff533660e54f45b') in 0.0126973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Demo/Pandazole Kitchen Food.fbx
+  artifactKey: Guid(e28308bcdd7692b4d9a7fdccc3ac83ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Models/Demo/Pandazole Kitchen Food.fbx using Guid(e28308bcdd7692b4d9a7fdccc3ac83ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d1a748d279c0002164bf73b0311764f') in 0.9025823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 936
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Santa_Milk_And_Cookies.fbx
+  artifactKey: Guid(38231cd4bb1de6f4a9736df58c199914) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Santa_Milk_And_Cookies.fbx using Guid(38231cd4bb1de6f4a9736df58c199914) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e380f7553113ff4e807483adcb629bc') in 0.0196944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Fixtures/RR_MirrorFrame_01.prefab
+  artifactKey: Guid(252461d3f6f63ab4893c8eb882ee2be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Fixtures/RR_MirrorFrame_01.prefab using Guid(252461d3f6f63ab4893c8eb882ee2be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7be5dd402334ce5d4b2e7f782b2d27f1') in 0.0159845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.550 seconds
+Refreshing native plugins compatible for Editor in 6.39 ms, found 14 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00087] in <1a7e38f6fac74b0d95602c9f9166f28a>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.921 seconds
+Domain Reload Profiling: 1469ms
+	BeginReloadAssembly (183ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (317ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (114ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (921ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (797ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (591ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 9.78 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8047 unused Assets / (7.9 MB). Loaded Objects now: 8912.
+Memory consumption went from 251.7 MB to 243.8 MB.
+Total: 13.354300 ms (FindLiveObjects: 0.681100 ms CreateObjectMapping: 0.306900 ms MarkObjects: 9.475300 ms  DeleteObjects: 2.890100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1605.922270 seconds.
+  path: Assets/EvSeStudio/3D_Art
+  artifactKey: Guid(3d65a0ce39a099c44a18599190965a63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/EvSeStudio/3D_Art using Guid(3d65a0ce39a099c44a18599190965a63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28440cb2d6f007a66b472eea35f84335') in 0.1261795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Materials
+  artifactKey: Guid(11f2d3fc65b82a24584d87cce4ce7408) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Materials using Guid(11f2d3fc65b82a24584d87cce4ce7408) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '463b363331a4395a22faaef0ed4f13d6') in 0.0130879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/EvSeStudio/3D_Art/Environment
+  artifactKey: Guid(05bb7feb2b2c46d42a58601e77f0d3ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/EvSeStudio/3D_Art/Environment using Guid(05bb7feb2b2c46d42a58601e77f0d3ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9440819d820197701de01ed3e599c9e') in 0.0097231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs/Colliders
+  artifactKey: Guid(b98b1366f023f5143a7ba1acab314330) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs/Colliders using Guid(b98b1366f023f5143a7ba1acab314330) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f3997d71c92bcf991db4488670e9525') in 0.0104556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Demo/Aluminum_Can_01.unity
+  artifactKey: Guid(67db0b3a9553fc040b072d3b16f19f70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Demo/Aluminum_Can_01.unity using Guid(67db0b3a9553fc040b072d3b16f19f70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f22def0f348b5888f015a06bcec17c10') in 0.0146518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Textures/T_Aluminum_Can_01_BaseMap.png
+  artifactKey: Guid(645c04ec1eb22aa408dcac4e1ce84ebe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Textures/T_Aluminum_Can_01_BaseMap.png using Guid(645c04ec1eb22aa408dcac4e1ce84ebe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca65b7080d427d011a15fcdc70714db3') in 0.0514997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs/Colliders/CL_Aluminum_Can_01.prefab
+  artifactKey: Guid(4bf39f506b1d5ee4caf537ccfe018a7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs/Colliders/CL_Aluminum_Can_01.prefab using Guid(4bf39f506b1d5ee4caf537ccfe018a7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd61a2a1ac4613b08abd757ab069162ca') in 0.0216605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Scene
+  artifactKey: Guid(9aa2a2c74c0550748a496c6b684525a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Scene using Guid(9aa2a2c74c0550748a496c6b684525a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2070679fa22b89daf7e48f74215e7a9d') in 0.0101345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Textures
+  artifactKey: Guid(032854cb93c52f74cb8255b2b9c4e930) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Textures using Guid(032854cb93c52f74cb8255b2b9c4e930) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ceb85cc427ce1b5f35bf5d735c5b0b2') in 0.0101828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Textures/T_Aluminum_Can_01_MetallicSmoothness.png
+  artifactKey: Guid(5f4199f0f7d4fc841a209d3331b47864) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Textures/T_Aluminum_Can_01_MetallicSmoothness.png using Guid(5f4199f0f7d4fc841a209d3331b47864) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22f55348d8e962741607dba84a86eb64') in 0.0227134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Textures/T_Aluminum_Can_01_Normal.png
+  artifactKey: Guid(e374ebb9aba7a774da745f97e8801d8f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Textures/T_Aluminum_Can_01_Normal.png using Guid(e374ebb9aba7a774da745f97e8801d8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4231b8d566f2dad35d025b58f0c96198') in 0.0218886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Meshes/SM_Aluminum_Can_01_Tab.fbx
+  artifactKey: Guid(6ba684b861bf7274ab05e3eb6ddfa15c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Meshes/SM_Aluminum_Can_01_Tab.fbx using Guid(6ba684b861bf7274ab05e3eb6ddfa15c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1bb99bab46c65b9ffa3a9f38debfd8c') in 0.0308049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.957842 seconds.
+  path: Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01
+  artifactKey: Guid(7cf9b4f0e63af074e900689082e0e7f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01 using Guid(7cf9b4f0e63af074e900689082e0e7f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5194217778fbdbdf831b3e10c098c644') in 0.0107712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs/SM_Aluminum_Can_01_Closed.prefab
+  artifactKey: Guid(091c40835fc7ae44ba18d6d34a022afa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs/SM_Aluminum_Can_01_Closed.prefab using Guid(091c40835fc7ae44ba18d6d34a022afa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1cf0c7f5fafb7566e0b93f1f30532e3') in 0.0123758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CabinDecor/EvSeStudio
+  artifactKey: Guid(2dbd6f8ac4091ed40b0a284d8c47243f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/EvSeStudio using Guid(2dbd6f8ac4091ed40b0a284d8c47243f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b9d76548ab9f565b36c920a2e4333ff') in 0.0101654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Materials
+  artifactKey: Guid(11f2d3fc65b82a24584d87cce4ce7408) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Materials using Guid(11f2d3fc65b82a24584d87cce4ce7408) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bec4295c70592ee0d3d2178eaabf78ae') in 0.0102431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Textures/T_Aluminum_Can_01_AO.png
+  artifactKey: Guid(5fe8d8eb45f4da24d854536b2bab7a0c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Textures/T_Aluminum_Can_01_AO.png using Guid(5fe8d8eb45f4da24d854536b2bab7a0c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9cff472d8ecf56a639491bba1f2bd51') in 0.0139115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs/SM_Aluminum_Can_01_Opened.prefab
+  artifactKey: Guid(327860819d06a964d98cea7acb224d6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs/SM_Aluminum_Can_01_Opened.prefab using Guid(327860819d06a964d98cea7acb224d6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d02777107dd0c06cdb75dc40ddd5c8f') in 0.0094352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Textures/T_Aluminum_Can_01_MetallicSmoothness.png
+  artifactKey: Guid(5f4199f0f7d4fc841a209d3331b47864) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Textures/T_Aluminum_Can_01_MetallicSmoothness.png using Guid(5f4199f0f7d4fc841a209d3331b47864) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2299c4e6e558786e12e0c5bcd156e114') in 0.0133117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Demo
+  artifactKey: Guid(08168010a128fdb4b969ab443a2d4db1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Demo using Guid(08168010a128fdb4b969ab443a2d4db1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48588d60793fc9537d8e2c4f400ee6cd') in 0.0093189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

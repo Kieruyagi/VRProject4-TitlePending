@@ -1,0 +1,1206 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.13f1 (abdb44fca7f7) revision 11262788'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 31860 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor" at "2025-12-05T01:31:17.6129439Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-05T01:31:17Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker119
+-projectPath
+C:/GIT_Projects/prj1/FastFood
+-logFile
+Logs/AssetImportWorker119.log
+-srvPort
+64782
+-licensingIpc
+LicenseClient-Raptor
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/GIT_Projects/prj1/FastFood
+C:/GIT_Projects/prj1/FastFood
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [32564]  Target information:
+
+Player connection [32564]  * "[IP] 192.168.10.94 [Port] 0 [Flags] 2 [Guid] 3411362781 [EditorId] 3411362781 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N6LDBOS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [32564] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [32564] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 18.68 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.67 ms.
+Initialize engine version: 6000.2.13f1 (abdb44fca7f7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GIT_Projects/prj1/FastFood/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5070 (ID=0x2f04)
+    Vendor:   NVIDIA
+    VRAM:     11854 MB
+    Driver:   32.0.15.8129
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Raptor"
+[Licensing::IpcConnector] LicenseClient-Raptor channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13" at "2025-12-05T01:31:18.2012341Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              0a3a5bfa1b7942a484d37b88f8bc8ca6
+  Correlation Id:          8b443b1067030043d42fc3d4d67f1055
+  External correlation Id: 4300768280182542197
+  Machine Id:              /Gk3cS3RbuDCQMU5P993206Xbmc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Raptor-6000.2.13" (connect: 0.00s, validation: 0.00s, handshake: 0.53s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13-notifications" at "2025-12-05T01:31:18.7285264Z"
+[Licensing::Module] Licensing Background thread has ended after 1.12s
+[Licensing::Module] Licensing is initialized (took 0.59s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475892980188-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.593249 seconds.
+- Loaded All Assemblies, in  0.864 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 245 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.532 seconds
+Domain Reload Profiling: 1393ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (627ms)
+	LoadAllAssembliesAndSetupDomain (108ms)
+		LoadAssemblies (89ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (97ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (532ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (493ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (320ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (87ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.626 seconds
+Refreshing native plugins compatible for Editor in 6.56 ms, found 14 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00087] in <1a7e38f6fac74b0d95602c9f9166f28a>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.885 seconds
+Domain Reload Profiling: 1505ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (282ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (213ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (140ms)
+			BuildScriptInfoCaches (45ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (885ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (748ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (559ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 5.82 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8054 unused Assets / (8.4 MB). Loaded Objects now: 8826.
+Memory consumption went from 161.5 MB to 153.0 MB.
+Total: 12.932300 ms (FindLiveObjects: 0.613900 ms CreateObjectMapping: 0.263400 ms MarkObjects: 9.107900 ms  DeleteObjects: 2.946000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 21384.487121 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs
+  artifactKey: Guid(d93b9322a13b47b41912d106f31406f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs using Guid(d93b9322a13b47b41912d106f31406f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9044cadd97ce55e87298aedabfbed1b1') in 0.004469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020153 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Apple.prefab
+  artifactKey: Guid(ca29c74284c40524f8edb533636550f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Apple.prefab using Guid(ca29c74284c40524f8edb533636550f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cba147a5c00b3d0c7ec330378b09dd01') in 0.3158859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Pumpkin Soup.prefab
+  artifactKey: Guid(495a46b39b02bc34a84784e7ef82b1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Pumpkin Soup.prefab using Guid(495a46b39b02bc34a84784e7ef82b1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a73c6b1429c2c9521c24320e7fef9d7d') in 0.016017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_KitchenTable_03.prefab
+  artifactKey: Guid(ddfdd4f303314ea4a95b95269621de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_KitchenTable_03.prefab using Guid(ddfdd4f303314ea4a95b95269621de86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ff405cb6f662050943cdb01876d063a') in 0.0149325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Cooked Rice.prefab
+  artifactKey: Guid(a76fdaafdeaab0a4394847404155d743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Cooked Rice.prefab using Guid(a76fdaafdeaab0a4394847404155d743) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2882a41f36134e4de40d575922c7b64e') in 0.0158771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Cup_02_Cover.prefab
+  artifactKey: Guid(69e737c8f94cee34aa0f1e7186cf9911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Cup_02_Cover.prefab using Guid(69e737c8f94cee34aa0f1e7186cf9911) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6548541541fe7f2fab79556bd05f7892') in 0.0150207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Tortilla.prefab
+  artifactKey: Guid(2ba561e817e6b8a4e92c134cb584e999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Tortilla.prefab using Guid(2ba561e817e6b8a4e92c134cb584e999) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78da8e1f176aebd2458cc20911a77035') in 0.0159171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Faucet.prefab
+  artifactKey: Guid(2aff6043e8121544eb8107e3d8ade3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Faucet.prefab using Guid(2aff6043e8121544eb8107e3d8ade3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b334db893272c2aad42c5d186c72c9c') in 0.0138188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Knife_04.prefab
+  artifactKey: Guid(15433602e108aae4290663c9644a7298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Knife_04.prefab using Guid(15433602e108aae4290663c9644a7298) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0149743d8e7442778378dc7c9534bf6') in 0.0148399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Sunny Egg.prefab
+  artifactKey: Guid(af23549e861e00242b56bbd1c51a3c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Sunny Egg.prefab using Guid(af23549e861e00242b56bbd1c51a3c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd70efce7ca229820481f599faad7bead') in 0.0150227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Carrot.prefab
+  artifactKey: Guid(1473e8761428dcd44a8962866ef4fc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Carrot.prefab using Guid(1473e8761428dcd44a8962866ef4fc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '422e87d0ca7dc1440b0fa97cc15f1974') in 0.0156562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Bowel_03.prefab
+  artifactKey: Guid(77d69b61d8932b541b0dfc99fb4a3be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Bowel_03.prefab using Guid(77d69b61d8932b541b0dfc99fb4a3be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcf08e38bacffd2a6373a93f0990496c') in 0.0130027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_CuttingPlate.prefab
+  artifactKey: Guid(2f5b5d5c74133eb4da94c020922031a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_CuttingPlate.prefab using Guid(2f5b5d5c74133eb4da94c020922031a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9467b48df275eaa77a4ca9f1509ea5fe') in 0.0145716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Mac n Cheese with brocoli.prefab
+  artifactKey: Guid(498f1f2c073f4444cad8be3ce8e3c12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Mac n Cheese with brocoli.prefab using Guid(498f1f2c073f4444cad8be3ce8e3c12d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '163becb1282ec9b308add0ab3997fcc2') in 0.0136572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Cheese.prefab
+  artifactKey: Guid(faddb7582ea378c44a767cc63fe84c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Cheese.prefab using Guid(faddb7582ea378c44a767cc63fe84c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3058d0f2f1089a00b1bddb150f0c3e50') in 0.0159835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Water Cup.prefab
+  artifactKey: Guid(4b6dd0d7957ae7e4bb6bde7ddd04ce57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Water Cup.prefab using Guid(4b6dd0d7957ae7e4bb6bde7ddd04ce57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23a5994c5b69d83393371a3c755aa0d7') in 0.0157656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Fridge_01.prefab
+  artifactKey: Guid(ba9199147aa40894ca7f66b182e48c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Fridge_01.prefab using Guid(ba9199147aa40894ca7f66b182e48c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57b8e7dcdd16991cf0f41cbdd992882f') in 0.0156797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_KitchenCabinet_02.prefab
+  artifactKey: Guid(2125510b65470574fad5d1e55a9d2619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_KitchenCabinet_02.prefab using Guid(2125510b65470574fad5d1e55a9d2619) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '987114b1f40e0ca464f4bc9effee1e4d') in 0.0150289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Turkey Sandwich.prefab
+  artifactKey: Guid(3196676de71803b4d983ac4a64e2b0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Turkey Sandwich.prefab using Guid(3196676de71803b4d983ac4a64e2b0bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27e30ee15ddf04f2100e8cb9e6da95c4') in 0.0155235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Pea.prefab
+  artifactKey: Guid(d18f929552ea73b4e99fdfdb3d8d7651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Pea.prefab using Guid(d18f929552ea73b4e99fdfdb3d8d7651) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c0833a44870f712d8f4198bb0c742ac') in 0.0150654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Lettuce.prefab
+  artifactKey: Guid(e65e0f5a23047e147be6dc32db77c4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Lettuce.prefab using Guid(e65e0f5a23047e147be6dc32db77c4f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '15aa3ee42ae24d0bae300f6090255437') in 0.0140546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Pasta.prefab
+  artifactKey: Guid(e587153d97158e54cb4442ea55fbdf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Pasta.prefab using Guid(e587153d97158e54cb4442ea55fbdf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6e19fc57f737dd64deaab9177bf018f') in 0.0136617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Cup_04_Cover.prefab
+  artifactKey: Guid(48fcdf3ae56a83b4991214f190283c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Cup_04_Cover.prefab using Guid(48fcdf3ae56a83b4991214f190283c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c3d67eab0c64e72d1e4a92294ebc2b1') in 0.014294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Oil.prefab
+  artifactKey: Guid(4caa6851baabe4f40bde9724dafa3b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Oil.prefab using Guid(4caa6851baabe4f40bde9724dafa3b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d6250764ad4b30e3ac3c708e91c4fd3') in 0.0130717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_KitchenTable_04.prefab
+  artifactKey: Guid(5b64bcaaa6de77345bb5f15d719356d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_KitchenTable_04.prefab using Guid(5b64bcaaa6de77345bb5f15d719356d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97607a435dc3362618a4ffbb0de4a887') in 0.0122045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.246786 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets
+  artifactKey: Guid(91b83f31308c06d439689f8138186839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets using Guid(91b83f31308c06d439689f8138186839) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b988c576e024a328e3844020444ebefb') in 0.0008186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.976876 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit
+  artifactKey: Guid(6315d9097f0ef714cb63b945663ecbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit using Guid(6315d9097f0ef714cb63b945663ecbb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aefb7f3e643d37e949aae46dcb188ad6') in 0.0005315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.577215 seconds.
+  path: Assets/Models/GuitarFBX.fbx
+  artifactKey: Guid(15a2806138ed87a45afede16ec9ca99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/GuitarFBX.fbx using Guid(15a2806138ed87a45afede16ec9ca99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9004d63ad304cc0d48907ffedb7bfedc') in 0.0257794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.565416 seconds.
+  path: Assets/CabinDecor/Models/Materials
+  artifactKey: Guid(7a06a9182b90bd243b1327e7940d4050) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Models/Materials using Guid(7a06a9182b90bd243b1327e7940d4050) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb89f386ad20000443b57f90d3ca3171') in 0.1119876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.510743 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Scenes
+  artifactKey: Guid(86201345327958f4f9f1aed41d24ec15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Scenes using Guid(86201345327958f4f9f1aed41d24ec15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb19dc711cd6b16fcfded1a7ca781701') in 0.0191468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Furniture
+  artifactKey: Guid(304d8d93c5461494bb2ab8136a46cf6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Furniture using Guid(304d8d93c5461494bb2ab8136a46cf6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'addd9da84abef852b5681cc50dc68b80') in 0.0122661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Textures/Rug_1.png
+  artifactKey: Guid(5f7693d3af0d3884292dac28baaa53fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Textures/Rug_1.png using Guid(5f7693d3af0d3884292dac28baaa53fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '27f44a04f59f8fb0785d9c84ebc87520') in 0.0619855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Textures/palette5.png
+  artifactKey: Guid(cec0beb2c44e60c44ba81ff50286dcbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Textures/palette5.png using Guid(cec0beb2c44e60c44ba81ff50286dcbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18c89010f98183da4716e1a6e831acb1') in 0.0204755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Office/computer_old_2.prefab
+  artifactKey: Guid(670f20a4f35fcb249b1a44693addaa66) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Office/computer_old_2.prefab using Guid(670f20a4f35fcb249b1a44693addaa66) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5deb67aebff19729096c124037750958') in 0.0237922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Food
+  artifactKey: Guid(3196df2c297be22408b40a1924ff9721) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Food using Guid(3196df2c297be22408b40a1924ff9721) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6216b36223446d71ddec02b62cbf92a2') in 0.0103704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Office/paper_file_custom.prefab
+  artifactKey: Guid(409a59359549aef418ba80e0b2e0056a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Office/paper_file_custom.prefab using Guid(409a59359549aef418ba80e0b2e0056a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e2b3dbd883368fef48b58ebcc100069') in 0.0248597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Food/bread_slice.prefab
+  artifactKey: Guid(9ccb184310ba6b642baf8e099704aa4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Food/bread_slice.prefab using Guid(9ccb184310ba6b642baf8e099704aa4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d8603e498cc7d7bd2eb8e8c01ec5675') in 0.0134557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/small_bamboo_deco.prefab
+  artifactKey: Guid(9dd715038d6fa2e43a9da28d327d977b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/small_bamboo_deco.prefab using Guid(9dd715038d6fa2e43a9da28d327d977b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b38b35f4e04c85a5322ed53b0ab1e653') in 0.0140275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Office/wall_tv.prefab
+  artifactKey: Guid(500e25948fbfa3c4a9bf620c6601bde6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Office/wall_tv.prefab using Guid(500e25948fbfa3c4a9bf620c6601bde6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '125e6fe2196255948b56b7c55f868555') in 0.0145843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Materials
+  artifactKey: Guid(8175572f2056a03479ec2f3f88030029) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Materials using Guid(8175572f2056a03479ec2f3f88030029) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac7596407c01575d4dee7e80b3fffa33') in 0.0112055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Office/computer_new.prefab
+  artifactKey: Guid(ed7a8441bc8a9e042b68e5c08b5d0286) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Office/computer_new.prefab using Guid(ed7a8441bc8a9e042b68e5c08b5d0286) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ee89c038d9f142127cb1089ef3ef0a3') in 0.0104471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Furniture/small_whiteboard.prefab
+  artifactKey: Guid(bbbf61090fb8c064789785c8a7727b89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Furniture/small_whiteboard.prefab using Guid(bbbf61090fb8c064789785c8a7727b89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dda1332c8f954727e5d25eb6c1bda31e') in 0.0135376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Food/lettuce_slice.prefab
+  artifactKey: Guid(9912652a86e429641a532569a0474589) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Food/lettuce_slice.prefab using Guid(9912652a86e429641a532569a0474589) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ccd87cdd6729b43ab65ce2d8bc541125') in 0.0108332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Furniture/coffee_table.prefab
+  artifactKey: Guid(2b9316c92bd90bc4dba7fd67e6afec09) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Furniture/coffee_table.prefab using Guid(2b9316c92bd90bc4dba7fd67e6afec09) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae9949f126874d7bdcceb5a5af1f1488') in 0.0109973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/deco.prefab
+  artifactKey: Guid(44ee070a3ccb9cb48aec4b44fddeea1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/deco.prefab using Guid(44ee070a3ccb9cb48aec4b44fddeea1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f34d7ccce88f7fafb229bf5f030ee77') in 0.0100785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Materials/board_doc_1.mat
+  artifactKey: Guid(0c1ac2d62e3f8954fabb8380d3153714) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Materials/board_doc_1.mat using Guid(0c1ac2d62e3f8954fabb8380d3153714) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a033d618c139f9ed00125bfaee02926d') in 0.0127971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Textures/palette1.png
+  artifactKey: Guid(f545116a0c5c6244b8d9a33d2c8813d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Textures/palette1.png using Guid(f545116a0c5c6244b8d9a33d2c8813d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e7cbf019c5d28bdec49beed576df90f') in 0.0123532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Furniture/counter_b_2.prefab
+  artifactKey: Guid(67562ca15dae7f44087f6eb76468c6a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Furniture/counter_b_2.prefab using Guid(67562ca15dae7f44087f6eb76468c6a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80e3d06125a7c5ee1a7b3526acc6b375') in 0.0108954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Office/desk_5.prefab
+  artifactKey: Guid(4569b6576b549fb40990d819bf7c5382) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Office/desk_5.prefab using Guid(4569b6576b549fb40990d819bf7c5382) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71c6750afe6fc41934ba5e162278bb5e') in 0.0122931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Building/door_a.prefab
+  artifactKey: Guid(38f068d20c4cae84ea6ce0135bff6c3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Building/door_a.prefab using Guid(38f068d20c4cae84ea6ce0135bff6c3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36fda16b7cf92e8fb9607b478d9c931d') in 0.0141437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Textures/DocBoard3.png
+  artifactKey: Guid(7c24fc020a963e140a38db61e602ff30) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Textures/DocBoard3.png using Guid(7c24fc020a963e140a38db61e602ff30) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2bc53c34499c8a39cbb2deed95544285') in 0.0146655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Office/projector.prefab
+  artifactKey: Guid(8d4969e2fe31ce74c92cec5bb038ebe4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Office/projector.prefab using Guid(8d4969e2fe31ce74c92cec5bb038ebe4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0290d584fe487122a67438ecdc83091') in 0.0135248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Office/pile_of_paper_small.prefab
+  artifactKey: Guid(8e84ca73543071240ba2039c509d539c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Office/pile_of_paper_small.prefab using Guid(8e84ca73543071240ba2039c509d539c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee35aba6bb9e030a74781d28c9fbb11c') in 0.0131788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Office/old_monitor_2.prefab
+  artifactKey: Guid(bf15518dc245933498060e3aa7112ed6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Office/old_monitor_2.prefab using Guid(bf15518dc245933498060e3aa7112ed6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd6ff6e8bc5ae8a331f66d9849a8385d3') in 0.0117611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/book_stp.prefab
+  artifactKey: Guid(28b61bab118a92d43b946cc4e578e1ad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/book_stp.prefab using Guid(28b61bab118a92d43b946cc4e578e1ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '93f9fb82566f732564808bca5a7dc83b') in 0.0128069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Food/coffee_cup.prefab
+  artifactKey: Guid(1799cc7c56e44b14399f4ecdabd365a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Food/coffee_cup.prefab using Guid(1799cc7c56e44b14399f4ecdabd365a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d155b143070198767e1d580ce8dab62') in 0.0117479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Furniture/table.prefab
+  artifactKey: Guid(2441fd2cb3b5a7c43bab08d72dd45e87) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Furniture/table.prefab using Guid(2441fd2cb3b5a7c43bab08d72dd45e87) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '665cc1ea7f33e926ebd8e485d4039663') in 0.0138269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Food/cup_empty.prefab
+  artifactKey: Guid(2b4b2d3c2fe32b447bb43bd805a19cee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Food/cup_empty.prefab using Guid(2b4b2d3c2fe32b447bb43bd805a19cee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8129b4cc6d3ec3ab74185f1db55f0ec8') in 0.0126109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Building/wall_medium_door_frame.prefab
+  artifactKey: Guid(e417b1ac7ffd3b44a854dace85f01b95) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Building/wall_medium_door_frame.prefab using Guid(e417b1ac7ffd3b44a854dace85f01b95) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '55997dd3d48d5eb009baeb79cf59b076') in 0.0125533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/pile_of_books_(organized).prefab
+  artifactKey: Guid(1d430427663656c45b1e3b2f670b5b12) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/pile_of_books_(organized).prefab using Guid(1d430427663656c45b1e3b2f670b5b12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb72f088427e4a71ee9fc4600db90ba4') in 0.0112699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Food/cheese_slice.prefab
+  artifactKey: Guid(badf43c03faeecc44b1d60198000318e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Food/cheese_slice.prefab using Guid(badf43c03faeecc44b1d60198000318e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0166a915daba5947c5ce4fe7616ba32e') in 0.0126279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Materials/board_doc_3.mat
+  artifactKey: Guid(650ef577b39680645b3e79c272c840b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Materials/board_doc_3.mat using Guid(650ef577b39680645b3e79c272c840b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b52b4877e1b81e7de7b2080ec07bf36') in 0.009999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Materials/rug_2.mat
+  artifactKey: Guid(66360b86bd6c88547afb3f892018bcdc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Materials/rug_2.mat using Guid(66360b86bd6c88547afb3f892018bcdc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0f2c816f969acd661a8c17cc808c3909') in 0.0124499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Furniture/shelf_hrect.prefab
+  artifactKey: Guid(ad9718c51f2bf8f4c8b58deb6496cbbc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Furniture/shelf_hrect.prefab using Guid(ad9718c51f2bf8f4c8b58deb6496cbbc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '017ad6f6c645fcb81a3afbf35ee9d86a') in 0.0140873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Office/simple_office_chair_variant.prefab
+  artifactKey: Guid(555776743ab31da46822e12ac74c2e88) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Office/simple_office_chair_variant.prefab using Guid(555776743ab31da46822e12ac74c2e88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1644ddb0adef5761444c8b0b2f21621') in 0.0135062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Office/desk_2_alternative.prefab
+  artifactKey: Guid(cabb045b714a92b428390b58d765d79c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Office/desk_2_alternative.prefab using Guid(cabb045b714a92b428390b58d765d79c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48ff7a59e64140900c1017091db2ca2e') in 0.0133733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 57
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Building/floor_tile.prefab
+  artifactKey: Guid(a55c555f579cc3647bf8aaf8116217a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Building/floor_tile.prefab using Guid(a55c555f579cc3647bf8aaf8116217a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '052f1edd4e7c646a48ca16f7c31cf3e5') in 0.0137363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Building/door_a_variant.prefab
+  artifactKey: Guid(fba5b93e44dc42f49b103ddb037e7fa4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Building/door_a_variant.prefab using Guid(fba5b93e44dc42f49b103ddb037e7fa4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98cb7f7e09b1b38bdf7c18bf263df13b') in 0.0114022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Furniture/lamp.prefab
+  artifactKey: Guid(69fae7714546f6942abab8f0e225babb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Furniture/lamp.prefab using Guid(69fae7714546f6942abab8f0e225babb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10f62701c5f7a3fcaf57aed78a7de0e1') in 0.012605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Office/desk_4_2_people.prefab
+  artifactKey: Guid(3a13312b513393a4f8bd43711ee74911) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Office/desk_4_2_people.prefab using Guid(3a13312b513393a4f8bd43711ee74911) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53ed3d0a2a844a39db39db06291a0037') in 0.0123588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Office/computer_old.prefab
+  artifactKey: Guid(e6bec74b3d2659c45a9a9b0688e38c75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Office/computer_old.prefab using Guid(e6bec74b3d2659c45a9a9b0688e38c75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb33320fa9070dbadbbf28b01da5fbf0') in 0.0115996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/briefcaase.prefab
+  artifactKey: Guid(7f74448ef4246e547921d8b2ddcb3006) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/briefcaase.prefab using Guid(7f74448ef4246e547921d8b2ddcb3006) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '711e5336fad92398d544d3cd3968ef67') in 0.0138461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Office/stapler.prefab
+  artifactKey: Guid(9334802947a112d489eb0ad702ab585a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Office/stapler.prefab using Guid(9334802947a112d489eb0ad702ab585a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6ef99fdc4eb559cd439a355fe8775f7') in 0.0136779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Office/desk_2_alternative_modern.prefab
+  artifactKey: Guid(c184ee61f59bf7a45832f4bd6fe6d54c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Office/desk_2_alternative_modern.prefab using Guid(c184ee61f59bf7a45832f4bd6fe6d54c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6886fa76b73b57ac64e58a3a47f43d82') in 0.0145529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Office/desk_5_alternative_modern.prefab
+  artifactKey: Guid(ff52c44924e0b8345bf6384bcf6e0ff4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Office/desk_5_alternative_modern.prefab using Guid(ff52c44924e0b8345bf6384bcf6e0ff4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bde92c051b6bdfef970c2c3334dd83a0') in 0.0142913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Food/tomato_slice.prefab
+  artifactKey: Guid(eeb3cdfe18d96c943a22aede690c6e9b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Food/tomato_slice.prefab using Guid(eeb3cdfe18d96c943a22aede690c6e9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f6aa5f819581bcb62fbef0a5f9819c3') in 0.0130606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Materials/paintings_1.mat
+  artifactKey: Guid(6889f44cfcf0ad14ca17925b3d51f15c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Materials/paintings_1.mat using Guid(6889f44cfcf0ad14ca17925b3d51f15c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c53bcc21be764076f38e08f7d044da7f') in 0.0127045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Office/pile_of_paper_custom.prefab
+  artifactKey: Guid(8175144d77bc3f4449fec41cd271fe5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Office/pile_of_paper_custom.prefab using Guid(8175144d77bc3f4449fec41cd271fe5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3895606431e03a96558f41c328daad95') in 0.0144104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.598057 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs
+  artifactKey: Guid(bfdabd1d29ae9f14988d3e9c7a4888a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs using Guid(bfdabd1d29ae9f14988d3e9c7a4888a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8854dfcb6c1b92a12f7fea095d26a08e') in 0.0004846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.199362 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Deco
+  artifactKey: Guid(65da319c01ff9b046a99c7b7566a7292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Deco using Guid(65da319c01ff9b046a99c7b7566a7292) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e573adc9c30c7370635a906c490819fc') in 0.0005246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017901 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/alcohol_dispenser_a.prefab
+  artifactKey: Guid(3b58de21bc2305149974176161893e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/alcohol_dispenser_a.prefab using Guid(3b58de21bc2305149974176161893e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ac50abbf08f37d273819a169ad4fe61') in 0.0160127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/small_trash_bin.prefab
+  artifactKey: Guid(ecc14f0acfe79f9438b09817f25f3745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/small_trash_bin.prefab using Guid(ecc14f0acfe79f9438b09817f25f3745) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9bb1a46730e93e307462fa2c3f1f329') in 0.0147263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/deco.prefab
+  artifactKey: Guid(44ee070a3ccb9cb48aec4b44fddeea1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/deco.prefab using Guid(44ee070a3ccb9cb48aec4b44fddeea1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b35b5d6450bdb529e23cc04b41774dfc') in 0.013865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/small_painting.prefab
+  artifactKey: Guid(e58f3a007909fa84ba968739582b4af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/small_painting.prefab using Guid(e58f3a007909fa84ba968739582b4af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c009cc41a3f71d26a6e821d78c892a57') in 0.014023 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/trash_bin.prefab
+  artifactKey: Guid(60a81d054e8b7894482c2fe57553d989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/trash_bin.prefab using Guid(60a81d054e8b7894482c2fe57553d989) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e6a0e521255834fad5d38d9bfc816fb') in 0.0127852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/book_2.prefab
+  artifactKey: Guid(95673e01729d3ee4f90a32ee9a726ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/book_2.prefab using Guid(95673e01729d3ee4f90a32ee9a726ce6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3f77e681ff1fc1ce670fb91848b249f') in 0.0144211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/nature_deco_plant.prefab
+  artifactKey: Guid(93e95a25893f69d46aba08851115522c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/nature_deco_plant.prefab using Guid(93e95a25893f69d46aba08851115522c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bf5430172048430d644d1592ec950d1') in 0.0137654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/whiteboard_eraser.prefab
+  artifactKey: Guid(3962d8b94c80dae44b13e7d28b2e60df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Deco/whiteboard_eraser.prefab using Guid(3962d8b94c80dae44b13e7d28b2e60df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cde49c462e79f14eb9d8555de91b87af') in 0.0126658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.554450 seconds.
+  path: Assets/Scenes/BedroomSceenes/MiddleBedroom.unity
+  artifactKey: Guid(67173570b067d2c4697fca74215351a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/BedroomSceenes/MiddleBedroom.unity using Guid(67173570b067d2c4697fca74215351a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d6525f2474c5c75afc299b01d55a707') in 0.013781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.753159 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Building/door_a.prefab
+  artifactKey: Guid(38f068d20c4cae84ea6ce0135bff6c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Building/door_a.prefab using Guid(38f068d20c4cae84ea6ce0135bff6c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5116eb72d2debd57e069e0076b70ce8d') in 0.0153368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Building/wall_standard_wood_alt_3.prefab
+  artifactKey: Guid(50e9d694213653a4e8d1111b9281bbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Building/wall_standard_wood_alt_3.prefab using Guid(50e9d694213653a4e8d1111b9281bbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e66dcddf2de42e3bb39e11070f6621a2') in 0.0131533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Building/door_c.prefab
+  artifactKey: Guid(02858d4d16dfc874198537d11046e408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Building/door_c.prefab using Guid(02858d4d16dfc874198537d11046e408) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d1f861ba66c5606fb99d4b8a88e2a46') in 0.0146106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Building/wall_standard.prefab
+  artifactKey: Guid(040b0e4d147341b4780f162c4ecef39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Building/wall_standard.prefab using Guid(040b0e4d147341b4780f162c4ecef39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c703b722c333021c7040ab57278f3e0d') in 0.0120063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Building/wall_standard_s-deco.prefab
+  artifactKey: Guid(acbfeb26b5847054790bad6266d4ecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Building/wall_standard_s-deco.prefab using Guid(acbfeb26b5847054790bad6266d4ecd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '140c82d65ff54b3c5d0d4b68fa0ef6f6') in 0.0120665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Building/door_b.prefab
+  artifactKey: Guid(c8aa3af8e883c6e4dbaf78236b90a9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Building/door_b.prefab using Guid(c8aa3af8e883c6e4dbaf78236b90a9d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f636f9a5fc13b1b6566dc14fda8e7a3') in 0.0133775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 37
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Building/wall_standard_door_frame.prefab
+  artifactKey: Guid(2e6de12b1fa53d14b90835d4b6d3e78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Building/wall_standard_door_frame.prefab using Guid(2e6de12b1fa53d14b90835d4b6d3e78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3e3f52323436e3051e58bf3a42d9444') in 0.012032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Prefabs/Building/wall_standard_wood_alt_1.prefab
+  artifactKey: Guid(e6ff8465ccfc4d446ac079e04acf109a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Prefabs/Building/wall_standard_wood_alt_1.prefab using Guid(e6ff8465ccfc4d446ac079e04acf109a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4799046684230cc259b39ec653056ccc') in 0.0129879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.629775 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Coffee Maker.prefab
+  artifactKey: Guid(026bbb898b925f54b9fc6523b72e5933) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Coffee Maker.prefab using Guid(026bbb898b925f54b9fc6523b72e5933) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '8a84b56b2e9c5331b9e8d8994a16aab5') in 0.0280482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Mixer.prefab
+  artifactKey: Guid(0bd166eac535dfd43bc28b43190b289a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Mixer.prefab using Guid(0bd166eac535dfd43bc28b43190b289a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ead0fa93045ca5e9fa2bc11f6f87b5b2') in 0.0160201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Long_D.prefab
+  artifactKey: Guid(68389292e5019bf438100737b182802a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Gift_Christmas_Long_D.prefab using Guid(68389292e5019bf438100737b182802a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '85f9a9de56bc07762544762ddccebb98') in 0.0188958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Etagere_Christmas.prefab
+  artifactKey: Guid(b41440ce47bfd3e4c907975093dfd294) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Etagere_Christmas.prefab using Guid(b41440ce47bfd3e4c907975093dfd294) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ad392f87f967610f2aad8fe964f70c07') in 0.0151511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F600_Fridge_V1.prefab
+  artifactKey: Guid(88b5ba18f4e334b44a5268d91a498766) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F600_Fridge_V1.prefab using Guid(88b5ba18f4e334b44a5268d91a498766) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'fc8755fa25c831ab8a84bd5d73068ac0') in 0.0282657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_07_03.prefab
+  artifactKey: Guid(2c18d82e40ae72e42a032ed52b68ad09) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_07_03.prefab using Guid(2c18d82e40ae72e42a032ed52b68ad09) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '8005151f5dde69542522f68ab9e04bce') in 0.0332021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_07_01.prefab
+  artifactKey: Guid(c424664aae7c2e84f9457f46c4989155) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_07_01.prefab using Guid(c424664aae7c2e84f9457f46c4989155) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd61e98281925078d7314a49dc2f348dc') in 0.0205827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_07_01.prefab
+  artifactKey: Guid(86d7edb0f984f0148ac8ceb4d7e5a949) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_07_01.prefab using Guid(86d7edb0f984f0148ac8ceb4d7e5a949) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '47b70ba06ab5d27292a6565909808e71') in 0.015573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Ginger_House.prefab
+  artifactKey: Guid(7317979e7e6948045b7182822ec3b5f9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Ginger_House.prefab using Guid(7317979e7e6948045b7182822ec3b5f9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'a02a6e449d6914be36c1b372a683de8e') in 0.0320159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_07_02.prefab
+  artifactKey: Guid(938e6519f6d251245bbee3f6ec25ff90) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_07_02.prefab using Guid(938e6519f6d251245bbee3f6ec25ff90) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '28e141ecd92d3887d0a284d23ef43418') in 0.0151955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_05_03.prefab
+  artifactKey: Guid(d0cbb5af73eb3ca409048c587f070569) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_05_03.prefab using Guid(d0cbb5af73eb3ca409048c587f070569) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '902860462f0ac23bd35f5bcd64348984') in 0.0177124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_01_03.prefab
+  artifactKey: Guid(5185aff562155d447b201730acd673d2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_01_03.prefab using Guid(5185aff562155d447b201730acd673d2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '24006753930fdbd24e2ec13594758073') in 0.019268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components/KAC-F1000_FridgeSBS_V1_FreezerDrawerHolder.prefab
+  artifactKey: Guid(c8aa2cf326594c745872c1c45467fc76) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components/KAC-F1000_FridgeSBS_V1_FreezerDrawerHolder.prefab using Guid(c8aa2cf326594c745872c1c45467fc76) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'ca34586f61f2938b1c203ab1dcc4fa59') in 0.0164227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_10_01.prefab
+  artifactKey: Guid(e32eb0f254cdc7747ba8416dfef94574) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Plant_10_01.prefab using Guid(e32eb0f254cdc7747ba8416dfef94574) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '3be16304ea270ebf6454183d59e14084') in 0.0170277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/People/Seasons People/Man_Santa_Helper_Christmas.prefab
+  artifactKey: Guid(7ab34099e54ccd44ca9c2e712f166bbf) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/People/Seasons People/Man_Santa_Helper_Christmas.prefab using Guid(7ab34099e54ccd44ca9c2e712f166bbf) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'f7cb4967978e83ea426a549136a94ce3') in 0.0252194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_08_02.prefab
+  artifactKey: Guid(4ec1535191cd1ab40a00cf7c93708848) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_08_02.prefab using Guid(4ec1535191cd1ab40a00cf7c93708848) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'eef4ed8a91b604f0a502dc81a93efa69') in 0.0124535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Snowman_A.prefab
+  artifactKey: Guid(d9514d19d7e5322418ca8534967ba021) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Prefabs/Christmas/Snowman_A.prefab using Guid(d9514d19d7e5322418ca8534967ba021) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd528f500ce5f935dd26a0fd2698107e7') in 0.0138135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F600_Washer_V1.prefab
+  artifactKey: Guid(e21cc154e63d0dc4db56496f1a4e4bed) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F600_Washer_V1.prefab using Guid(e21cc154e63d0dc4db56496f1a4e4bed) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '73baf0d58cabd9f6a6e300615e4cf086') in 0.0143932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -1,0 +1,1769 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.13f1 (abdb44fca7f7) revision 11262788'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 31860 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-05T15:36:06Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor" at "2025-12-05T15:36:06.8875632Z"
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker22
+-projectPath
+C:/GIT_Projects/prj1/VRProject4-TitlePending
+-logFile
+Logs/AssetImportWorker22.log
+-srvPort
+64267
+-licensingIpc
+LicenseClient-Raptor
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/GIT_Projects/prj1/VRProject4-TitlePending
+C:/GIT_Projects/prj1/VRProject4-TitlePending
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23968]  Target information:
+
+Player connection [23968]  * "[IP] 192.168.10.94 [Port] 0 [Flags] 2 [Guid] 4028699871 [EditorId] 4028699871 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N6LDBOS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [23968] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [23968] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 17.99 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.87 ms.
+Initialize engine version: 6000.2.13f1 (abdb44fca7f7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GIT_Projects/prj1/VRProject4-TitlePending/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5070 (ID=0x2f04)
+    Vendor:   NVIDIA
+    VRAM:     11854 MB
+    Driver:   32.0.15.8129
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Raptor"
+[Licensing::IpcConnector] LicenseClient-Raptor channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13" at "2025-12-05T15:36:07.5065489Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              84517ae766b14781a4e5340c0c1d85b1
+  Correlation Id:          8c1fe4599fc8f946a6c5550c5295a36a
+  External correlation Id: 8231082383439001523
+  Machine Id:              /Gk3cS3RbuDCQMU5P993206Xbmc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Raptor-6000.2.13" (connect: 0.00s, validation: 0.00s, handshake: 0.53s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13-notifications" at "2025-12-05T15:36:08.0369479Z"
+[Licensing::Module] Licensing Background thread has ended after 1.15s
+[Licensing::Module] Licensing is initialized (took 0.65s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475892980188-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.655612 seconds.
+- Loaded All Assemblies, in  0.921 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 231 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.454 seconds
+Domain Reload Profiling: 1373ms
+	BeginReloadAssembly (94ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (687ms)
+	LoadAllAssembliesAndSetupDomain (102ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (91ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (454ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (428ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (289ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (69ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.492 seconds
+Refreshing native plugins compatible for Editor in 6.82 ms, found 14 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00087] in <1a7e38f6fac74b0d95602c9f9166f28a>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.826 seconds
+Domain Reload Profiling: 1313ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (226ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (101ms)
+			BuildScriptInfoCaches (37ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (827ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (685ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (514ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 7.05 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8054 unused Assets / (7.9 MB). Loaded Objects now: 8815.
+Memory consumption went from 157.6 MB to 149.6 MB.
+Total: 11.443100 ms (FindLiveObjects: 0.612900 ms CreateObjectMapping: 0.275400 ms MarkObjects: 7.842600 ms  DeleteObjects: 2.711500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 72089.000252 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Ground mask/Ground mask 2.prefab
+  artifactKey: Guid(0d6aa8a9562c4c546affa9fbd29dc7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Ground mask/Ground mask 2.prefab using Guid(0d6aa8a9562c4c546affa9fbd29dc7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07b9b17fc42a4d23f1da92ccc817e61f') in 1.5019808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.471806 seconds.
+  path: Assets/CabinDecor/VNB - Office Set/Models/office_set_vnb.fbx
+  artifactKey: Guid(f1cd6800d51724d4291ee22764292e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/VNB - Office Set/Models/office_set_vnb.fbx using Guid(f1cd6800d51724d4291ee22764292e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdcb78299d1137fb2709063d3f1d9c6f') in 0.9924012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 864
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Bag_Gift_Christmas_B.fbx
+  artifactKey: Guid(58ff19c9750f1cf4a8925f0b0fc0831c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Bag_Gift_Christmas_B.fbx using Guid(58ff19c9750f1cf4a8925f0b0fc0831c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c6cd82668e0ab9e38062bcbf99ab47c') in 0.0160596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CabinDecor/Models/AmpFBX.fbx
+  artifactKey: Guid(9fb6a96fd2d6f734393fdc3cdedbba7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Models/AmpFBX.fbx using Guid(9fb6a96fd2d6f734393fdc3cdedbba7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6f5597e79dea66d346cf7d673a092c7') in 0.017441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/Soda Cans/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Meshes/SM_Aluminum_Can_01_Closed.fbx
+  artifactKey: Guid(f2f378121613dc144a153addaad78074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Soda Cans/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Meshes/SM_Aluminum_Can_01_Closed.fbx using Guid(f2f378121613dc144a153addaad78074) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57758ffcc7b602477bbd85c95b03d509') in 0.0387743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Modern Liquor Cabinet.fbx
+  artifactKey: Guid(fe73d14489f153e4485e26243ed30d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Modern Liquor Cabinet.fbx using Guid(fe73d14489f153e4485e26243ed30d09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1cc8d23087c16a6852cc177435c224c9') in 0.0980527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/Soda Cans/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Meshes/SM_Aluminum_Can_01_Tab.fbx
+  artifactKey: Guid(6ba684b861bf7274ab05e3eb6ddfa15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Soda Cans/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Meshes/SM_Aluminum_Can_01_Tab.fbx using Guid(6ba684b861bf7274ab05e3eb6ddfa15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c35c53c13bd97b5af4014dd7b6b9c7be') in 0.0365225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Furniture_01.fbx
+  artifactKey: Guid(7a1dd57bd8b6ca44cbf5f922801b2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Furniture_01.fbx using Guid(7a1dd57bd8b6ca44cbf5f922801b2975) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24a42ee54569299ae326d0b002b7bd85') in 0.2514788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 379
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.240938 seconds.
+  path: Assets/FurnishedCabin/Meshes/BathroomSink.fbx
+  artifactKey: Guid(cdc73258ef2d5ee449fe6d18ccf0122f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/BathroomSink.fbx using Guid(cdc73258ef2d5ee449fe6d18ccf0122f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea595c891947b47d49241db1db059eea') in 0.048481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Furniture_02.fbx
+  artifactKey: Guid(95cac277c5a04ef43add167566755e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Apt_Furniture_02.fbx using Guid(95cac277c5a04ef43add167566755e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9607cdeb465778696656d1f96572ebd') in 0.1604556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 279
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Bell_A_Christmas.fbx
+  artifactKey: Guid(5882d2d371ac41d48ab7f6b90483ba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Bell_A_Christmas.fbx using Guid(5882d2d371ac41d48ab7f6b90483ba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d52775dec14ed985e79ef00791ad36b') in 0.0170454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FurnishedCabin/Meshes/BedroomSofa.fbx
+  artifactKey: Guid(aa28c890d9e8b5e449d701805e420020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FurnishedCabin/Meshes/BedroomSofa.fbx using Guid(aa28c890d9e8b5e449d701805e420020) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4943d67046a2b5f8ff2b456082bd46be') in 0.0212974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Bell_B_Christmas.fbx
+  artifactKey: Guid(5a21b678e26f87e41a83486c03486d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/Christmas/SM_Bell_B_Christmas.fbx using Guid(5a21b678e26f87e41a83486c03486d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '13096c5cbf50c1d656255cbda560ef0b') in 0.0147356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Models/BlinkVisual.fbx
+  artifactKey: Guid(27b7629e54b332449bfa3a4065ffe17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Models/BlinkVisual.fbx using Guid(27b7629e54b332449bfa3a4065ffe17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9205d79a5ef90efd40ea045f7d318be') in 0.0173331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Bathroom_Apt_01.fbx
+  artifactKey: Guid(651d77a525480c84e9327ec0894c0da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Bathroom_Apt_01.fbx using Guid(651d77a525480c84e9327ec0894c0da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3578bfd24bef5bebb06af142e262dc6') in 0.2286389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 290
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/kitchen props/models/bowl.fbx
+  artifactKey: Guid(d8c8787ffb0f3b5468fd65d51731b7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/kitchen props/models/bowl.fbx using Guid(d8c8787ffb0f3b5468fd65d51731b7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b1c53c22974e9a243f220443f4498c8') in 0.0225534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Bottle/Bottle 1_collider.fbx
+  artifactKey: Guid(0cea5fe9e1d991a4b963d5d177368563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Bottle/Bottle 1_collider.fbx using Guid(0cea5fe9e1d991a4b963d5d177368563) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9a86d3269c87b6345811970a2e231f2') in 0.017665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/People/Seasons People/SKM_Boy_Large_Christmas.fbx
+  artifactKey: Guid(14c584747ddfe034b9751463d2539273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/polyperfect/Poly Christmas/Meshes/People/Seasons People/SKM_Boy_Large_Christmas.fbx using Guid(14c584747ddfe034b9751463d2539273) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a430ee79dedd04166d64819196b54cb') in 0.0262934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 142
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CabinDecor/3Dfrk/Frames with pictures/Meshes/Paint.FBX
+  artifactKey: Guid(7ea765cb44447094ab0aef02257cb821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/3Dfrk/Frames with pictures/Meshes/Paint.FBX using Guid(7ea765cb44447094ab0aef02257cb821) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c39d5409111c4d04318c1b2218b5a8d1') in 0.0174902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/wine bottle 04_LP.fbx
+  artifactKey: Guid(dc3a1db86c73bb14f8ebd6e2953b7e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/wine bottle 04_LP.fbx using Guid(dc3a1db86c73bb14f8ebd6e2953b7e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c559d4056bc52bf2cc88e0bc8efab09') in 0.0298529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Bottle/Bottle 2 crumple.fbx
+  artifactKey: Guid(6bf946cac2f003b49a061db26e9e8097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Bottle/Bottle 2 crumple.fbx using Guid(6bf946cac2f003b49a061db26e9e8097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02dc22075fdb55803013ec146cbde092') in 0.048932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Bathroom_Corner_Tiles.fbx
+  artifactKey: Guid(d265ac661f1c8d64386d043a4b4b8f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Bathroom_Corner_Tiles.fbx using Guid(d265ac661f1c8d64386d043a4b4b8f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34b0ab0ae83c80705251a481e6ecff55') in 0.0284615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/BPS_RR.fbx
+  artifactKey: Guid(37d1da0067b60bd4282c0eaee639654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/BPS_RR.fbx using Guid(37d1da0067b60bd4282c0eaee639654e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f152f3b4d6a08c1d1e138ac1aa5f777') in 0.1757723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 244
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Bottle/Bottle 2_Collider.fbx
+  artifactKey: Guid(42cadf4a73ec6ba4590ea5b1892e5a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Bottle/Bottle 2_Collider.fbx using Guid(42cadf4a73ec6ba4590ea5b1892e5a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94479f55842d6eee4f01fe037381f2ec') in 0.0171581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster_Long.fbx
+  artifactKey: Guid(e51d3dbfe79e4c646bb30424a11f23a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Models/Primitive_Blaster_Long.fbx using Guid(e51d3dbfe79e4c646bb30424a11f23a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc6c34f8b7d2bcf5b9999e3779663e63') in 1.4869636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.139774 seconds.
+  path: Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Models/FFK_Structure_01.fbx
+  artifactKey: Guid(998a74e98fa05e04e9cb38382266449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Fast Food Restaurant Kit/Common/Models/FFK_Structure_01.fbx using Guid(998a74e98fa05e04e9cb38382266449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f70de52a63924ce3f5ee6c6cc30fcc0') in 0.1935411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 249
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.961243 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Models/UniversalController.fbx
+  artifactKey: Guid(147ae308eec018b40a7b312ae58f44c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/Models/UniversalController.fbx using Guid(147ae308eec018b40a7b312ae58f44c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0a99cc4286a2fc02e881b6b068687e7') in 0.9707306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.443878 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Ground mask/Ground mask.fbx
+  artifactKey: Guid(86cc60432c735e84883abedc6faad860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Ground mask/Ground mask.fbx using Guid(86cc60432c735e84883abedc6faad860) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7072ec2d69dc97d7051fd914fd376a42') in 0.0154215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.812811 seconds.
+  path: Assets/Scenes/BedroomScenes/FinalBedroom.unity
+  artifactKey: Guid(67173570b067d2c4697fca74215351a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/BedroomScenes/FinalBedroom.unity using Guid(67173570b067d2c4697fca74215351a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41bbfe6e679beafd3f41c1aed32fd815') in 0.1196634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.529990 seconds.
+  path: Assets/Scenes/BedroomScenes/MiddleBedroom.unity
+  artifactKey: Guid(3a7cd52d7603c1549982af5fe39d9739) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/BedroomScenes/MiddleBedroom.unity using Guid(3a7cd52d7603c1549982af5fe39d9739) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '621372e96464f0d98bd36468f6aa3f22') in 0.0189301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 437.232847 seconds.
+  path: Assets/Scenes/BedroomScenes/MiddleBedroom.unity
+  artifactKey: Guid(3a7cd52d7603c1549982af5fe39d9739) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/BedroomScenes/MiddleBedroom.unity using Guid(3a7cd52d7603c1549982af5fe39d9739) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3ca83954fbbd2161f77663449eda7d4') in 0.0154208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.070003 seconds.
+  path: Assets/Scenes/BedroomScenes/FinalBedroom.unity
+  artifactKey: Guid(67173570b067d2c4697fca74215351a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/BedroomScenes/FinalBedroom.unity using Guid(67173570b067d2c4697fca74215351a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8940cecebad88279b926cceb983cfaa') in 0.0110233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.192777 seconds.
+  path: Assets/Scenes/BedroomScenes/MiddleBedroom.unity
+  artifactKey: Guid(3a7cd52d7603c1549982af5fe39d9739) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/BedroomScenes/MiddleBedroom.unity using Guid(3a7cd52d7603c1549982af5fe39d9739) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4197b051717c439527bb1df61ffeb37') in 0.0117083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 291.686023 seconds.
+  path: Assets/Scenes/BedroomScenes/FinalBedroom.unity
+  artifactKey: Guid(67173570b067d2c4697fca74215351a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/BedroomScenes/FinalBedroom.unity using Guid(67173570b067d2c4697fca74215351a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b803939a77937a763edfd44a83c5e7ca') in 0.0122994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 202.616116 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Pizza box
+  artifactKey: Guid(3e8c88c99b831a9468c1dee5084b421a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Pizza box using Guid(3e8c88c99b831a9468c1dee5084b421a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8a6e2b5bfbcc382bcef7dbed3c18861') in 0.0006063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032615 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Pizza box/Pizza box 1.prefab
+  artifactKey: Guid(7e2f879184dbcd04a88fb963ef472f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Pizza box/Pizza box 1.prefab using Guid(7e2f879184dbcd04a88fb963ef472f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a2d219b1725707a4f6be406c4fae95c') in 1.0068335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Pizza box/Pizza box crumple 2.prefab
+  artifactKey: Guid(32ad073477ad6a0408307423b0b3136c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Pizza box/Pizza box crumple 2.prefab using Guid(32ad073477ad6a0408307423b0b3136c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2eaaaee53224aca0d2229aab5a34d57c') in 0.0157872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 71
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.174143 seconds.
+  path: Assets/Scenes/BedroomScenes/FinalBedroom.unity
+  artifactKey: Guid(67173570b067d2c4697fca74215351a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/BedroomScenes/FinalBedroom.unity using Guid(67173570b067d2c4697fca74215351a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9ac4bec2ebf87da1d7af2fb804f2bda') in 0.0135256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 7.55 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8000 unused Assets / (9.1 MB). Loaded Objects now: 8986.
+Memory consumption went from 178.1 MB to 169.0 MB.
+Total: 14.208700 ms (FindLiveObjects: 0.637700 ms CreateObjectMapping: 0.269000 ms MarkObjects: 9.730100 ms  DeleteObjects: 3.570700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 61.387886 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash bin 2
+  artifactKey: Guid(45a9bc06711351848b50ab216c81cd48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash bin 2 using Guid(45a9bc06711351848b50ab216c81cd48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfd81341328400c74af853983667bb89') in 0.0238076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs
+  artifactKey: Guid(0d3b6f53f3b9451458ac88805c9d7e14) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs using Guid(0d3b6f53f3b9451458ac88805c9d7e14) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5cca766d9f403aef80858fffdbb9813') in 0.0094677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Ground mask/4/Ground mask_D4_Emissive.png
+  artifactKey: Guid(6639a0846561531489fa2400b6f8e324) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Ground mask/4/Ground mask_D4_Emissive.png using Guid(6639a0846561531489fa2400b6f8e324) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: 'b5aaf307020cab3fc3768d435064e5c5') in 0.0500942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Garbage/Pizza box
+  artifactKey: Guid(15fa6ba20188cef4c8407b5985f8b82e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Garbage/Pizza box using Guid(15fa6ba20188cef4c8407b5985f8b82e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af851dfe26d4cb4761d212a0db10be95') in 0.0102419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Canned/Food/Canned food 2 crumple.prefab
+  artifactKey: Guid(8c50aa0201166f446b70cca20191fc7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Canned/Food/Canned food 2 crumple.prefab using Guid(8c50aa0201166f446b70cca20191fc7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34ab239e91e43367cd238d2801bc6ab3') in 0.0272383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Trash bin 2/Trash bin 2.fbx
+  artifactKey: Guid(87d3d3c3eea3f4c4a9020064eb4364e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Trash bin 2/Trash bin 2.fbx using Guid(87d3d3c3eea3f4c4a9020064eb4364e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ed87bcf9cb6ef9a83001a89fecbbaa9d') in 0.0418011 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Garbage/Bottle/Bottle 1
+  artifactKey: Guid(530c28bab686dae4b8695ec5171d96dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Garbage/Bottle/Bottle 1 using Guid(530c28bab686dae4b8695ec5171d96dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c25dff05de50b9e3a9cf7a425ae5511') in 0.0104084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Soda can 1/D/Soda can 1_D_Metalic.png
+  artifactKey: Guid(687e7524e33c45c49bf5cb1f474098b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Soda can 1/D/Soda can 1_D_Metalic.png using Guid(687e7524e33c45c49bf5cb1f474098b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ce8f776bc1de3f48fe40d04e24cdc1e') in 0.0139543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Garbage/Brick 2
+  artifactKey: Guid(2ef00de03fb3b5849bce6057c23d1246) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Garbage/Brick 2 using Guid(2ef00de03fb3b5849bce6057c23d1246) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '868e7c273755e3f24d112ba53f2c66a6') in 0.0104616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Trash bin 2
+  artifactKey: Guid(adca47c9b5cb3434a93b06f297f013b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Trash bin 2 using Guid(adca47c9b5cb3434a93b06f297f013b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76890177815354aaeb68e7e32ea79549') in 0.0104325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash box 1/Orange
+  artifactKey: Guid(4dbd885cf32bae145b57ffd28b3cbd46) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash box 1/Orange using Guid(4dbd885cf32bae145b57ffd28b3cbd46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '064ff1f6a6bd7b1f5a00bd773f6e4123') in 0.0202859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Scenes
+  artifactKey: Guid(9c53962885c2c4f449125a979d6ad240) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Scenes using Guid(9c53962885c2c4f449125a979d6ad240) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00e3d354282b1dedd052580c93450cbe') in 0.0107195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Pizza box/Pizza box 1.prefab
+  artifactKey: Guid(7e2f879184dbcd04a88fb963ef472f8f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Pizza box/Pizza box 1.prefab using Guid(7e2f879184dbcd04a88fb963ef472f8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a7ddac9e2024b2f9a4b92eeefdc5c9d') in 0.0163744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 47
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Color spray/Color spray black.prefab
+  artifactKey: Guid(0f245c84d812a384e897368a20da66b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Color spray/Color spray black.prefab using Guid(0f245c84d812a384e897368a20da66b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '244947eb7e3718f80d4736eb12526575') in 0.0127551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 1/c/Bottle 1_C_Emissive.png
+  artifactKey: Guid(4d2da3635ade11440a8ab34b69c9cf78) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 1/c/Bottle 1_C_Emissive.png using Guid(4d2da3635ade11440a8ab34b69c9cf78) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4ba36b56fe23587678204ad6b5eda0a') in 0.0157757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Canned food 1/1/Canned food_D_Normal.png
+  artifactKey: Guid(6d2fd94517ab8b440b1666c4aee6f5ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Canned food 1/1/Canned food_D_Normal.png using Guid(6d2fd94517ab8b440b1666c4aee6f5ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31da03ff76bc674bd58ef1908e13f3a6') in 0.0157834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage
+  artifactKey: Guid(8151c302785eada4da0163cfe616801c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage using Guid(8151c302785eada4da0163cfe616801c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89d4e6bdcbfec815234b97b44e50d472') in 0.0096603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Garbage/Ground mask
+  artifactKey: Guid(2926ef2bf53039f4cb379a542ee1ae75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Garbage/Ground mask using Guid(2926ef2bf53039f4cb379a542ee1ae75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f663cc5e2d13f8d32e69671f093ae09') in 0.009188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Recycle bin
+  artifactKey: Guid(ce28d92f5ee0b9b4494d9feb92bccf60) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Recycle bin using Guid(ce28d92f5ee0b9b4494d9feb92bccf60) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '918481cb07f60ea109d787ee6fec4292') in 0.0089077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash bag
+  artifactKey: Guid(b00131aeb7fad1741afba3775cd8146b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash bag using Guid(b00131aeb7fad1741afba3775cd8146b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9a87decc4a74e7571a499ca66d844f0') in 0.0086908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash bag/1/Trash bag 1 clean green mat.mat
+  artifactKey: Guid(53d1a2917290e5240a2343aec359e127) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash bag/1/Trash bag 1 clean green mat.mat using Guid(53d1a2917290e5240a2343aec359e127) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2269681a8dc673cdaace9031351c9a3d') in 0.0196817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash bag/1/Trash bag 1 clean blue mat.mat
+  artifactKey: Guid(300d9520629cca54d9b26d5ee61e0d40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash bag/1/Trash bag 1 clean blue mat.mat using Guid(300d9520629cca54d9b26d5ee61e0d40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92617007851b1836f8bb80fa3e97a398') in 0.0160604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Gallon/Gallon 2 metal.prefab
+  artifactKey: Guid(037bf6100e83cf64daa22c2707de0abf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Gallon/Gallon 2 metal.prefab using Guid(037bf6100e83cf64daa22c2707de0abf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce6575e80608e0d8eb4af51c7f3794cd') in 0.0107324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 1/c/Bottle 1_C_AmbientOcclusion.png
+  artifactKey: Guid(ad780135aed13264691661647b68ab38) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 1/c/Bottle 1_C_AmbientOcclusion.png using Guid(ad780135aed13264691661647b68ab38) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69969dc75576ed67876fb4a01a742879') in 0.0134316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 2/d/Bottle 2_Body_D_Emissive.png
+  artifactKey: Guid(b93d0aa014c102041befcee20a34a2ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 2/d/Bottle 2_Body_D_Emissive.png using Guid(b93d0aa014c102041befcee20a34a2ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3999447c02ae77e218ff20cd067d93bb') in 0.0127815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Board/Wood board 1/D
+  artifactKey: Guid(9b431da2da8f5f343989e1abbc737b3d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Board/Wood board 1/D using Guid(9b431da2da8f5f343989e1abbc737b3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c52053ef5515e66d69eb836c3474746') in 0.0088697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Canned food 1/2
+  artifactKey: Guid(579c06b851b45844ab89f4ce5a78c3a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Canned food 1/2 using Guid(579c06b851b45844ab89f4ce5a78c3a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69238d088f2de2349fb200d1fed59639') in 0.0086065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Garbage/Color spray
+  artifactKey: Guid(771bbaf0271443142894f2dccc82d4f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Garbage/Color spray using Guid(771bbaf0271443142894f2dccc82d4f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45e740e5aa59bc8b89277eaa45240590') in 0.0079779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Bottles/1
+  artifactKey: Guid(6fe7decd43b83d645a9f813b69bfea4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Bottles/1 using Guid(6fe7decd43b83d645a9f813b69bfea4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e36b852f751107426081110183b730d') in 0.0095575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Pizza box/01
+  artifactKey: Guid(cb5f14e7ef4d54641a1d53a59050ac0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Pizza box/01 using Guid(cb5f14e7ef4d54641a1d53a59050ac0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e3bceebeeb4ebe99a9def4a1cfd4441') in 0.0118122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Canned food 1/2/Canned food_R_Emissive.png
+  artifactKey: Guid(a2b0dfa04fb87f4438365e63a49f9d9d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Canned food 1/2/Canned food_R_Emissive.png using Guid(a2b0dfa04fb87f4438365e63a49f9d9d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca5f7938b03bfdc425916ceeb132579b') in 0.0119135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Froots/Orange/M
+  artifactKey: Guid(2055e6006f424184cb65b08effb87c87) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Froots/Orange/M using Guid(2055e6006f424184cb65b08effb87c87) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7da026f3ffdef20e4ba3b8f7a7b1b23a') in 0.0098969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Recycle cardboard/Closed/Type 2/Recycle cardboard closed_Dirt_Metalic.png
+  artifactKey: Guid(b49ba823e6b787b4e854803e1c54294d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Recycle cardboard/Closed/Type 2/Recycle cardboard closed_Dirt_Metalic.png using Guid(b49ba823e6b787b4e854803e1c54294d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2f9085e4766c06215dfd41e90de1ab48') in 0.0141504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bag 1/Clean/Trash bag 1_C_Normal.png
+  artifactKey: Guid(e9b07395efd84e4499e325fe0f7307ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bag 1/Clean/Trash bag 1_C_Normal.png using Guid(e9b07395efd84e4499e325fe0f7307ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40fbe1588d179ca0d37b4dc3a2e7cef1') in 0.0184294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Ground mask/2/Ground mask_D2_AmbientOcclusion.png
+  artifactKey: Guid(3cbdc1c57a9afcc43a1db2bb2a7acbe5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Ground mask/2/Ground mask_D2_AmbientOcclusion.png using Guid(3cbdc1c57a9afcc43a1db2bb2a7acbe5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5908137b819f73a384e12d252f5382af') in 0.0123404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Trash bags
+  artifactKey: Guid(1ad3861f624141441ba2087c49605c9d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Trash bags using Guid(1ad3861f624141441ba2087c49605c9d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'acff0d4b1f6dc8950068db1768c27988') in 0.00955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Ground mask/Ground mask 4.prefab
+  artifactKey: Guid(4ba55d22a5f30554ea2b93d1c6824611) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Ground mask/Ground mask 4.prefab using Guid(4ba55d22a5f30554ea2b93d1c6824611) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e9a5585cb702fa6d795f3c432f1c3d5') in 0.0124298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bag 1/Clean/Trash bag 1_C_Black_Albedo.png
+  artifactKey: Guid(c9a3b7c377bd9d94da4e23777fb26131) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bag 1/Clean/Trash bag 1_C_Black_Albedo.png using Guid(c9a3b7c377bd9d94da4e23777fb26131) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '215279068a566b9e17c3646f55f8fc23') in 0.0138531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Bricks
+  artifactKey: Guid(411ec58d85b5f204f864347e8a9c58a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Bricks using Guid(411ec58d85b5f204f864347e8a9c58a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc0c370b3340c4b632ddb9bbe83b8040') in 0.0089537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash box 1/Trash cap Orange mat.mat
+  artifactKey: Guid(6db58b26590acd9489325168e5137f4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash box 1/Trash cap Orange mat.mat using Guid(6db58b26590acd9489325168e5137f4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79e31349ebd11240b60ba0f04311d933') in 0.017052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Trash box 1
+  artifactKey: Guid(be3da0c51bfd7a644bbbc061421ca668) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Trash box 1 using Guid(be3da0c51bfd7a644bbbc061421ca668) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ba6804b43d44c8100c8a70b3dbfb73a') in 0.0092636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash box 1/Green/Trash box_Cap_G_Albedo.png
+  artifactKey: Guid(0dfedc36a7327ed4c91622bcd16693fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash box 1/Green/Trash box_Cap_G_Albedo.png using Guid(0dfedc36a7327ed4c91622bcd16693fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef52f20a43e3741305ee945f5f64423d') in 0.0140358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Soda can 1/D
+  artifactKey: Guid(b6020c581adc1b34aae512f7ff5b0fc6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Soda can 1/D using Guid(b6020c581adc1b34aae512f7ff5b0fc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc154e86915c09fc221aadc229cf5685') in 0.0079359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Garbage/Wood board
+  artifactKey: Guid(27636eb2739292b479d075fb73812c45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Garbage/Wood board using Guid(27636eb2739292b479d075fb73812c45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a440dc12543735404d541ce99873095d') in 0.008518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Garbage/Color spray/Color spray red mat.mat
+  artifactKey: Guid(688365c3841553a428951a000a104d36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Garbage/Color spray/Color spray red mat.mat using Guid(688365c3841553a428951a000a104d36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '220b7459364d479b870eb78366ee5ba8') in 0.0169949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bag 1/Dirt/Trash bag 1_Dirt_Metalic.png
+  artifactKey: Guid(c6b97b2040af52646a859aee244133f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bag 1/Dirt/Trash bag 1_Dirt_Metalic.png using Guid(c6b97b2040af52646a859aee244133f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '366d12e95730c59a665ca3911a39f6a5') in 0.0139572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Garbage/Gallon/Gallon 20L mat.mat
+  artifactKey: Guid(c57ce0c4270421f4eae84811b1a2fcb8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Garbage/Gallon/Gallon 20L mat.mat using Guid(c57ce0c4270421f4eae84811b1a2fcb8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02e15043d9303b82bf016310a5c247b8') in 0.0182888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Scenes/Demo Lighting Settings.lighting
+  artifactKey: Guid(74950ad439f2d654e9e4e520c55164b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Scenes/Demo Lighting Settings.lighting using Guid(74950ad439f2d654e9e4e520c55164b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3fa864acde1b5d3fe1b88c710c00021') in 0.0128073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Render Room/Room 1.prefab
+  artifactKey: Guid(176d0b55b7a4c2045aec6b82a0afb87f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Render Room/Room 1.prefab using Guid(176d0b55b7a4c2045aec6b82a0afb87f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e0df270276c2c081e570fb03f7638e7') in 0.0101322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bag 1/Clean/Trash bag 1_C_Emissive.png
+  artifactKey: Guid(3687fb47f4361ac40bbd0d3a351a5f05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bag 1/Clean/Trash bag 1_C_Emissive.png using Guid(3687fb47f4361ac40bbd0d3a351a5f05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ec5a7cf99186ff7d543ae1f7ce22d2c') in 0.0133042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Recycle bin/Recycle 1 bin green.prefab
+  artifactKey: Guid(0aaf56960c9ea8f43a70fe601021eaf7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Recycle bin/Recycle 1 bin green.prefab using Guid(0aaf56960c9ea8f43a70fe601021eaf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4540d56262e50d7af2a4dbec2c0f9315') in 0.0121589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Room mat.mat
+  artifactKey: Guid(cab09b9602deb5d41babb0ba4b58f4d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Room mat.mat using Guid(cab09b9602deb5d41babb0ba4b58f4d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a096d3c1c7b4ca0a16b41f3b36167086') in 0.012891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bag 1/Clean/Trash bag 1_C_AmbientOcclusion.png
+  artifactKey: Guid(b43e6bd646200a64d89d67175b4d0fad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bag 1/Clean/Trash bag 1_C_AmbientOcclusion.png using Guid(b43e6bd646200a64d89d67175b4d0fad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3a33b756f10acacea2951a7b97f368b') in 0.0148495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Recycle cardboard/Closed/Type 1/Recycle cardboard closed_Recycle_Metalic.png
+  artifactKey: Guid(47d5c53661cae8d4da7f5df31df7c60e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Recycle cardboard/Closed/Type 1/Recycle cardboard closed_Recycle_Metalic.png using Guid(47d5c53661cae8d4da7f5df31df7c60e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '095580f477939f3174b36c5b9bbc91e3') in 0.0155729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash bag/1/Trash bag 1 dirt green mat.mat
+  artifactKey: Guid(e60744d28ef799e49aa7fc74fc6e62ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash bag/1/Trash bag 1 dirt green mat.mat using Guid(e60744d28ef799e49aa7fc74fc6e62ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c92485a793851d378c02c5558c7f531a') in 0.0177086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Wood board/Wood board 1.prefab
+  artifactKey: Guid(2a9881614c96e1246b3a5b109037398f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Wood board/Wood board 1.prefab using Guid(2a9881614c96e1246b3a5b109037398f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae11e5cfd97211eff5641783c237a228') in 0.0124556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Color spray/Pianted
+  artifactKey: Guid(9086cff879afe4543b1572955bba4012) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Color spray/Pianted using Guid(9086cff879afe4543b1572955bba4012) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd6d122357f5116dd88e6b0d652cec63') in 0.011233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 1/d
+  artifactKey: Guid(8f313bf9cd6b51848b0d26a11de7ec22) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 1/d using Guid(8f313bf9cd6b51848b0d26a11de7ec22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ebfc5fad34edab2f2732c08acb04e385') in 0.0120238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Gallon
+  artifactKey: Guid(1094b2934ea3ba04b81a9c74da610e1a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Gallon using Guid(1094b2934ea3ba04b81a9c74da610e1a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '311c8c777c37eea98e0375e3e6260682') in 0.0098149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash bin 1
+  artifactKey: Guid(ca7086400732ce644a750503da76ab0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash bin 1 using Guid(ca7086400732ce644a750503da76ab0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88a6c895d23902322877b28f66b7e8c4') in 0.0111715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Color spray/Color spray_collider.prefab
+  artifactKey: Guid(ea759732b27b305468b0cc0c0571c36a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Color spray/Color spray_collider.prefab using Guid(ea759732b27b305468b0cc0c0571c36a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e72a901869d09097ed26f852ab6e310') in 0.0134421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Garbage/Canned/Paint can/Paint can_collider.fbx
+  artifactKey: Guid(841f5576884c0f04594adaf630346ec2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Garbage/Canned/Paint can/Paint can_collider.fbx using Guid(841f5576884c0f04594adaf630346ec2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5f20895d642a44242953321c4de4052') in 0.0196333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bag 1/Dirt/Trash bag 1_Dirt_orange_Albedo.png
+  artifactKey: Guid(e59412e4a35763847b35c7fc74bdce40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bag 1/Dirt/Trash bag 1_Dirt_orange_Albedo.png using Guid(e59412e4a35763847b35c7fc74bdce40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b4693e6762f8802996014da28f51119') in 0.016214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Lightis/Blue Light mat.mat
+  artifactKey: Guid(8c09fec7aaed03d46b75380c221f7838) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Lightis/Blue Light mat.mat using Guid(8c09fec7aaed03d46b75380c221f7838) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31fe8a735dd96e0492e5b414ce6e0d09') in 0.0144616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Canned/Paint/Paint can crumple Green.prefab
+  artifactKey: Guid(82eabe7732febf54ca7214e749da5005) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Canned/Paint/Paint can crumple Green.prefab using Guid(82eabe7732febf54ca7214e749da5005) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d4a5a79af921c73746fdab5c945a965') in 0.0151124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Garbage/Board/Wood boar/Wood board 2.fbx
+  artifactKey: Guid(849bd357b40bd5246826a74cf1ff10f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Garbage/Board/Wood boar/Wood board 2.fbx using Guid(849bd357b40bd5246826a74cf1ff10f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a4ebc1293693708bbdf1f48bb18b7fb') in 0.0200884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Bottles/2/Bottle 2 dirt.prefab
+  artifactKey: Guid(346f50f778225bf429d2ef569e6a1fe7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Bottles/2/Bottle 2 dirt.prefab using Guid(346f50f778225bf429d2ef569e6a1fe7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45cca5327305b48e61e014cee902c728') in 0.0139977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 84
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Color spray/Color spray red.prefab
+  artifactKey: Guid(590aad872f0436c4781d560b628020b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Color spray/Color spray red.prefab using Guid(590aad872f0436c4781d560b628020b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ceb4cdf9e6f9405c6fd7aeb57db95f3') in 0.0172968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Canned food 2
+  artifactKey: Guid(89ef024e29b0e1d4f9acad7c4bd4ba13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Canned food 2 using Guid(89ef024e29b0e1d4f9acad7c4bd4ba13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5534bcdf11bbc25a481fe6b8ddeb02bb') in 0.0118046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 2/c/Bottle 2_Cap_C_AmbientOcclusion.png
+  artifactKey: Guid(d1d0764152363d441abe9d448bdf0b46) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 2/c/Bottle 2_Cap_C_AmbientOcclusion.png using Guid(d1d0764152363d441abe9d448bdf0b46) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01fb90cbff8b17ed4183f28cdcaea6bc') in 0.018472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Recycle bin/Recycle bin_UV.png
+  artifactKey: Guid(69f6f7079a45f0947bbbd7d200970297) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Recycle bin/Recycle bin_UV.png using Guid(69f6f7079a45f0947bbbd7d200970297) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb43693110c556e104bf522f5305f5c3') in 0.0173426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Garbage/Board
+  artifactKey: Guid(860316c6b1aca80499a96a20bc8256d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Garbage/Board using Guid(860316c6b1aca80499a96a20bc8256d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b3612531bbfa41d92ca9069cb0141fa') in 0.0113707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Bricks/Brick 2 custmo 1.prefab
+  artifactKey: Guid(7738a055d51e0844386478d04db0845a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Bricks/Brick 2 custmo 1.prefab using Guid(7738a055d51e0844386478d04db0845a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7e917d6daa14547cf775a91cf8d7f5f') in 0.0124369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Bricks/Brocken brick 1 custom 2.prefab
+  artifactKey: Guid(90255236d7ae58c46ac0e8e04d8443e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Bricks/Brocken brick 1 custom 2.prefab using Guid(90255236d7ae58c46ac0e8e04d8443e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2f02760046b266d2ecf4f4b999f4e1d') in 0.0097287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Trash bin 1/Trash bin 1_Collider.prefab
+  artifactKey: Guid(0531bc109cd771e468c0222e11565108) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Trash bin 1/Trash bin 1_Collider.prefab using Guid(0531bc109cd771e468c0222e11565108) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b1f5d7e52d4be6f445b5e1c06b75ca6') in 0.0100094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash box 1/Trash box AL mat.mat
+  artifactKey: Guid(13860b83c2c6d7243a11b5ac0449f05b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash box 1/Trash box AL mat.mat using Guid(13860b83c2c6d7243a11b5ac0449f05b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8dc636e99ab80ac5fc155fdbece95aa8') in 0.0207497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash box 2/Aluminum/Trash can 2_Box_Emissive.png
+  artifactKey: Guid(df0552787c4f4ab4fa5b22cf6ed2e59d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash box 2/Aluminum/Trash can 2_Box_Emissive.png using Guid(df0552787c4f4ab4fa5b22cf6ed2e59d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc3238d902343289c861e98af8105e22') in 0.0142804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Trash bin 2/Trash bin smooth 2 Machinery.prefab
+  artifactKey: Guid(c6806038bf6556c4491f809d57caf833) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Trash bin 2/Trash bin smooth 2 Machinery.prefab using Guid(c6806038bf6556c4491f809d57caf833) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '62eb66a7cc55c83542ecca4f1be7058e') in 0.0134233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Brick 2/Brick 2_D_AmbientOcclusion.png
+  artifactKey: Guid(799a404813c6f4443b3d3f971297d845) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Brick 2/Brick 2_D_AmbientOcclusion.png using Guid(799a404813c6f4443b3d3f971297d845) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf406e06cb43386421f6fd9eef4a1d42') in 0.0226906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bin 2/Machinery/Trash bin 2_M_AmbientOcclusion.png
+  artifactKey: Guid(812f49a88a40ae045951a2a920eaafe5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bin 2/Machinery/Trash bin 2_M_AmbientOcclusion.png using Guid(812f49a88a40ae045951a2a920eaafe5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9dab6a851057acff3de28e7ef879392') in 0.0187626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Recycle bin/Recycle bin_D_Emissive.png
+  artifactKey: Guid(0848cdb8e355ce54d8ba3936d2a39876) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Recycle bin/Recycle bin_D_Emissive.png using Guid(0848cdb8e355ce54d8ba3936d2a39876) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '680eb5df9d014feacb15601e2d2a981b') in 0.0142956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash bin 2/Trash bin 2 Wood mat.mat
+  artifactKey: Guid(fb83b1981ecd6a24aa02503c6c8f0d67) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash bin 2/Trash bin 2 Wood mat.mat using Guid(fb83b1981ecd6a24aa02503c6c8f0d67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f8de9619b5aa6e5b33672ce7e15a560') in 0.0188167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bag 1/Clean
+  artifactKey: Guid(df34847e5caf93e4f90354eeacd0aacf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bag 1/Clean using Guid(df34847e5caf93e4f90354eeacd0aacf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3eaea7b8f9a235b010d336723b1a1f2') in 0.0083758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Trash bin 2/Trash bin 2.prefab
+  artifactKey: Guid(d3e44f22260f91c4e8f38da595ee6056) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Trash bin 2/Trash bin 2.prefab using Guid(d3e44f22260f91c4e8f38da595ee6056) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '106e1fbf9ef827ed674f729126aa4c1c') in 0.0119682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Recycle bin/Recycle bin_Red_Albedo.png
+  artifactKey: Guid(b9306617624e7ac4980ba3a742e5b63a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Recycle bin/Recycle bin_Red_Albedo.png using Guid(b9306617624e7ac4980ba3a742e5b63a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36ce783ec338670c4c13ce993bb5d176') in 0.0127777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Trash box 2
+  artifactKey: Guid(b5347eecbb8836a43915750b317766c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Trash box 2 using Guid(b5347eecbb8836a43915750b317766c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac50de20cf797c3640c304d511cd1518') in 0.008429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Paint can/1/Paint can_D_Height.png
+  artifactKey: Guid(96bc8a558858cc445a61a257b247c47f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Paint can/1/Paint can_D_Height.png using Guid(96bc8a558858cc445a61a257b247c47f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5af3d17c5d7796dc45a50e72182cfb46') in 0.0136742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Paint can
+  artifactKey: Guid(8bc97d8b39bb443428fb9abe4a480b89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Paint can using Guid(8bc97d8b39bb443428fb9abe4a480b89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '574b1ce42f4fa7f6221bd76370070ea0') in 0.0078979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Brick 1/Brick 1_D_Normal.png
+  artifactKey: Guid(34bfc970b50b8f94ebb29baa38a0c351) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Brick 1/Brick 1_D_Normal.png using Guid(34bfc970b50b8f94ebb29baa38a0c351) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e48a4025d7969b3ebfa5ac8d5763983') in 0.0144862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Recycle cardboard/Crumpled cardboard Closed Type 2.prefab
+  artifactKey: Guid(8da42a29503058844b50f4a968a19aac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Recycle cardboard/Crumpled cardboard Closed Type 2.prefab using Guid(8da42a29503058844b50f4a968a19aac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9bd6d590cf2f317595e5c2eca03da5d') in 0.0120207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bin 1/Orange/Trash bin 1_O_Height.png
+  artifactKey: Guid(9aea2869b8498824ea36cee2d9d9509b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bin 1/Orange/Trash bin 1_O_Height.png using Guid(9aea2869b8498824ea36cee2d9d9509b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2aea59c5544709c174cbe8d5ad57912e') in 0.0192595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Brick 2/Brick 2_C2_Albedo.png
+  artifactKey: Guid(058df5d8f1499794a8b5af2a75587ca1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Brick 2/Brick 2_C2_Albedo.png using Guid(058df5d8f1499794a8b5af2a75587ca1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1451b9149b4e7e8d319c01b26bbf7f7f') in 0.015273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash box 1/Trash box Orange mat.mat
+  artifactKey: Guid(507cfe88827cf5340bbcf7f6382a99da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash box 1/Trash box Orange mat.mat using Guid(507cfe88827cf5340bbcf7f6382a99da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9da0623a4dd763dbb6073fcbd4e0f820') in 0.013903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Garbage/Canned/Canned food/Canned food 2 crumple.fbx
+  artifactKey: Guid(0960dff34d3becc47b997b501854c0fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Garbage/Canned/Canned food/Canned food 2 crumple.fbx using Guid(0960dff34d3becc47b997b501854c0fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eb2c9feb6feea1b959fdffdfbb0b6482') in 0.0138005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Soda can 1/D/Soda can 1_D_Height.png
+  artifactKey: Guid(f26eb1d7dc244d04a89755c0b81e81ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Soda can 1/D/Soda can 1_D_Height.png using Guid(f26eb1d7dc244d04a89755c0b81e81ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '875d54780151909d3e1f52011df55a63') in 0.0122064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Paint can/1/Paint can_Orange_Albedo.png
+  artifactKey: Guid(38c89b8792d985844ad0433be707e539) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Paint can/1/Paint can_Orange_Albedo.png using Guid(38c89b8792d985844ad0433be707e539) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e8124238ea24564cb8391be9c46e6f3') in 0.0139917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash box 1/Aluminum/Trash box_Box_Emissive.png
+  artifactKey: Guid(c81b5f8150e502a46a05796334c085ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash box 1/Aluminum/Trash box_Box_Emissive.png using Guid(c81b5f8150e502a46a05796334c085ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5fff86c0319f652cf013b9c297b6b50') in 0.0137818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Board/Wood board 1/painted/Wood board 1_C_Height.png
+  artifactKey: Guid(453158c1e2238084285fcb2a8c714e96) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Board/Wood board 1/painted/Wood board 1_C_Height.png using Guid(453158c1e2238084285fcb2a8c714e96) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4947e9bf28ebed18ce682071bf21fea8') in 0.0145052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Ground mask/2/Ground mask_D2_Emissive.png
+  artifactKey: Guid(d336fd485afe50b47862dea07f565850) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Ground mask/2/Ground mask_D2_Emissive.png using Guid(d336fd485afe50b47862dea07f565850) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7670edc9ec1a5830d936714ac7eac1a9') in 0.0141361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Trash box 2/Trash box 2_Collider.fbx
+  artifactKey: Guid(7a3577975bdc44a45b65e8d0fcd8d063) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Trash box 2/Trash box 2_Collider.fbx using Guid(7a3577975bdc44a45b65e8d0fcd8d063) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9643eee44149fe39d77c0b78f75bafb7') in 0.0133727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Pizza box/02
+  artifactKey: Guid(d2550216b188e5649aebf59a252d8aba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Pizza box/02 using Guid(d2550216b188e5649aebf59a252d8aba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2a94e8949025f2d9723d35393d25b355') in 0.0088192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Recycle cardboard/Open/Recycle cardboard open_Albedo.png
+  artifactKey: Guid(cdb1ee07bc2123b4a959d0278e0e0063) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Recycle cardboard/Open/Recycle cardboard open_Albedo.png using Guid(cdb1ee07bc2123b4a959d0278e0e0063) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d603a8feabafc703a19a0f211f9b191') in 0.0140061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Recycle cardboard
+  artifactKey: Guid(3205d59b78841fc4d979d52922e7b966) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Recycle cardboard using Guid(3205d59b78841fc4d979d52922e7b966) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '66b4d3cc76fc33facfe95c455ee92f5b') in 0.008657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Garbage/Color spray/Color spray orange mat.mat
+  artifactKey: Guid(d30afc99b343e7d44a42e01321001ef8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Garbage/Color spray/Color spray orange mat.mat using Guid(d30afc99b343e7d44a42e01321001ef8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '480638bd832667e38c565eb93048f4da') in 0.0163433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Ground mask/Ground mask 2.prefab
+  artifactKey: Guid(0d6aa8a9562c4c546affa9fbd29dc7e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Ground mask/Ground mask 2.prefab using Guid(0d6aa8a9562c4c546affa9fbd29dc7e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6a5b366330b8fb040f4b027f3a0c452c') in 0.0132769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Ground mask/4/Ground mask_D4_AmbientOcclusion.png
+  artifactKey: Guid(81d1c9990614fa445a68c2fbdb06cbc1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Ground mask/4/Ground mask_D4_AmbientOcclusion.png using Guid(81d1c9990614fa445a68c2fbdb06cbc1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11142ea90105a737fd772d94c4e47f02') in 0.0195488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Ground mask/1/Ground mask_D_Albedo.png
+  artifactKey: Guid(9f0ffa99c05e02341811b74c1ba2049a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Ground mask/1/Ground mask_D_Albedo.png using Guid(9f0ffa99c05e02341811b74c1ba2049a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd21cc932acf40f09d8267a07c5422ea1') in 0.0196689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Color spray/Pianted/Color spray_Green_Albedo.png
+  artifactKey: Guid(8fce35c58de0f1a4e92c373ddfbeb529) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Color spray/Pianted/Color spray_Green_Albedo.png using Guid(8fce35c58de0f1a4e92c373ddfbeb529) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a51b9e28025f86ad6bf0bd7c720cd228') in 0.0144431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Recycle bin/Recycle 1 bin red.prefab
+  artifactKey: Guid(80f269f2b490391439c50286382d8e97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Recycle bin/Recycle 1 bin red.prefab using Guid(80f269f2b490391439c50286382d8e97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ed1838cbe22f5ff0ba59d57687aa981') in 0.0113933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Soda can 1/C/Soda can 1_C_Blue_Albedo.png
+  artifactKey: Guid(133e16f66c0efb142a8a93eb037911f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Canned/Soda can 1/C/Soda can 1_C_Blue_Albedo.png using Guid(133e16f66c0efb142a8a93eb037911f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '897c9bc54bb03ff31d1737304fd3ceed') in 0.0146944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bag 1/Dirt
+  artifactKey: Guid(d8d511b59c251074193cd5ff23613363) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bag 1/Dirt using Guid(d8d511b59c251074193cd5ff23613363) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56a7dbfb39a6389533eea0d74f9234c4') in 0.0087414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Color spray/Pianted/Color spray_P_Metalic.png
+  artifactKey: Guid(bcd6a9c151e94e348ab4adb7a1568ce7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Color spray/Pianted/Color spray_P_Metalic.png using Guid(bcd6a9c151e94e348ab4adb7a1568ce7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7693cc7809dc0fc38fd414667a6c31bc') in 0.014592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Bricks/Brick 2 custmo 2.prefab
+  artifactKey: Guid(b407c4746f94b334fa28df0c4b3e09c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Bricks/Brick 2 custmo 2.prefab using Guid(b407c4746f94b334fa28df0c4b3e09c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10ac613f6b3c7e468904c48994e3bca3') in 0.0113903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Color spray
+  artifactKey: Guid(4583c1ce106951e499a9db9a526c3e2e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Color spray using Guid(4583c1ce106951e499a9db9a526c3e2e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1db4d809d836f0859cf41143a4c331f1') in 0.0102425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Ground mask/4/Ground mask_D4_Metalic.png
+  artifactKey: Guid(cb1d9ee21c5f1e44bbb70e7bdb2e1545) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Ground mask/4/Ground mask_D4_Metalic.png using Guid(cb1d9ee21c5f1e44bbb70e7bdb2e1545) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63eb50cd41a73bff0c0a72843205042d') in 0.0141372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Recycle cardboard/Recycle cardboard closed.fbx
+  artifactKey: Guid(34f4569a3ba94f44694e517b3c16008d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Recycle cardboard/Recycle cardboard closed.fbx using Guid(34f4569a3ba94f44694e517b3c16008d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '253a7dc8bfe52ab4c45957bbd3f6eaef') in 0.0150822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash box 1/Aluminum/Trash box_Cap_AmbientOcclusion.png
+  artifactKey: Guid(9466ddbab4a0925479eea608188c5b20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash box 1/Aluminum/Trash box_Cap_AmbientOcclusion.png using Guid(9466ddbab4a0925479eea608188c5b20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b9b120be9d9383aaf0d750216ac24ba') in 0.0132293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 2/d/Bottle 2_Body_D_Height.png
+  artifactKey: Guid(7369144b55f5eda44bab0dfcbe3f8b17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 2/d/Bottle 2_Body_D_Height.png using Guid(7369144b55f5eda44bab0dfcbe3f8b17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db5ad3d50d99ac802c6249c9da28b6bf') in 0.0127937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash box 1/Orange/Trash box_Box_O_Albedo.png
+  artifactKey: Guid(605b653bf60f287418839213b0b23a7d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash box 1/Orange/Trash box_Box_O_Albedo.png using Guid(605b653bf60f287418839213b0b23a7d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5466639a8d9cf743f8791057ca754f3e') in 0.016033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Garbage/Bottle/Bottle 2 crumple.fbx
+  artifactKey: Guid(6bf946cac2f003b49a061db26e9e8097) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Garbage/Bottle/Bottle 2 crumple.fbx using Guid(6bf946cac2f003b49a061db26e9e8097) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '215c5f16a215580366e08509d9839526') in 0.0178398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Garbage/Bottle/info.txt
+  artifactKey: Guid(d7acea656214d0e47bff9c8879d3f8ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Garbage/Bottle/info.txt using Guid(d7acea656214d0e47bff9c8879d3f8ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b42ebe4d78b904e7ca4afb15000913df') in 0.0086316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Garbage/Bricks/Brocken Brick 2.fbx
+  artifactKey: Guid(e47d9cf21e903d941b7a76707aee9b5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Meshes/Garbage/Bricks/Brocken Brick 2.fbx using Guid(e47d9cf21e903d941b7a76707aee9b5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d36266b7825f422c34b828993ac1fbb') in 0.0157708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Garbage/Cannon/Soda can 1
+  artifactKey: Guid(d2e5d134020cc0b4b92b24a52a65cf1e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Garbage/Cannon/Soda can 1 using Guid(d2e5d134020cc0b4b92b24a52a65cf1e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f62b61dd0ea4f0a347543d9ecc7b77a') in 0.0094293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bag 1/Clean/Trash bag 1_C_Height.png
+  artifactKey: Guid(8b781f45b79a57548a1e03ee1413914d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Trash bag 1/Clean/Trash bag 1_C_Height.png using Guid(8b781f45b79a57548a1e03ee1413914d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6b4027182aab012c6c738f4ed27887b') in 0.0155881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Froots
+  artifactKey: Guid(7d00c7b147f04bd4daf7f5aea8b1b304) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Froots using Guid(7d00c7b147f04bd4daf7f5aea8b1b304) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7d7fa3fbd81e665b21f73e8392301324') in 0.0095926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash box 1/Trash cap Green mat.mat
+  artifactKey: Guid(23753c4565b18a449ab313c6691f90fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Materials/Trash box 1/Trash cap Green mat.mat using Guid(23753c4565b18a449ab313c6691f90fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b63a5cbad6023df65aa416031c38881') in 0.0232532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Gallon/20L/Gallon 20L_D_AmbientOcclusion.png
+  artifactKey: Guid(30cf577b5d25ab241b4268a61a9f4dea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Textures/Garbage/Gallon/20L/Gallon 20L_D_AmbientOcclusion.png using Guid(30cf577b5d25ab241b4268a61a9f4dea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74cd6e0706371811cf69f1e58b4ba0c0') in 0.0219075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Canned/Food/Canned food 2.prefab
+  artifactKey: Guid(6836838b08d5d6740a82277a9998fd55) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Trash/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Canned/Food/Canned food 2.prefab using Guid(6836838b08d5d6740a82277a9998fd55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c328bac1f3f73c1a09416fbe63b9b7d') in 0.0110592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.755 seconds
+Refreshing native plugins compatible for Editor in 9.49 ms, found 14 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00087] in <1a7e38f6fac74b0d95602c9f9166f28a>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.203 seconds
+Domain Reload Profiling: 1954ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (433ms)
+		LoadAssemblies (324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (163ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1203ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1039ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (801ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 9.82 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8051 unused Assets / (7.8 MB). Loaded Objects now: 8902.
+Memory consumption went from 258.4 MB to 250.5 MB.
+Total: 11.279300 ms (FindLiveObjects: 0.657200 ms CreateObjectMapping: 0.301100 ms MarkObjects: 7.625200 ms  DeleteObjects: 2.694900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

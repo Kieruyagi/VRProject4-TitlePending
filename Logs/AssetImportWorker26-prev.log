@@ -1,0 +1,1110 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.13f1 (abdb44fca7f7) revision 11262788'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 31860 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor" at "2025-12-04T22:46:49.935844Z"
+Date: 2025-12-04T22:46:49Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker26
+-projectPath
+C:/GIT_Projects/prj1/FastFood
+-logFile
+Logs/AssetImportWorker26.log
+-srvPort
+64782
+-licensingIpc
+LicenseClient-Raptor
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/GIT_Projects/prj1/FastFood
+C:/GIT_Projects/prj1/FastFood
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29692]  Target information:
+
+Player connection [29692]  * "[IP] 192.168.10.94 [Port] 0 [Flags] 2 [Guid] 858314748 [EditorId] 858314748 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N6LDBOS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29692] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29692] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 15.97 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.59 ms.
+Initialize engine version: 6000.2.13f1 (abdb44fca7f7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GIT_Projects/prj1/FastFood/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5070 (ID=0x2f04)
+    Vendor:   NVIDIA
+    VRAM:     11854 MB
+    Driver:   32.0.15.8129
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Raptor"
+[Licensing::IpcConnector] LicenseClient-Raptor channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13" at "2025-12-04T22:46:50.4923875Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              11d15d88662040a894929bddd89b9b16
+  Correlation Id:          8b443b1067030043d42fc3d4d67f1055
+  External correlation Id: 117031006921239142
+  Machine Id:              /Gk3cS3RbuDCQMU5P993206Xbmc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Raptor-6000.2.13" (connect: 0.00s, validation: 0.00s, handshake: 0.50s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13-notifications" at "2025-12-04T22:46:50.9965813Z"
+[Licensing::Module] Licensing Background thread has ended after 1.06s
+[Licensing::Module] Licensing is initialized (took 0.62s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475892980188-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.621534 seconds.
+- Loaded All Assemblies, in  0.862 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 226 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.459 seconds
+Domain Reload Profiling: 1319ms
+	BeginReloadAssembly (77ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (652ms)
+	LoadAllAssembliesAndSetupDomain (99ms)
+		LoadAssemblies (75ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (97ms)
+			TypeCache.Refresh (96ms)
+				TypeCache.ScanAssembly (88ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (459ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (432ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (288ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (69ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.495 seconds
+Refreshing native plugins compatible for Editor in 7.13 ms, found 14 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00087] in <1a7e38f6fac74b0d95602c9f9166f28a>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.821 seconds
+Domain Reload Profiling: 1310ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (332ms)
+		LoadAssemblies (226ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (116ms)
+				TypeCache.ScanAssembly (105ms)
+			BuildScriptInfoCaches (34ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (821ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (678ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (505ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 8.53 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8037 unused Assets / (7.9 MB). Loaded Objects now: 8803.
+Memory consumption went from 156.0 MB to 148.1 MB.
+Total: 11.831700 ms (FindLiveObjects: 0.639100 ms CreateObjectMapping: 0.297000 ms MarkObjects: 8.235400 ms  DeleteObjects: 2.659100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 11897.084937 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models
+  artifactKey: Guid(b634334b7a3d86844993ef46329826e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models using Guid(b634334b7a3d86844993ef46329826e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14108947d92fd54692d552ec48ce2918') in 0.1192319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Stove.prefab
+  artifactKey: Guid(158f818f5cdf7f54f8cb6f3b74f535c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Stove.prefab using Guid(158f818f5cdf7f54f8cb6f3b74f535c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6aadecfec00e32ab12717a4475571380') in 0.0637708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components
+  artifactKey: Guid(c7be8f753f852ad4c976d59944043d78) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components using Guid(c7be8f753f852ad4c976d59944043d78) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16fcbfbfec22cb46a8b64e55e4338948') in 0.0109852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation/Fan.fbx
+  artifactKey: Guid(0318c65d68ffd844abcfda15620f3577) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation/Fan.fbx using Guid(0318c65d68ffd844abcfda15620f3577) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb1bd616b599c875edec3814e3f6bbcf') in 0.0376874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Mixer.fbx
+  artifactKey: Guid(d18450aa2239d6748a7bcc1dacb1c80a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Mixer.fbx using Guid(d18450aa2239d6748a7bcc1dacb1c80a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57c32ce1d42b451e15c2cb6b011319d5') in 0.0257899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/FridgeSBS.fbx
+  artifactKey: Guid(b37603f8ea8ba83489df2180bfd8eef2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/FridgeSBS.fbx using Guid(b37603f8ea8ba83489df2180bfd8eef2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '448a73a0b8266526744c7158dde6bd8f') in 0.0266366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/FanV2.prefab
+  artifactKey: Guid(d5fdaf74a9bc91242b841883b4c65b21) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/FanV2.prefab using Guid(d5fdaf74a9bc91242b841883b4c65b21) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2e6e1b563f4a275a3c16f3d89d5dc02') in 0.0156341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F1000_FridgeSBS_V1.fbx
+  artifactKey: Guid(8a95c75a204619245889d53ab3d9befd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F1000_FridgeSBS_V1.fbx using Guid(8a95c75a204619245889d53ab3d9befd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87db527a49eb29c03eceb21cf1dc8816') in 0.0218294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components/KAC_Micro_Tray_V2.prefab
+  artifactKey: Guid(5433169ef29bb0c469010fbe9bb07fe4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components/KAC_Micro_Tray_V2.prefab using Guid(5433169ef29bb0c469010fbe9bb07fe4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f0d20adb305799e981fb95d1d6261a4') in 0.0155838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC-F600_OvenTray_V2.fbx
+  artifactKey: Guid(6ad91c4ec9e82024da25dd25c5403c7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC-F600_OvenTray_V2.fbx using Guid(6ad91c4ec9e82024da25dd25c5403c7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d8d798406e0545c3ef574ecf46ea570') in 0.0169773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Scenes/Demo Materials
+  artifactKey: Guid(3773b67fcc1eac945a80598f3278be3d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Scenes/Demo Materials using Guid(3773b67fcc1eac945a80598f3278be3d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e1bcd6eabcd6e9406cf24f52b85c9a7') in 0.0093725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC_Oven_HeatingTop_V2.fbx
+  artifactKey: Guid(3a75de29e6001ca49bcdb41b2788e536) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC_Oven_HeatingTop_V2.fbx using Guid(3a75de29e6001ca49bcdb41b2788e536) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03549ac36f96bf22e5075f47506fe692') in 0.016468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Fridge.fbx
+  artifactKey: Guid(7791aa6beaaa15148b5287a0538526d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Fridge.fbx using Guid(7791aa6beaaa15148b5287a0538526d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e48110ee58568c6c58a6dfea3382741e') in 0.0162085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Textures
+  artifactKey: Guid(083a9c18e8a1e9b4b8d0347ceb729b8b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Textures using Guid(083a9c18e8a1e9b4b8d0347ceb729b8b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f34598d2b45b9a9a57954dce6f5d3529') in 0.0091301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/Stove.prefab
+  artifactKey: Guid(8c673e3b356152a4ca8285cb58c4f615) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/Stove.prefab using Guid(8c673e3b356152a4ca8285cb58c4f615) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '902500135f5ebe4be725784056f639ac') in 0.0125974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation/Washer.fbx
+  artifactKey: Guid(8b5c6df027335f643a26ec88baebf5d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation/Washer.fbx using Guid(8b5c6df027335f643a26ec88baebf5d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3e4f2b5e46f0fa90a49914e1ae1f64b') in 0.018371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F600_Dryer_V1.fbx
+  artifactKey: Guid(26f0aedd4c22f9344903c1867b6cb365) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F600_Dryer_V1.fbx using Guid(26f0aedd4c22f9344903c1867b6cb365) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '282871d7ab1859c55545c20a4c1139f2') in 0.0177137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components/KAC-F600_Fridge_V1_Drawer.prefab
+  artifactKey: Guid(0cd689d5d4ae78e46bb0b768bc8fe2d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components/KAC-F600_Fridge_V1_Drawer.prefab using Guid(0cd689d5d4ae78e46bb0b768bc8fe2d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f2aec104a19e21ddf5c4754b7c0c141') in 0.013521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/Fridge.prefab
+  artifactKey: Guid(330da43e025295745907828267994ff3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/Fridge.prefab using Guid(330da43e025295745907828267994ff3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10375cf26fd5db1f2392b7410c7f9511') in 0.0136575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F600_Fridge_V1.fbx
+  artifactKey: Guid(7f16cf52d108beb4ea7edd6c93972f90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F600_Fridge_V1.fbx using Guid(7f16cf52d108beb4ea7edd6c93972f90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71dc28cc1a9964e01d1dfb638d0b0e4a') in 0.0196749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC-F600_TrayGuide_V2.fbx
+  artifactKey: Guid(b4e8b90e26a8c4a43962e73dea6e89c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC-F600_TrayGuide_V2.fbx using Guid(b4e8b90e26a8c4a43962e73dea6e89c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2b7fdf45485974ea91aa6ced58a0c4b') in 0.0156216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Stovetop.prefab
+  artifactKey: Guid(eb766ebb61571b14baf76b08c8426daa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Stovetop.prefab using Guid(eb766ebb61571b14baf76b08c8426daa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9aa3a37cd235ead4c4709ff09de672be') in 0.0117886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/FridgeSBS.prefab
+  artifactKey: Guid(88897531ce3817b40adb1b700509aa36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/FridgeSBS.prefab using Guid(88897531ce3817b40adb1b700509aa36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a70371039dca62b14b8750ef9ee4fba2') in 0.0110904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC-F1000_FridgeSBS_V1_FreezerShelf.fbx
+  artifactKey: Guid(e8f416f08f19ccd478d84a27bd982127) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC-F1000_FridgeSBS_V1_FreezerShelf.fbx using Guid(e8f416f08f19ccd478d84a27bd982127) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be42e0fec11250d4832a326559276e66') in 0.016079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Textures/StoveTop.png
+  artifactKey: Guid(a2a56db6421bc114ab94a5e145006cd6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Textures/StoveTop.png using Guid(a2a56db6421bc114ab94a5e145006cd6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '49d30e108e93f5709c651dff413f7c8c') in 0.0279467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components/KAC_Oven_HeatingTop_V2.prefab
+  artifactKey: Guid(cd70bd96e564d3640a42821e7c3e2526) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components/KAC_Oven_HeatingTop_V2.prefab using Guid(cd70bd96e564d3640a42821e7c3e2526) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0866877a41b2d13185e6202ec418ee1f') in 0.0104028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F800_Fan_V1.prefab
+  artifactKey: Guid(52bf3074e62b13345814afe4c87eb89b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F800_Fan_V1.prefab using Guid(52bf3074e62b13345814afe4c87eb89b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f1744f098b55e893d81ff3a4789ae54') in 0.0126686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Scene
+  artifactKey: Guid(04dbbab4b10c24348b995868e9eec96f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Scene using Guid(04dbbab4b10c24348b995868e9eec96f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b19db9a53f16b94d5583e60a98fc518') in 0.0071056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F600_Washer_V1.fbx
+  artifactKey: Guid(49a4bdf5df1297942a8daaa7ecac5101) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F600_Washer_V1.fbx using Guid(49a4bdf5df1297942a8daaa7ecac5101) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06db0fe6fcb8bd2f42312a6fc31e94db') in 0.0151656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation/Coffee Maker.fbx
+  artifactKey: Guid(41a656146f36f7a4287ca6e8bf87248d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation/Coffee Maker.fbx using Guid(41a656146f36f7a4287ca6e8bf87248d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '682d4ae1192c46eeb2036daaa7e819b1') in 0.0116189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/AirFryer.prefab
+  artifactKey: Guid(faf6c871a8458c24aa1a02ea4cf4d8b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/AirFryer.prefab using Guid(faf6c871a8458c24aa1a02ea4cf4d8b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17f055db620b496cc69535d5f48a9fda') in 0.0128442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/Washer.prefab
+  artifactKey: Guid(bbf651e99fd157f4e822b8b66371a946) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/Washer.prefab using Guid(bbf651e99fd157f4e822b8b66371a946) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b0b87346d778a04b20f9d1639fd3e55') in 0.0116777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models
+  artifactKey: Guid(091d9f0df1f5c714d99a3e3ccb16b67c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models using Guid(091d9f0df1f5c714d99a3e3ccb16b67c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2c1581d96145cd428d4c70f69750c49') in 0.0100473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components/KAC-F600_Fridge_V1_DrawerHolder.prefab
+  artifactKey: Guid(5375c3edeb2b95c49a7a6db0ffce15f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components/KAC-F600_Fridge_V1_DrawerHolder.prefab using Guid(5375c3edeb2b95c49a7a6db0ffce15f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fcbea1d3b95207d0fb8a9f8d8c664af6') in 0.0125489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Washer.prefab
+  artifactKey: Guid(f767cce13dd852b4cbd5894364ae969e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Washer.prefab using Guid(f767cce13dd852b4cbd5894364ae969e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a38f013a68c371d250802a01a14b5ae') in 0.0137247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/Dryer.prefab
+  artifactKey: Guid(3103dcc75cee1ec4cba217971fd184be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/Dryer.prefab using Guid(3103dcc75cee1ec4cba217971fd184be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36bb8c9529e054a7415da6183e96245b') in 0.0123271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Scenes/Demo Materials/Counter.mat
+  artifactKey: Guid(3e5f7490e6152e442a9332721e6db671) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Scenes/Demo Materials/Counter.mat using Guid(3e5f7490e6152e442a9332721e6db671) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'afc83d8eaba4016c02e697ef24b90926') in 0.0119941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation
+  artifactKey: Guid(57d7cd2539f065b49830e264668c6083) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation using Guid(57d7cd2539f065b49830e264668c6083) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '634543d61193d7a8427bdd4030b5f7bd') in 0.0101087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/AirFryer.prefab
+  artifactKey: Guid(fbfe382c29a4ab547a520eb7084a534c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/AirFryer.prefab using Guid(fbfe382c29a4ab547a520eb7084a534c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6de45efd9c934eaf62cbfd73e7b2943') in 0.0128596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components/KAC-F1000_FridgeSBS_V1_FreezerShelf.prefab
+  artifactKey: Guid(757f3b8da4006c94c97a6862bf8af8b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components/KAC-F1000_FridgeSBS_V1_FreezerShelf.prefab using Guid(757f3b8da4006c94c97a6862bf8af8b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6bcf3394ccf95b31a29d4e5e4571c65c') in 0.0130938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC-F1000_FridgeSBS_V1_FreezerDrawer.fbx
+  artifactKey: Guid(aa6aa3cd303c0ca46bda028d939472bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC-F1000_FridgeSBS_V1_FreezerDrawer.fbx using Guid(aa6aa3cd303c0ca46bda028d939472bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b804f7cf570bebffa58dd55e6f7bbc40') in 0.0179785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Washer.fbx
+  artifactKey: Guid(f1da24e6f87f419458e1913c5a2fe03b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Washer.fbx using Guid(f1da24e6f87f419458e1913c5a2fe03b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8560978a3fe20210ed1374cb581915a8') in 0.0150373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation/Fridge_SBS.fbx
+  artifactKey: Guid(4ef85326d2b48fb48bee81014892b40d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation/Fridge_SBS.fbx using Guid(4ef85326d2b48fb48bee81014892b40d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d85103c0bb9cbb987998320bdc06c8a') in 0.0223179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 43
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F600_Fan_V1.fbx
+  artifactKey: Guid(22580e50647654e4cb0f5daa34cbe76b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F600_Fan_V1.fbx using Guid(22580e50647654e4cb0f5daa34cbe76b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e8da5c279c809d3e8bbb06d22379b7c') in 0.0171473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC-F1000_FridgeSBS_V1_FreezerDrawerHolder.fbx
+  artifactKey: Guid(d436c7365ce990e47a0fa7c5e8756042) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC-F1000_FridgeSBS_V1_FreezerDrawerHolder.fbx using Guid(d436c7365ce990e47a0fa7c5e8756042) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aac2884dfb993e807194f5de08b5c989') in 0.0165061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F600_Dryer_V1.prefab
+  artifactKey: Guid(766c42a5238f8bf468259aeaafa7a435) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F600_Dryer_V1.prefab using Guid(766c42a5238f8bf468259aeaafa7a435) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e34d62948c319c393c9c526504579bdb') in 0.0171043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Material/2nd_Slot.mat
+  artifactKey: Guid(65a1fe94c3a6dd04a998fb6c130994ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Material/2nd_Slot.mat using Guid(65a1fe94c3a6dd04a998fb6c130994ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be6f44257f4490a298957ccafb1749ed') in 0.0111981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC_Oven_Fan_V2.fbx
+  artifactKey: Guid(ea0bb0b3515940f42961fc1264fb1903) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC_Oven_Fan_V2.fbx using Guid(ea0bb0b3515940f42961fc1264fb1903) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b57ba62dce3b2bd99829d63d2e777ac') in 0.0188293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F600_BI_Stove_V2.prefab
+  artifactKey: Guid(f4ae5ab792b64dc4f8e5206a9a7faa28) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F600_BI_Stove_V2.prefab using Guid(f4ae5ab792b64dc4f8e5206a9a7faa28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7930e22543941e97036da637a5e89fb') in 0.0140794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F600_Stove_V1.prefab
+  artifactKey: Guid(178c5a3fb8e4f584ba6b07c522026967) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F600_Stove_V1.prefab using Guid(178c5a3fb8e4f584ba6b07c522026967) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb91b90981a880bdb1411a5a255f93fa') in 0.0109186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA_CoffeeMaker_V1.fbx
+  artifactKey: Guid(58d4dd8e48b200a4e914045fa2069362) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA_CoffeeMaker_V1.fbx using Guid(58d4dd8e48b200a4e914045fa2069362) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7bda0b1aaee1aab08b5c68f25c6976c4') in 0.0136958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA_Mixer_V1.prefab
+  artifactKey: Guid(a9b89447708d3fc4b8598040bdf7c4e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA_Mixer_V1.prefab using Guid(a9b89447708d3fc4b8598040bdf7c4e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b13f8f0474af24af14c4521f1060ef4') in 0.011985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components/KAC_Stove_HeatingTop_V5.prefab
+  artifactKey: Guid(0328e3c452dcf7047a4373c5ca3a4da2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components/KAC_Stove_HeatingTop_V5.prefab using Guid(0328e3c452dcf7047a4373c5ca3a4da2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23e07125e879549f81b6d8b64cad2b59') in 0.0132009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F600_BI_Stove_V2.fbx
+  artifactKey: Guid(612ad97b887af98439f43a33931b86d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F600_BI_Stove_V2.fbx using Guid(612ad97b887af98439f43a33931b86d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7cb912bb4979b0829cf076dc7695e2c2') in 0.0223846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Fan.fbx
+  artifactKey: Guid(0bf0e70a8bd45044eaa51b5387ba5c07) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Fan.fbx using Guid(0bf0e70a8bd45044eaa51b5387ba5c07) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2387dc1085ee98cf13c6b85d50e2455') in 0.023845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Stovetop.fbx
+  artifactKey: Guid(01bb90b911a563f4997a757b1861c000) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Stovetop.fbx using Guid(01bb90b911a563f4997a757b1861c000) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e384b3b24ca5ebedc40698cd2df6ed25') in 0.0151303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC-F600_Fridge_V1_Drawer.fbx
+  artifactKey: Guid(c7b69043b8e08074d9ebd84af3896da6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC-F600_Fridge_V1_Drawer.fbx using Guid(c7b69043b8e08074d9ebd84af3896da6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1bb9c8475d930b648cc8502e3047479') in 0.0164619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA_Micro_V2.fbx
+  artifactKey: Guid(f9c73f57a9582c943a78198a65bc8b27) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA_Micro_V2.fbx using Guid(f9c73f57a9582c943a78198a65bc8b27) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78d43033671d9f3b92ff7cdc2b2d4616') in 0.0185067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC_Stove_HeatingTop_V5.fbx
+  artifactKey: Guid(56a10da03275fcc42bb157fd6be99244) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC_Stove_HeatingTop_V5.fbx using Guid(56a10da03275fcc42bb157fd6be99244) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe1f3ef7a8f8d7a81fb204406b0abe93') in 0.0164471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Fan.prefab
+  artifactKey: Guid(f14d1ac6dacfc0242bed295f91ed3591) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Fan.prefab using Guid(f14d1ac6dacfc0242bed295f91ed3591) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57ff60263a58049a090aefcd3e5dd556') in 0.0150159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F600_Stove_V1.fbx
+  artifactKey: Guid(6ba3a80fd3874434191372ffda87f21d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F600_Stove_V1.fbx using Guid(6ba3a80fd3874434191372ffda87f21d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0352813299d2f28ff2762ef1a2fc3c68') in 0.0201702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Scene/SceneMaterial_NonActive.mat
+  artifactKey: Guid(7f0a54f0b1ba9ed42a5b7d89fb590535) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Scene/SceneMaterial_NonActive.mat using Guid(7f0a54f0b1ba9ed42a5b7d89fb590535) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3e0c0867f1a02c864fac608f80ba422') in 0.0109226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC_Micro_Tray_V2.fbx
+  artifactKey: Guid(ee40d64fbbc71a145870e9c90c2f960e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC_Micro_Tray_V2.fbx using Guid(ee40d64fbbc71a145870e9c90c2f960e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8c951145e3541bee106efff0b1dd335') in 0.0148264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0
+  artifactKey: Guid(4a36a735ae8b1b6448904b9708e8f55e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0 using Guid(4a36a735ae8b1b6448904b9708e8f55e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6501080709199ef5348d29cfbb19bf74') in 0.0090288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC-F600_OvenTray_V3.fbx
+  artifactKey: Guid(4bdf738898b52b5448c3e2814e2a85c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC-F600_OvenTray_V3.fbx using Guid(4bdf738898b52b5448c3e2814e2a85c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73157db6c0b00b639a6b25d0f37b221d') in 0.0147801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.634485 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA_CoffeeMaker_V1.fbx
+  artifactKey: Guid(58d4dd8e48b200a4e914045fa2069362) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA_CoffeeMaker_V1.fbx using Guid(58d4dd8e48b200a4e914045fa2069362) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '61b2500fc6e5e4da3d4b3bccc03c59ad') in 0.0204346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Textures/Texture.png
+  artifactKey: Guid(9a1a78cd418cf1747abdb83401565c91) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Textures/Texture.png using Guid(9a1a78cd418cf1747abdb83401565c91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04411caaa897fc4b839557bbc4304c5f') in 0.0217149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances
+  artifactKey: Guid(db14b8a88ee31fc49957b5917745bb8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances using Guid(db14b8a88ee31fc49957b5917745bb8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef86d4792a794d8ea3ebf909f1364610') in 0.0082045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/FanV2.prefab
+  artifactKey: Guid(d5fdaf74a9bc91242b841883b4c65b21) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/FanV2.prefab using Guid(d5fdaf74a9bc91242b841883b4c65b21) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd634f7f9a439ddbe2662f5e7452301e4') in 0.0110048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/FridgeSBS.fbx
+  artifactKey: Guid(b37603f8ea8ba83489df2180bfd8eef2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/FridgeSBS.fbx using Guid(b37603f8ea8ba83489df2180bfd8eef2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '352a74977d11a34dff3fb426676b93d4') in 0.0124031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Scenes/Demo Materials/Floor.mat
+  artifactKey: Guid(f535c65df7244aa4fbfa1776712eeea9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Scenes/Demo Materials/Floor.mat using Guid(f535c65df7244aa4fbfa1776712eeea9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a2f58c8c226b626296c406690f90b8b') in 0.011839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F1000_FridgeSBS_V1.fbx
+  artifactKey: Guid(8a95c75a204619245889d53ab3d9befd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F1000_FridgeSBS_V1.fbx using Guid(8a95c75a204619245889d53ab3d9befd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5fb74c0a8b76e0004cea6d49e6afae6') in 0.0180845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation/Stove.fbx
+  artifactKey: Guid(18925ea6c93987e49979c5fcda598980) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation/Stove.fbx using Guid(18925ea6c93987e49979c5fcda598980) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2509cd0bdf45cda0c1ae8f4c20ad3fa3') in 0.0164679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Fridge.fbx
+  artifactKey: Guid(7791aa6beaaa15148b5287a0538526d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Fridge.fbx using Guid(7791aa6beaaa15148b5287a0538526d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b8b9d25f319d40cce925934990070ba') in 0.0149971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/Stove.prefab
+  artifactKey: Guid(8c673e3b356152a4ca8285cb58c4f615) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/Stove.prefab using Guid(8c673e3b356152a4ca8285cb58c4f615) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '232f40d2f82b4e7db551e1e1e738321c') in 0.0100644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Materials
+  artifactKey: Guid(fbc6714961ec57947a99f3cad616de2a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Materials using Guid(fbc6714961ec57947a99f3cad616de2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02a019492367080a28e70207384e786f') in 0.0097567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components/KAC-F600_Fridge_V1_Drawer.prefab
+  artifactKey: Guid(0cd689d5d4ae78e46bb0b768bc8fe2d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components/KAC-F600_Fridge_V1_Drawer.prefab using Guid(0cd689d5d4ae78e46bb0b768bc8fe2d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1255ef63c5ae6a8fd53db26d9a3af109') in 0.0122251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA_Airfryer_V1.prefab
+  artifactKey: Guid(7ada86c8a0a0b5344be82d4203ef5205) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA_Airfryer_V1.prefab using Guid(7ada86c8a0a0b5344be82d4203ef5205) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c209c678ffc767081a8026f03d53803a') in 0.013157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Stovetop.prefab
+  artifactKey: Guid(eb766ebb61571b14baf76b08c8426daa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Stovetop.prefab using Guid(eb766ebb61571b14baf76b08c8426daa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6eeab219b7925a61369b686e5f08700') in 0.0127184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Scene/Demo Scene - Kitchen Appliances.unity
+  artifactKey: Guid(d69bacbc64c88604d99dc41b012b960f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Scene/Demo Scene - Kitchen Appliances.unity using Guid(d69bacbc64c88604d99dc41b012b960f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f69cdc3836d8ea5883c5a7f6dc96e1a') in 0.011516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA_Mixer_V1.fbx
+  artifactKey: Guid(ac48b09a0c172754c8d765d4397fe5fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA_Mixer_V1.fbx using Guid(ac48b09a0c172754c8d765d4397fe5fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c3efa0e7db0eeefa35187b18a5af94f') in 0.016019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Scene
+  artifactKey: Guid(04dbbab4b10c24348b995868e9eec96f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Scene using Guid(04dbbab4b10c24348b995868e9eec96f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42d2e467baa3fcc7aeb4ef9ae334a153') in 0.0092263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC-F600_Fridge_V1_Shelf.fbx
+  artifactKey: Guid(5c837a94d7d798b48935af2541888a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC-F600_Fridge_V1_Shelf.fbx using Guid(5c837a94d7d798b48935af2541888a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d34ba9476c4247866339e78bdc46542') in 0.0140552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA_CoffeeMaker_V1.prefab
+  artifactKey: Guid(88b1a45f4ca0c9f46bf7e7637b2831ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA_CoffeeMaker_V1.prefab using Guid(88b1a45f4ca0c9f46bf7e7637b2831ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15a0e8e43029d8feca8e643150b1d85e') in 0.0110789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components/KAC-F600_Fridge_V1_DrawerHolder.prefab
+  artifactKey: Guid(5375c3edeb2b95c49a7a6db0ffce15f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/Components/KAC-F600_Fridge_V1_DrawerHolder.prefab using Guid(5375c3edeb2b95c49a7a6db0ffce15f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d95edcd1a1087926980df0e83e5d777') in 0.0115487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/Dryer.prefab
+  artifactKey: Guid(3103dcc75cee1ec4cba217971fd184be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Prefabs/Old Version1.0/Dryer.prefab using Guid(3103dcc75cee1ec4cba217971fd184be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d5e2a9ba07d6cb63e4f92b2c1eb33a4') in 0.0105327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Scenes/Demo Materials/Counter.mat
+  artifactKey: Guid(3e5f7490e6152e442a9332721e6db671) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Scenes/Demo Materials/Counter.mat using Guid(3e5f7490e6152e442a9332721e6db671) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6e88e0fd592bf4781dd8b25ffc88981') in 0.0097721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F600_Fridge_V1.prefab
+  artifactKey: Guid(88b5ba18f4e334b44a5268d91a498766) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F600_Fridge_V1.prefab using Guid(88b5ba18f4e334b44a5268d91a498766) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ab04c9608e72e57729095c7dff4b05d') in 0.0102843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Washer.fbx
+  artifactKey: Guid(f1da24e6f87f419458e1913c5a2fe03b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Washer.fbx using Guid(f1da24e6f87f419458e1913c5a2fe03b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5770c34f10e0c58cbc4d4e88210e8fe') in 0.016465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Materials/Main.mat
+  artifactKey: Guid(f7bbd21b1298745458209aed31d9c489) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Materials/Main.mat using Guid(f7bbd21b1298745458209aed31d9c489) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '764a436ef9e397fea1dc4ca69f99dfca') in 0.0091156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation/FanV2.fbx
+  artifactKey: Guid(1b1bc434cbde3e84080f2381d5ab4b01) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation/FanV2.fbx using Guid(1b1bc434cbde3e84080f2381d5ab4b01) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42bed3facad2f0c72decd6df81e5dcd9') in 0.0150211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Material/2nd_Slot.mat
+  artifactKey: Guid(65a1fe94c3a6dd04a998fb6c130994ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Material/2nd_Slot.mat using Guid(65a1fe94c3a6dd04a998fb6c130994ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd00fd0dc0fff0430270ca495d570e4d6') in 0.0094699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA_Airfryer_V1.fbx
+  artifactKey: Guid(9e1725ae66085b445b55c5a3a9c76697) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA_Airfryer_V1.fbx using Guid(9e1725ae66085b445b55c5a3a9c76697) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '790bb867415e6e1f8b5383f9b48aa5bb') in 0.0145099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F600_Fan_V3.fbx
+  artifactKey: Guid(541f1841e33130245ae123c0935de2e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F600_Fan_V3.fbx using Guid(541f1841e33130245ae123c0935de2e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9a82d10ff8eb03eb87a5d0600cdd7b5') in 0.0156474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Fan.fbx
+  artifactKey: Guid(0bf0e70a8bd45044eaa51b5387ba5c07) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Fan.fbx using Guid(0bf0e70a8bd45044eaa51b5387ba5c07) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc9bf22aa0196e15f8791c98ee10421b') in 0.0125621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Stovetop.fbx
+  artifactKey: Guid(01bb90b911a563f4997a757b1861c000) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Stovetop.fbx using Guid(01bb90b911a563f4997a757b1861c000) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a979fe764256f72d0bbca359f7597d27') in 0.0141733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation/Fridge.fbx
+  artifactKey: Guid(d47242c9dad9fd94da628bcf6fb36c2e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation/Fridge.fbx using Guid(d47242c9dad9fd94da628bcf6fb36c2e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54aa51dae61a441a7c005987237c4dd0') in 0.0145848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 28
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation/Mixer.fbx
+  artifactKey: Guid(ea8e93118a7927544a41c3ed730ce340) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation/Mixer.fbx using Guid(ea8e93118a7927544a41c3ed730ce340) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7094c56147abdb915da8d2d3f3141da6') in 0.0158108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation/Stovetop.fbx
+  artifactKey: Guid(a458eddf41afe1a4793dca03fc1105be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Legacy Models/Models/Seperated For Animation/Stovetop.fbx using Guid(a458eddf41afe1a4793dca03fc1105be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b284ca431035f277886485f3a0fdda6') in 0.0127798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC-F600_OvenTray_V3.fbx
+  artifactKey: Guid(4bdf738898b52b5448c3e2814e2a85c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/Components/KAC-F600_OvenTray_V3.fbx using Guid(4bdf738898b52b5448c3e2814e2a85c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff7ab3c24590135c836254e834ff03ea') in 0.0117572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.052757 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F600_Fan_V1.fbx
+  artifactKey: Guid(22580e50647654e4cb0f5daa34cbe76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F600_Fan_V1.fbx using Guid(22580e50647654e4cb0f5daa34cbe76b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d0d9b3e9a32b4fc7b92ca6663ac1ea0') in 0.3266158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA_Mixer_V1.fbx
+  artifactKey: Guid(ac48b09a0c172754c8d765d4397fe5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA_Mixer_V1.fbx using Guid(ac48b09a0c172754c8d765d4397fe5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db5db89d6c2255ca17cdfbb539cce501') in 0.0293097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F600_Washer_V1.fbx
+  artifactKey: Guid(49a4bdf5df1297942a8daaa7ecac5101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Models/KA-F600_Washer_V1.fbx using Guid(49a4bdf5df1297942a8daaa7ecac5101) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4dd2ea50efb7e76cc5347197b7e98ff3') in 0.0445541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

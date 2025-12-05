@@ -1,0 +1,949 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.13f1 (abdb44fca7f7) revision 11262788'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor" at "2025-12-05T01:04:59.4619589Z"
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 31860 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-05T01:04:59Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker103
+-projectPath
+C:/GIT_Projects/prj1/FastFood
+-logFile
+Logs/AssetImportWorker103.log
+-srvPort
+64782
+-licensingIpc
+LicenseClient-Raptor
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/GIT_Projects/prj1/FastFood
+C:/GIT_Projects/prj1/FastFood
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11012]  Target information:
+
+Player connection [11012]  * "[IP] 192.168.10.94 [Port] 0 [Flags] 2 [Guid] 3218383362 [EditorId] 3218383362 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N6LDBOS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [11012] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [11012] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 17.99 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.55 ms.
+Initialize engine version: 6000.2.13f1 (abdb44fca7f7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GIT_Projects/prj1/FastFood/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5070 (ID=0x2f04)
+    Vendor:   NVIDIA
+    VRAM:     11854 MB
+    Driver:   32.0.15.8129
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Raptor"
+[Licensing::IpcConnector] LicenseClient-Raptor channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13" at "2025-12-05T01:05:00.1044823Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              9ab89337968148428249bf394303f86a
+  Correlation Id:          8b443b1067030043d42fc3d4d67f1055
+  External correlation Id: 541531440850937548
+  Machine Id:              /Gk3cS3RbuDCQMU5P993206Xbmc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Raptor-6000.2.13" (connect: 0.00s, validation: 0.00s, handshake: 0.49s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13-notifications" at "2025-12-05T01:05:00.5912512Z"
+[Licensing::Module] Licensing Background thread has ended after 1.13s
+[Licensing::Module] Licensing is initialized (took 0.59s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475892980188-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.594012 seconds.
+- Loaded All Assemblies, in  0.849 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 228 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.463 seconds
+Domain Reload Profiling: 1310ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (625ms)
+	LoadAllAssembliesAndSetupDomain (94ms)
+		LoadAssemblies (95ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (91ms)
+				TypeCache.ScanAssembly (84ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (463ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (435ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (292ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (71ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.500 seconds
+Refreshing native plugins compatible for Editor in 6.20 ms, found 14 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00087] in <1a7e38f6fac74b0d95602c9f9166f28a>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.838 seconds
+Domain Reload Profiling: 1333ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (338ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (164ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (107ms)
+			BuildScriptInfoCaches (34ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (838ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (692ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (513ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 5.91 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8050 unused Assets / (7.9 MB). Loaded Objects now: 8822.
+Memory consumption went from 159.0 MB to 151.2 MB.
+Total: 12.589300 ms (FindLiveObjects: 0.720100 ms CreateObjectMapping: 0.243000 ms MarkObjects: 8.795500 ms  DeleteObjects: 2.829700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19774.276381 seconds.
+  path: Assets/EvSeStudio/3D_Art
+  artifactKey: Guid(3d65a0ce39a099c44a18599190965a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvSeStudio/3D_Art using Guid(3d65a0ce39a099c44a18599190965a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6438324a55e622be7f2e75cb5ef5745') in 0.0042924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.634465 seconds.
+  path: Assets/EvSeStudio/3D_Art/Environment
+  artifactKey: Guid(05bb7feb2b2c46d42a58601e77f0d3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvSeStudio/3D_Art/Environment using Guid(05bb7feb2b2c46d42a58601e77f0d3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73e9adcba5a3315167ca4179ef73d426') in 0.0004694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.490729 seconds.
+  path: Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01
+  artifactKey: Guid(7cf9b4f0e63af074e900689082e0e7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EvSeStudio/3D_Art/Environment/Cans_Vol_01 using Guid(7cf9b4f0e63af074e900689082e0e7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2168163e001aed20765bcb440408c401') in 0.0004708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.169520 seconds.
+  path: Assets/CabinDecor/EvSeStudio/3D_Art
+  artifactKey: Guid(3d65a0ce39a099c44a18599190965a63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/EvSeStudio/3D_Art using Guid(3d65a0ce39a099c44a18599190965a63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e728420ea1c629f2eba6b10f60267cd') in 0.1149967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Demo/Aluminum_Can_01.unity
+  artifactKey: Guid(67db0b3a9553fc040b072d3b16f19f70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Demo/Aluminum_Can_01.unity using Guid(67db0b3a9553fc040b072d3b16f19f70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9c13f9c5ca273082c0922b39a4e9fbb') in 0.0143258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Meshes/SM_Aluminum_Can_01_Closed.fbx
+  artifactKey: Guid(f2f378121613dc144a153addaad78074) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Meshes/SM_Aluminum_Can_01_Closed.fbx using Guid(f2f378121613dc144a153addaad78074) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eec1d072075fd8dea6d9912fc87c755d') in 0.0630394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Meshes
+  artifactKey: Guid(25ba10d171660874393328572fb40fc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Meshes using Guid(25ba10d171660874393328572fb40fc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53d64c237eb25cd7ffa7be0641b98fa0') in 0.0091662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.045901 seconds.
+  path: Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01
+  artifactKey: Guid(0f07eaa7ad61ba34c9af66eedf2ad652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01 using Guid(0f07eaa7ad61ba34c9af66eedf2ad652) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fef18af0b1a0c4db5da205bc45156fef') in 0.0004543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.871225 seconds.
+  path: Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs
+  artifactKey: Guid(dffa65cba748ec741bb8ed8f201d6c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs using Guid(dffa65cba748ec741bb8ed8f201d6c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd02cef0ebcba8396ec0ccd74d1bc6a7d') in 0.0004652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050700 seconds.
+  path: Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs/SM_Aluminum_Can_01_Closed.prefab
+  artifactKey: Guid(091c40835fc7ae44ba18d6d34a022afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs/SM_Aluminum_Can_01_Closed.prefab using Guid(091c40835fc7ae44ba18d6d34a022afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac750f2e25488eedf19fd1c370274574') in 1.328574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 110
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.280472 seconds.
+  path: Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs/SM_Aluminum_Can_01_Opened 1.prefab
+  artifactKey: Guid(eab9f96631605f34390a7a2eb03b17ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs/SM_Aluminum_Can_01_Opened 1.prefab using Guid(eab9f96631605f34390a7a2eb03b17ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f59c3a7f0cb0c875d685a9a7bbc94a9c') in 0.0170034 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 111
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.940845 seconds.
+  path: Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs/SM_Aluminum_Can_01_Opened 1.prefab
+  artifactKey: Guid(eab9f96631605f34390a7a2eb03b17ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/EvSeStudio/3D_Art/Environment/Cans_Vol_01/Aluminum_Can_01/Prefabs/SM_Aluminum_Can_01_Opened 1.prefab using Guid(eab9f96631605f34390a7a2eb03b17ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c0f1decfa6c23ba4c50b8433d72b3f4') in 0.0185141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 526.670354 seconds.
+  path: Assets/CompositionLayers/UserSettings/Resources/CompositionLayersRuntimeSettings.asset
+  artifactKey: Guid(1d1b21e5e0d323146b8ce3245501e6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CompositionLayers/UserSettings/Resources/CompositionLayersRuntimeSettings.asset using Guid(1d1b21e5e0d323146b8ce3245501e6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80bca2befcf93f9a77936c8a6e449917') in 0.0010085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.630 seconds
+Refreshing native plugins compatible for Editor in 7.85 ms, found 14 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00087] in <1a7e38f6fac74b0d95602c9f9166f28a>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.107 seconds
+Domain Reload Profiling: 1735ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (364ms)
+		LoadAssemblies (276ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1108ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (945ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (708ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 8.36 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8052 unused Assets / (10.3 MB). Loaded Objects now: 8875.
+Memory consumption went from 206.0 MB to 195.7 MB.
+Total: 15.281900 ms (FindLiveObjects: 0.634400 ms CreateObjectMapping: 0.305300 ms MarkObjects: 9.936700 ms  DeleteObjects: 4.404500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 7.72 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7999 unused Assets / (9.5 MB). Loaded Objects now: 8851.
+Memory consumption went from 174.8 MB to 165.3 MB.
+Total: 14.003600 ms (FindLiveObjects: 0.659100 ms CreateObjectMapping: 0.281800 ms MarkObjects: 9.185400 ms  DeleteObjects: 3.875900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.507 seconds
+Refreshing native plugins compatible for Editor in 6.48 ms, found 14 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00087] in <1a7e38f6fac74b0d95602c9f9166f28a>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.875 seconds
+Domain Reload Profiling: 1380ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (311ms)
+		LoadAssemblies (236ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (111ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (875ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (763ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (577ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 7.32 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8051 unused Assets / (10.2 MB). Loaded Objects now: 8878.
+Memory consumption went from 252.3 MB to 242.1 MB.
+Total: 12.667300 ms (FindLiveObjects: 0.631400 ms CreateObjectMapping: 0.242600 ms MarkObjects: 7.961800 ms  DeleteObjects: 3.830700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 97.324787 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box
+  artifactKey: Guid(5d55e408f1ea53d48b4d97e98ea02427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box using Guid(5d55e408f1ea53d48b4d97e98ea02427) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5ac820109d0ccaa2b8e4f9c7ab4ae2c') in 0.0151211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.434088 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes
+  artifactKey: Guid(c118270c1bd2b8c4c999cc9fb6ce7a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes using Guid(c118270c1bd2b8c4c999cc9fb6ce7a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f8f741129defc38f1232075f03fc305') in 0.0004997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.745118 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Trash bag
+  artifactKey: Guid(b4c6ebc617eaeb54cadf23ad45936849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Trash bag using Guid(b4c6ebc617eaeb54cadf23ad45936849) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d9a6f56dff47ac4f446e8c2f17751ea') in 0.0005799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042646 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Trash bag/Trash bag 1.fbx
+  artifactKey: Guid(e942c1ff86d060c4a9e8b3d8b1cc9d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Trash bag/Trash bag 1.fbx using Guid(e942c1ff86d060c4a9e8b3d8b1cc9d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '723c6a43312764c3ff91ebc61b16b506') in 0.2919533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.816097 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Trash bin 1
+  artifactKey: Guid(02b24aecfa30fcb47b50f9d146bd75d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Trash bin 1 using Guid(02b24aecfa30fcb47b50f9d146bd75d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bc4250230911bd1bbfe503c2aceca14') in 0.0004814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046425 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Trash bin 1/Trash bin 1.fbx
+  artifactKey: Guid(319ae23c43a72da4dbeafd9e260a40a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Trash bin 1/Trash bin 1.fbx using Guid(319ae23c43a72da4dbeafd9e260a40a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9fee27f39910d129c74540c271414b18') in 0.0253573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.011150 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage
+  artifactKey: Guid(de38484f1709f95449b28436b61bfa9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage using Guid(de38484f1709f95449b28436b61bfa9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc056eedc92f8c9bdb828cc998c2f42e') in 0.0004659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.080790 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Gallon
+  artifactKey: Guid(197ef5dd43452194bb9b67b1c707d7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Gallon using Guid(197ef5dd43452194bb9b67b1c707d7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3193134da3c86fbd637e0e1471bb10c') in 0.0005061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040141 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Gallon/Gallon 2.fbx
+  artifactKey: Guid(d118a74593dc4af44b2d7fd755250612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Gallon/Gallon 2.fbx using Guid(d118a74593dc4af44b2d7fd755250612) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d171311db9c2723c60cb8c9d7bf60b1') in 0.0233626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.564495 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Pizza box
+  artifactKey: Guid(15fa6ba20188cef4c8407b5985f8b82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Pizza box using Guid(15fa6ba20188cef4c8407b5985f8b82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42bc9b12262b750d73a03365208b1bb7') in 0.0004748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047023 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Pizza box/Pizza box.fbx
+  artifactKey: Guid(370c3622935b1e14ea4f9797c7fe9e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Pizza box/Pizza box.fbx using Guid(370c3622935b1e14ea4f9797c7fe9e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '994be9cb6b6fb1957bac73c2fc80b790') in 0.0343754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.429401 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Scenes
+  artifactKey: Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Scenes using Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd65b75f456837a3494a5e6e744543932') in 0.0005945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 377.039124 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Bottle/Bottle 1.fbx
+  artifactKey: Guid(2c5fe9f07f45cb6478291d4cb11b79f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Bottle/Bottle 1.fbx using Guid(2c5fe9f07f45cb6478291d4cb11b79f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd09f0fc75a39a47dd5f68b8264b2131a') in 0.0308076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Bottle/Bottle 2.fbx
+  artifactKey: Guid(bf17c752e6c65e64c81aa8c9e64c54ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Bottle/Bottle 2.fbx using Guid(bf17c752e6c65e64c81aa8c9e64c54ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eaaf661f49bb99ebed8ba5c65df551bb') in 0.0647412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.497971 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Materials/Garbage/Bottle/Bottle 1/Bottle 1 blue glass mat.mat
+  artifactKey: Guid(1f98613e2b03fe74a91e52604720da63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Materials/Garbage/Bottle/Bottle 1/Bottle 1 blue glass mat.mat using Guid(1f98613e2b03fe74a91e52604720da63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc5727bf51d8c94d8490ecbf15686227') in 1.212262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.193753 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Materials/Garbage/Bottle/Bottle 2/Bottle 2 Body mat.mat
+  artifactKey: Guid(904a760aa75beb241860f4500699a71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Materials/Garbage/Bottle/Bottle 2/Bottle 2 Body mat.mat using Guid(904a760aa75beb241860f4500699a71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5650bddddaade63e126eefc14773cd26') in 1.0645554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.615334 seconds.
+  path: Assets/CabinDecor/Low Poly Pistol Weapon Pack 1/Materials/Low Poly Weapon.mat
+  artifactKey: Guid(2a461ee17a7f0b8449bd2c6e34b0e286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/Low Poly Pistol Weapon Pack 1/Materials/Low Poly Weapon.mat using Guid(2a461ee17a7f0b8449bd2c6e34b0e286) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a8e76c1668d12b0061b71d861484fa8') in 0.0091654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.583523 seconds.
+  path: Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F600_Fan_V1.prefab
+  artifactKey: Guid(e6eb8f4805e0e5745902f0c605a95850) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/ALSTRA INFINITE/Snap-N-Set Starter/Appliances/Prefab/KA-F600_Fan_V1.prefab using Guid(e6eb8f4805e0e5745902f0c605a95850) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '92d611b2e68dfc0fe5cb1ec10cd93814') in 0.1988636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Materials/Lightis/Blue Light mat.mat
+  artifactKey: Guid(8c09fec7aaed03d46b75380c221f7838) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Materials/Lightis/Blue Light mat.mat using Guid(8c09fec7aaed03d46b75380c221f7838) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3408c023d6ae3e9306e09ff00532a376') in 0.051877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Ground mask/4/Ground mask_D4_Emissive.png
+  artifactKey: Guid(6639a0846561531489fa2400b6f8e324) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Ground mask/4/Ground mask_D4_Emissive.png using Guid(6639a0846561531489fa2400b6f8e324) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '36952b7bbbc3bd84fe13a5cff17c6fd2') in 0.0691503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Recycle cardboard/Recycle cardboard folded.fbx
+  artifactKey: Guid(17ef352e2aaa32945bab16074b679ae5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Recycle cardboard/Recycle cardboard folded.fbx using Guid(17ef352e2aaa32945bab16074b679ae5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a87221f7e2de510a1bb753400757d59a') in 0.0757715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Gallon/Gallon 20L.fbx
+  artifactKey: Guid(b41546c8cb1d3ef49ab83ab13aa78a35) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Gallon/Gallon 20L.fbx using Guid(b41546c8cb1d3ef49ab83ab13aa78a35) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '249280560dee682c1a318cbddf16e411') in 0.0293338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Materials/Garbage/Cannon/Paint can/Paint can green mat.mat
+  artifactKey: Guid(f25b9914472ab054f8654d803c9b1c54) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Materials/Garbage/Cannon/Paint can/Paint can green mat.mat using Guid(f25b9914472ab054f8654d803c9b1c54) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'efe601d76adf6922d760168caa41fdcc') in 0.0273464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Trash box 2/Yellow/Trash can_Cap_Y_Height.png
+  artifactKey: Guid(ca763382bb192cc40bf59e7768dc77e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Trash box 2/Yellow/Trash can_Cap_Y_Height.png using Guid(ca763382bb192cc40bf59e7768dc77e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd72f1de0eaacbda7e371cae12d087c4c') in 0.0237767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Gallon/2/Gallon 2_P_Albedo.png
+  artifactKey: Guid(f8b15c7d15a1d554ca181403ab87f662) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Gallon/2/Gallon 2_P_Albedo.png using Guid(f8b15c7d15a1d554ca181403ab87f662) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '675d01dd8dc4c4abe40b7fb25b05b13c') in 0.0250783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Recycle cardboard/Crumpled cardboard Closed Type 1.prefab
+  artifactKey: Guid(72bd827598820264fb54fad513152c28) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Recycle cardboard/Crumpled cardboard Closed Type 1.prefab using Guid(72bd827598820264fb54fad513152c28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3b69c7287ad0ad2c135ce165f1f2e1e') in 0.0492154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Materials/Garbage/Cannon/Soda can 1/Soda can 1 red mat.mat
+  artifactKey: Guid(bbd520091a449d949b5be26fa1250e5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Materials/Garbage/Cannon/Soda can 1/Soda can 1 red mat.mat using Guid(bbd520091a449d949b5be26fa1250e5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2afbe387704cbac03d62e73f227c33e4') in 0.028558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Color spray/Color spray black.prefab
+  artifactKey: Guid(0f245c84d812a384e897368a20da66b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Garbage/Color spray/Color spray black.prefab using Guid(0f245c84d812a384e897368a20da66b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e74dcaa1c9a2e28d8bbf7d33b42a8f0a') in 0.0655844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Recycle cardboard/Recycle cardboard open.prefab
+  artifactKey: Guid(278e37b812c284e40bfb0052c036377c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Resources/Prefabs/Recycle cardboard/Recycle cardboard open.prefab using Guid(278e37b812c284e40bfb0052c036377c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0009c1957c011a7add20036a64f0ca00') in 0.0192125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Pizza box/Pizza box crumple.fbx
+  artifactKey: Guid(fa40fdefe1cb2db4c92854661a3b7338) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Meshes/Garbage/Pizza box/Pizza box crumple.fbx using Guid(fa40fdefe1cb2db4c92854661a3b7338) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc3e39563fae496e851438cea7d961fb') in 0.0307407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Canned/Soda can 1
+  artifactKey: Guid(b7ebcf8c9be6d6940b0f64a90315f6ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Canned/Soda can 1 using Guid(b7ebcf8c9be6d6940b0f64a90315f6ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f59100f5235270b9cae5af183fbe05e') in 0.012323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Color spray/Pianted/Color spray_P_Normal.png
+  artifactKey: Guid(5dae7907511e5124db6cae3aac2b0475) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Color spray/Pianted/Color spray_P_Normal.png using Guid(5dae7907511e5124db6cae3aac2b0475) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2088de0f8b38d41f388fa82fc1d8eb9') in 0.0294322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 2/c/Bottle 2_Body_C_AmbientOcclusion.png
+  artifactKey: Guid(665910ec78b47984d99219718b984586) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Bottle/Bottle 2/c/Bottle 2_Body_C_AmbientOcclusion.png using Guid(665910ec78b47984d99219718b984586) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e181879ce4d50c43ec7b5f9c0e60bbf3') in 0.0198351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_05_03.prefab
+  artifactKey: Guid(869129c6b5957cb47990a7d6bfde5694) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_05_03.prefab using Guid(869129c6b5957cb47990a7d6bfde5694) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: 'd3f9987fb30e0b430566d459d6d746ca') in 0.0138626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Recycle bin/Recycle bin_D_AmbientOcclusion.png
+  artifactKey: Guid(90b50c6772d405946a7071833d40afb6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Recycle bin/Recycle bin_D_AmbientOcclusion.png using Guid(90b50c6772d405946a7071833d40afb6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6902ea54328a22cc8416288f5a04e90') in 0.0199349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_08_04.prefab
+  artifactKey: Guid(75c7f4b3ded42544c8c5ac5fccb79a7d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/Gogo Casual Pack/Gogo Casual Free Plants Pack/Prefabs/Decoration_Vase_08_04.prefab using Guid(75c7f4b3ded42544c8c5ac5fccb79a7d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '807976a0cd208ebe8a4271b48f3d9af6') in 0.0151341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Canned/Canned food 2/1/Canned food 2_D_AmbientOcclusion.png
+  artifactKey: Guid(aeb9752164dbda64ba2bbe29a9560502) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/Hash Game studios/Trash Bag & Trash Box/Textures/Garbage/Canned/Canned food 2/1/Canned food 2_D_AmbientOcclusion.png using Guid(aeb9752164dbda64ba2bbe29a9560502) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c06f35ab0ebdcadda36528e25bd37d8') in 0.0197563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

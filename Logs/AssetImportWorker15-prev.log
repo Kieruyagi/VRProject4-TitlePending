@@ -1,0 +1,617 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.13f1 (abdb44fca7f7) revision 11262788'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor" at "2025-12-04T22:40:44.3993297Z"
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 31860 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-04T22:40:44Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+C:/GIT_Projects/prj1/FastFood
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+64782
+-licensingIpc
+LicenseClient-Raptor
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/GIT_Projects/prj1/FastFood
+C:/GIT_Projects/prj1/FastFood
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19284]  Target information:
+
+Player connection [19284]  * "[IP] 192.168.10.94 [Port] 0 [Flags] 2 [Guid] 2767073241 [EditorId] 2767073241 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N6LDBOS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19284] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19284] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 18.84 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.62 ms.
+Initialize engine version: 6000.2.13f1 (abdb44fca7f7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GIT_Projects/prj1/FastFood/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5070 (ID=0x2f04)
+    Vendor:   NVIDIA
+    VRAM:     11854 MB
+    Driver:   32.0.15.8129
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Raptor"
+[Licensing::IpcConnector] LicenseClient-Raptor channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13" at "2025-12-04T22:40:45.0170918Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              a43dff718e494d1d9d9decee3163b9d3
+  Correlation Id:          8b443b1067030043d42fc3d4d67f1055
+  External correlation Id: 5516441919667614320
+  Machine Id:              /Gk3cS3RbuDCQMU5P993206Xbmc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Raptor-6000.2.13" (connect: 0.00s, validation: 0.00s, handshake: 0.53s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Raptor-6000.2.13-notifications" at "2025-12-04T22:40:45.5510946Z"
+[Licensing::Module] Licensing Background thread has ended after 1.15s
+[Licensing::Module] Licensing is initialized (took 0.62s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475892980188-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.625754 seconds.
+- Loaded All Assemblies, in  0.896 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 224 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.478 seconds
+Domain Reload Profiling: 1372ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (659ms)
+	LoadAllAssembliesAndSetupDomain (105ms)
+		LoadAssemblies (94ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (102ms)
+			TypeCache.Refresh (101ms)
+				TypeCache.ScanAssembly (94ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (478ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (444ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (297ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (72ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.521 seconds
+Refreshing native plugins compatible for Editor in 6.84 ms, found 14 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00087] in <1a7e38f6fac74b0d95602c9f9166f28a>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.856 seconds
+Domain Reload Profiling: 1369ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (354ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (109ms)
+			BuildScriptInfoCaches (36ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (856ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (702ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (523ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 10.55 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8037 unused Assets / (9.9 MB). Loaded Objects now: 8803.
+Memory consumption went from 154.5 MB to 144.6 MB.
+Total: 17.025100 ms (FindLiveObjects: 0.669400 ms CreateObjectMapping: 0.426400 ms MarkObjects: 12.132200 ms  DeleteObjects: 3.795600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 11119.359153 seconds.
+  path: Assets/CabinDecor/kitchen props/textures
+  artifactKey: Guid(3492b795e3340a246ac9459704db71ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/kitchen props/textures using Guid(3492b795e3340a246ac9459704db71ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '98de46cc64ce615ee82759d1e21a3144') in 0.1266457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CabinDecor/kitchen props/materials/platesb.mat
+  artifactKey: Guid(e9d7a1ade38403b4e91e2ac80017c20e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/kitchen props/materials/platesb.mat using Guid(e9d7a1ade38403b4e91e2ac80017c20e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aba85be26266f824a7c26fc2bdcc31d9') in 0.0630355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/kitchen props/example.unity
+  artifactKey: Guid(db8865953952fd346959d6f8f5027ecb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/kitchen props/example.unity using Guid(db8865953952fd346959d6f8f5027ecb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fcee89ee3fe728c4f4fefdb6944fcca8') in 0.0130161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/kitchen props/prefabs
+  artifactKey: Guid(85cc02b66614c5f4d8d64ca264c8ea67) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/kitchen props/prefabs using Guid(85cc02b66614c5f4d8d64ca264c8ea67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a04e056c97a5decc99f8ab50ebbff54a') in 0.0093415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/CabinDecor/kitchen props/Readme.txt
+  artifactKey: Guid(56ec1135e2c7945438cd9188eda011c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/kitchen props/Readme.txt using Guid(56ec1135e2c7945438cd9188eda011c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94fbe8a04b8cad70cc9f6a657cc05f67') in 0.0077088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CabinDecor/kitchen props/textures/counter_albedo.tga
+  artifactKey: Guid(e51fa22f343ecdb40840d29ddcd50f96) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/kitchen props/textures/counter_albedo.tga using Guid(e51fa22f343ecdb40840d29ddcd50f96) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ce70cde13ee8e2e62f439f3ee81b19f') in 0.0355378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/CabinDecor/kitchen props/textures/breakfast-bar_metal.tga
+  artifactKey: Guid(385c3639ab561534da42850764dabacd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/kitchen props/textures/breakfast-bar_metal.tga using Guid(385c3639ab561534da42850764dabacd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '14b95782f9d22f4d1f0b4a6a36735d69') in 0.0193229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/kitchen props/textures/dish-rack_metal.tga
+  artifactKey: Guid(2f005d40ab2d49a488ce06c30a87c6bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/kitchen props/textures/dish-rack_metal.tga using Guid(2f005d40ab2d49a488ce06c30a87c6bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef269aafdcdfd308fb61b5642d69c6a8') in 0.0165942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CabinDecor/kitchen props/textures/dish-rack_normal.tga
+  artifactKey: Guid(69afc4771611dd747b51cf2365e36508) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/kitchen props/textures/dish-rack_normal.tga using Guid(69afc4771611dd747b51cf2365e36508) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06019d24aeafa682f4aeeb5d0ffdbd8d') in 0.014625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/CabinDecor/kitchen props/materials/china-plate.mat
+  artifactKey: Guid(ef66d3256f1c3f641a845f9c1968dc13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/kitchen props/materials/china-plate.mat using Guid(ef66d3256f1c3f641a845f9c1968dc13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bac196007c865eeaf595ac609adfc3b6') in 0.0159221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CabinDecor/kitchen props/textures/china-plate_normal.tga
+  artifactKey: Guid(62e8281d53912b840962ecddccae0996) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/kitchen props/textures/china-plate_normal.tga using Guid(62e8281d53912b840962ecddccae0996) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a96ef9adf8fcab56e95aea9c958bfda') in 0.0129357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/kitchen props/textures/plates-metal.tga
+  artifactKey: Guid(0c12f1a2fe6f31d4e91a301c3b6f26b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/kitchen props/textures/plates-metal.tga using Guid(0c12f1a2fe6f31d4e91a301c3b6f26b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'edd748b8e55bd1c8d1c32c27595b159c') in 0.0135411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CabinDecor/kitchen props/materials/plates.mat
+  artifactKey: Guid(a0ae7c41fdb3eb0419823ee09fb639b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/kitchen props/materials/plates.mat using Guid(a0ae7c41fdb3eb0419823ee09fb639b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23982fe9d67544dd486ba3a362547427') in 0.0125775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CabinDecor/kitchen props/textures/knives-ao.tga
+  artifactKey: Guid(1795fc6e0768dcb409eb12c17646a8b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/kitchen props/textures/knives-ao.tga using Guid(1795fc6e0768dcb409eb12c17646a8b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f5e35937fea383a3627e45bf95b0926b') in 0.0150976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CabinDecor/kitchen props/textures/counter_normal.tga
+  artifactKey: Guid(56a0944b7714fa74eab8d4b7490e57d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/kitchen props/textures/counter_normal.tga using Guid(56a0944b7714fa74eab8d4b7490e57d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '95ed517200fb31fe857772d6847f6ce1') in 0.0146568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CabinDecor/kitchen props/materials/coffee-cups.mat
+  artifactKey: Guid(bb5634b2ffdc5454fa1e02c337bfa831) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/kitchen props/materials/coffee-cups.mat using Guid(bb5634b2ffdc5454fa1e02c337bfa831) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '848a66394d61c0bafd493161fb31a740') in 0.0135711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CabinDecor/kitchen props/textures/dish-rack_albedo.tga
+  artifactKey: Guid(ba291510e3747c2488609af0769706ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CabinDecor/kitchen props/textures/dish-rack_albedo.tga using Guid(ba291510e3747c2488609af0769706ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10834d397816d918506315144affaa20') in 0.0145021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.840218 seconds.
+  path: Assets/Models/Materials/Amp.mat
+  artifactKey: Guid(9ce495b305f414a42ae73a1cee507f09) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Models/Materials/Amp.mat using Guid(9ce495b305f414a42ae73a1cee507f09) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36b82b93c83d7ec068d572eb7a3f4b62') in 0.2764392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.132529 seconds.
+  path: Assets/CabinDecor/kitchen props/textures
+  artifactKey: Guid(3492b795e3340a246ac9459704db71ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/kitchen props/textures using Guid(3492b795e3340a246ac9459704db71ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56ebb3b3392316dfef8705f7fb345971') in 0.0006481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CabinDecor/kitchen props/textures/counter_ao.tga
+  artifactKey: Guid(1498ac38e6cc26d4cbdac88a70b9a694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/kitchen props/textures/counter_ao.tga using Guid(1498ac38e6cc26d4cbdac88a70b9a694) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02533d17e3c85197d48bae9367c70cc0') in 1.8001126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CabinDecor/kitchen props/textures/china-plate_metal.tga
+  artifactKey: Guid(949698010af23604db2d66a9aa46df35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/kitchen props/textures/china-plate_metal.tga using Guid(949698010af23604db2d66a9aa46df35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9511ea370f0d0822dd1234ba100b87bf') in 0.5162623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CabinDecor/kitchen props/prefabs/plate-stack-large.prefab
+  artifactKey: Guid(d27f67e930be4c64db19d14ca6201d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/kitchen props/prefabs/plate-stack-large.prefab using Guid(d27f67e930be4c64db19d14ca6201d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1156260587dd7ba617738c4c2572aced') in 8.9765668 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.491385 seconds.
+  path: Assets/CabinDecor/kitchen props/textures/dish-rack_ao.tga
+  artifactKey: Guid(dfae329cca096684983ee6e7f8bec761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/kitchen props/textures/dish-rack_ao.tga using Guid(dfae329cca096684983ee6e7f8bec761) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd231d40b54241737441f2767a0f8e14d') in 1.1078841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CabinDecor/kitchen props/textures/knives_albedo.tga
+  artifactKey: Guid(17f96167990351f49a948d3c045d80c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/kitchen props/textures/knives_albedo.tga using Guid(17f96167990351f49a948d3c045d80c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67fc2b0cd4b904f45fac7ff00449457b') in 1.3994156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CabinDecor/kitchen props/textures/plates-metal.tga
+  artifactKey: Guid(0c12f1a2fe6f31d4e91a301c3b6f26b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/kitchen props/textures/plates-metal.tga using Guid(0c12f1a2fe6f31d4e91a301c3b6f26b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c11824d1f722f3b0b933b63dc24d4fdf') in 0.4642085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CabinDecor/kitchen props/textures/toaster_ao.tga
+  artifactKey: Guid(ed086ea4beb346b4aae324c6e62ba8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/kitchen props/textures/toaster_ao.tga using Guid(ed086ea4beb346b4aae324c6e62ba8a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2dcfea31fc584ae8fdb5e5973df2668f') in 0.2122924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.744392 seconds.
+  path: Assets/CabinDecor/kitchen props/textures/knives_metal.tga
+  artifactKey: Guid(ed628e40ad4784c4ea4120a900d1d05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/kitchen props/textures/knives_metal.tga using Guid(ed628e40ad4784c4ea4120a900d1d05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b7115b464bba82a0879f491e6d8dbb7') in 0.5218129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.496787 seconds.
+  path: Assets/CabinDecor/kitchen props/materials/breakfast-bar.mat
+  artifactKey: Guid(07629005d589058469287e37c2829820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/kitchen props/materials/breakfast-bar.mat using Guid(07629005d589058469287e37c2829820) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1719f6284b77537c411e41b6f432fe8e') in 0.3164382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CabinDecor/kitchen props/materials/toaster.mat
+  artifactKey: Guid(88b6dc8c22c60a54fafc2024e3bd1c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/kitchen props/materials/toaster.mat using Guid(88b6dc8c22c60a54fafc2024e3bd1c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c37bc553f530330eab1e1fbe172f74a9') in 0.136928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/CabinDecor/kitchen props/materials/mug.mat
+  artifactKey: Guid(e451e71003a14534abad869c41c8e733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CabinDecor/kitchen props/materials/mug.mat using Guid(e451e71003a14534abad869c41c8e733) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4797f6f253c43a93081a6928b2c90f1') in 0.29585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.941060 seconds.
+  path: Assets/Scenes/BedroomScene1/LightingData.asset
+  artifactKey: Guid(bfc93bb70b37bad4f83d7bdf48b7854e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/BedroomScene1/LightingData.asset using Guid(bfc93bb70b37bad4f83d7bdf48b7854e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33517ec66f50cfa5c0232fff14e81707') in 0.0106379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/BedroomSceenes/BedroomScene1/ReflectionProbe-2.exr
+  artifactKey: Guid(5a6d0e3b44be05d44a96a828265212f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/BedroomSceenes/BedroomScene1/ReflectionProbe-2.exr using Guid(5a6d0e3b44be05d44a96a828265212f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca3c3cba59cf6bf14faf4c7371261a6f') in 0.0191702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.953131 seconds.
+  path: Assets/Scenes/BedroomSceenes/BedroomScene1.unity
+  artifactKey: Guid(d68fa5a022bc318428aff9fd93e07060) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/BedroomSceenes/BedroomScene1.unity using Guid(d68fa5a022bc318428aff9fd93e07060) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0160af753b8f9ec1990d31c61275ae41') in 0.0100404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.062866 seconds.
+  path: Assets/Scenes/BedroomSceenes/BedroomScene1.unity
+  artifactKey: Guid(d68fa5a022bc318428aff9fd93e07060) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Scenes/BedroomSceenes/BedroomScene1.unity using Guid(d68fa5a022bc318428aff9fd93e07060) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/Scenes/BedroomSceenes/BedroomScene1.unity additively'
+Loaded scene 'Assets/Scenes/BedroomSceenes/BedroomScene1.unity'
+	Deserialize:            3.701 ms
+	Integration:            92.242 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.015 ms
+	Total Operation Time:   95.961 ms
+ -> (artifact id: 'b1809e7015023429c881f023920d54a3') in 0.1674306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 786
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/CabinDecor/3Dfrk/Frames with pictures/Demo.unity
+  artifactKey: Guid(8225af9d67b285a44875b34aa7d34c68) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/CabinDecor/3Dfrk/Frames with pictures/Demo.unity using Guid(8225af9d67b285a44875b34aa7d34c68) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/CabinDecor/3Dfrk/Frames with pictures/Demo.unity additively'
+Loaded scene 'Assets/CabinDecor/3Dfrk/Frames with pictures/Demo.unity'
+	Deserialize:            1.031 ms
+	Integration:            5.824 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   6.869 ms
+ -> (artifact id: '48a3a1573f5716c4b96ad79c16fcdea9') in 0.0312008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FurnishedCabin/Scenes/Demo.unity
+  artifactKey: Guid(0bce5907d797a4cd8b0660dc119867e8) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/FurnishedCabin/Scenes/Demo.unity using Guid(0bce5907d797a4cd8b0660dc119867e8) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/FurnishedCabin/Scenes/Demo.unity additively'
+Loaded scene 'Assets/FurnishedCabin/Scenes/Demo.unity'
+	Deserialize:            2.756 ms
+	Integration:            71.597 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   74.366 ms
+ -> (artifact id: '65e165c822872e60acefc88e02a0cef3') in 0.1834049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 769
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Prefabs/UI/Dropdown.prefab
+  artifactKey: Guid(870459f1cb8d7b7428337cc5935feb67) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/XR Interaction Toolkit/3.2.2/Starter Assets/DemoSceneAssets/Prefabs/UI/Dropdown.prefab using Guid(870459f1cb8d7b7428337cc5935feb67) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter) -> (artifact id: '6e8cf8e8914da597f322f93c15b5d0d7') in 0.0453485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/FastFoodScene1.unity
+  artifactKey: Guid(947f7e2f3eb19c74ea5c905ceb76fd3b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Scenes/FastFoodScene1.unity using Guid(947f7e2f3eb19c74ea5c905ceb76fd3b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/Scenes/FastFoodScene1.unity additively'
+Loaded scene 'Assets/Scenes/FastFoodScene1.unity'
+	Deserialize:            31.018 ms
+	Integration:            285.881 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.076 ms
+	Total Operation Time:   316.983 ms
+ -> (artifact id: '9a39223d14842c7c5d88d2e58459eff3') in 1.0186966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2814
+
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
