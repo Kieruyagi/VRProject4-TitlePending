@@ -4,6 +4,7 @@ using UnityEngine;
 public class IngredientDetect : MonoBehaviour
 {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       public List<string> recipe = new List<string>()
     {
         "lettuce","cheese","tomato","patty","topBun","bottomBun","drink","fries"
@@ -14,6 +15,8 @@ public class IngredientDetect : MonoBehaviour
 
     private bool recipeCompleted = false;
 =======
+=======
+>>>>>>> Stashed changes
     private List<string> recipeList = new List<string>()
     {
         "topBun","bottomBun","patty","cheese","lettuce","tomato"
@@ -30,6 +33,9 @@ public class IngredientDetect : MonoBehaviour
     private int number = 0;
 
     public AudioSource sucessAudio;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
     private void OnTriggerEnter(Collider other)
@@ -43,6 +49,11 @@ public class IngredientDetect : MonoBehaviour
             if(!recipeCheck.Contains(obj.tag)) recipeCheck.Add(obj.tag);
             Debug.Log($"Added: {obj.name} | Count: {ingredientsInside.Count}");
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+            Debug.Log($"{randomNum} random num | {recipeCheck.Count} recipes count");
+            Debug.Log($"{recipesCompleted} recipes complete | {recipe.Count} recipes count");
+>>>>>>> Stashed changes
 =======
             Debug.Log($"{randomNum} random num | {recipeCheck.Count} recipes count");
             Debug.Log($"{recipesCompleted} recipes complete | {recipe.Count} recipes count");
@@ -63,6 +74,7 @@ public class IngredientDetect : MonoBehaviour
         }
     }
 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
     private void Update()
     {
@@ -86,6 +98,8 @@ public class IngredientDetect : MonoBehaviour
             //Debug.Log("Recipe Not Complete!!!");
             return false;
 =======
+=======
+>>>>>>> Stashed changes
     private void Awake()
     {
         NewRecipe();
@@ -132,12 +146,16 @@ public class IngredientDetect : MonoBehaviour
         {
             recipe.Add(recipeList[i]);
             Debug.Log($"{recipeList[i]} ingredient");
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         }
     }
 
     private void OnRecipeCompleted()
     {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         Debug.Log("Recipe continues!");
         return;
@@ -161,6 +179,8 @@ public class IngredientDetect : MonoBehaviour
         return ingredientsInside.Count;
     }
 =======
+=======
+>>>>>>> Stashed changes
         Debug.Log("Recipes continues!");
         
         //Play sound
@@ -179,5 +199,8 @@ public class IngredientDetect : MonoBehaviour
 
         // Send UnityEvent, etc.
     }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 }
