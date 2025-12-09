@@ -22,14 +22,17 @@ TagManager:
   - cheese
   - drink
   - fries
+  - QDSUIBackplateGradient
+  - QDSUISection
+  - SamplesInfoPanel
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Overlay UI
   - Water
   - UI
-  - 
+  - PostProc
   - 
   - 
   - 

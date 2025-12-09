@@ -35,8 +35,8 @@ MonoBehaviour:
     overrideState: 0
     value: 0
   color:
-    overrideState: 0
-    value: {r: 1, g: 1, b: 1, a: 1}
+    overrideState: 1
+    value: {r: 0.4716981, g: 0, b: 0, a: 1}
   fastMode:
     overrideState: 0
     value: 0
@@ -112,7 +112,7 @@ MonoBehaviour:
     value: 0
   saturation:
     overrideState: 1
-    value: 2
+    value: 30
   brightness:
     overrideState: 0
     value: 0
@@ -154,7 +154,7 @@ MonoBehaviour:
     value: {x: 1, y: 1, z: 1, w: 0}
   gamma:
     overrideState: 1
-    value: {x: 1, y: 1, z: 1, w: 0.017741075}
+    value: {x: 1, y: 0, z: 0.25128937, w: 0.017741075}
   gain:
     overrideState: 1
     value: {x: 1, y: 1, z: 1, w: 0.059136614}
@@ -1398,6 +1398,9 @@ MonoBehaviour:
   thicknessModifier:
     overrideState: 0
     value: 1
+  zBias:
+    overrideState: 0
+    value: 0.0001
   directLightingStrength:
     overrideState: 0
     value: 0
