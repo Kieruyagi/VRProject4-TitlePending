@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class IngredientDetect : MonoBehaviour
 {
@@ -11,12 +12,15 @@ public class IngredientDetect : MonoBehaviour
     private List<string> recipeCheck = new List<string>();
 
     public List<GameObject> ingredientsInside = new List<GameObject>();
+    public List<GameObject> imagesIngredients = new List<GameObject>();
 
     public int totalOrders = 3;
     private int recipesCompleted = 0;
     private int randomNum = 0;
 
     private int number = 0;
+    private bool timerRun = false;
+    private float time = 0f;
 
     public AudioSource sucessAudio;
 
@@ -50,12 +54,22 @@ public class IngredientDetect : MonoBehaviour
 
     private void Awake()
     {
+        timerRun = true;
         NewRecipe();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
-        CheckRecipe();
+        if (timerRun)
+        {
+            time += Time.deltaTime;
+            //Check Recipe every quarter second
+            if(System.Math.Round(time, 2)%0.25f == 0.00f)
+            {
+                //Debug.Log($"{System.Math.Round(time,2)} timer");
+                CheckRecipe();
+            }
+        }
     }
 
     public void CheckRecipe()
@@ -70,7 +84,9 @@ public class IngredientDetect : MonoBehaviour
         {
             //End script
             Debug.Log("Ending Fast Food Script");
-            if(recipesCompleted >= totalOrders) this.enabled = false;
+            clearOrder();
+            timerRun = false;
+            this.enabled = false;
         }     
     }
 
@@ -93,7 +109,19 @@ public class IngredientDetect : MonoBehaviour
         for (int i = 0 ; i < randomNum ; i++)
         {
             recipe.Add(recipeList[i]);
+            Debug.Log($"{imagesIngredients} enable image");
+            imagesIngredients[i].GetComponent<Image>().enabled = true;
             Debug.Log($"{recipeList[i]} ingredient");
+        }
+    }
+
+    private void clearOrder()
+    {
+        Debug.Log("Clearing Order");
+        for(int i = 0; i < imagesIngredients.Count; i++)
+        {
+            Debug.Log($"{imagesIngredients} disable image");
+            imagesIngredients[i].GetComponent<Image>().enabled = false;
         }
     }
 
@@ -109,12 +137,7 @@ public class IngredientDetect : MonoBehaviour
             Destroy(obj);
         }
         ingredientsInside = new List<GameObject>();
-
-        //Delay 1 sec
-        //New recipe
+        clearOrder();
         NewRecipe();
-        
-
-        // Send UnityEvent, etc.
     }
 }
