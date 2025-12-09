@@ -1,0 +1,1484 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.13f1 (abdb44fca7f7) revision 11262788'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32478 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-09T08:23:12Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-anker" at "2025-12-09T08:23:12.3890086Z"
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/anker/Documents/GitHub/VRProject4-TitlePending
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+52252
+-licensingIpc
+LicenseClient-anker
+-job-worker-count
+13
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/anker/Documents/GitHub/VRProject4-TitlePending
+C:/Users/anker/Documents/GitHub/VRProject4-TitlePending
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21796]  Target information:
+
+Player connection [21796]  * "[IP] 100.110.17.146 [Port] 0 [Flags] 2 [Guid] 3520977768 [EditorId] 3520977768 [Version] 1048832 [Id] WindowsEditor(7,Caliber) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21796]  * "[IP] 100.110.187.171 [Port] 0 [Flags] 2 [Guid] 3520977768 [EditorId] 3520977768 [Version] 1048832 [Id] WindowsEditor(7,Caliber) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21796] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21796] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 13
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 29.80 ms, found 20 plugins.
+Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
+Preloading 3 native plugins for Editor in 2.22 ms.
+Initialize engine version: 6000.2.13f1 (abdb44fca7f7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/anker/Documents/GitHub/VRProject4-TitlePending/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2808)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.8180
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001387 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-anker"
+[Licensing::IpcConnector] LicenseClient-anker channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-anker-6000.2.13" at "2025-12-09T08:23:13.1225957Z"
+- Loaded All Assemblies, in  0.317 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.238 seconds
+Domain Reload Profiling: 553ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (94ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (126ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (238ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (199ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (88ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              5157d42822de48a0a24c1f388ff0216f
+  Correlation Id:          560d9b39dde7023fbdfd9451f1e8f2ba
+  External correlation Id: 7327787808715135377
+  Machine Id:              0urQD6dYJSuRlleZQ3+4xUcd9Jw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-anker-6000.2.13" (connect: 0.00s, validation: 0.00s, handshake: 0.61s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-anker-6000.2.13-notifications" at "2025-12-09T08:23:13.7354171Z"
+[Licensing::Module] Licensing Background thread has ended after 1.35s
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475410670703-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.706 seconds
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 10.31 ms, found 20 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 11.50 ms, found 20 plugins.
+Build target directory for AndroidPlayer does not exist!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.BuildPipeline:GetPlaybackEngineDirectory (UnityEditor.BuildTargetGroup,UnityEditor.BuildTarget,UnityEditor.BuildOptions,bool)
+UnityEditor.BuildPipeline:GetPlaybackEngineDirectory (UnityEditor.BuildTarget,UnityEditor.BuildOptions,bool)
+UnityEditor.BuildPipeline:GetPlaybackEngineDirectory (UnityEditor.BuildTarget,UnityEditor.BuildOptions)
+OVRConfig:GetAndroidSDKPathLocation (bool) (at ./Library/PackageCache/com.meta.xr.sdk.core@d6da9ab40659/Editor/OVRConfig.cs:82)
+UnityADBToolSingleton:.cctor () (at ./Library/PackageCache/com.meta.xr.sdk.core@d6da9ab40659/Editor/UnityADBToolSingleton.cs:27)
+OVRProjectSetupDeviceTasks:.cctor () (at ./Library/PackageCache/com.meta.xr.sdk.core@d6da9ab40659/Editor/OVRProjectSetup/Tasks/Implementations/OVRProjectSetupDeviceTasks.cs:42)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[./Library/PackageCache/com.meta.xr.sdk.core@d6da9ab40659/Editor/OVRConfig.cs line 82]
+
+Cancelling DisplayDialog: Android SDK not Found Android SDK not found. Please ensure that the path is set correctly in (Edit -> Preferences -> External Tools) or that the Untiy Android module is installed correctly.
+This should not be called in batch mode.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:DisplayDialogImpl (string,string,string,string)
+UnityEditor.EditorUtility:DisplayDialog (string,string,string,string)
+UnityEditor.EditorUtility:DisplayDialog (string,string,string)
+OVRConfig:GetAndroidSDKPathLocation (bool) (at ./Library/PackageCache/com.meta.xr.sdk.core@d6da9ab40659/Editor/OVRConfig.cs:104)
+UnityADBToolSingleton:.cctor () (at ./Library/PackageCache/com.meta.xr.sdk.core@d6da9ab40659/Editor/UnityADBToolSingleton.cs:27)
+OVRProjectSetupDeviceTasks:.cctor () (at ./Library/PackageCache/com.meta.xr.sdk.core@d6da9ab40659/Editor/OVRProjectSetup/Tasks/Implementations/OVRProjectSetupDeviceTasks.cs:42)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[./Library/PackageCache/com.meta.xr.sdk.core@d6da9ab40659/Editor/OVRConfig.cs line 104]
+
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00087] in <1a7e38f6fac74b0d95602c9f9166f28a>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.256 seconds
+Domain Reload Profiling: 1957ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (527ms)
+		LoadAssemblies (304ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (287ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (170ms)
+			BuildScriptInfoCaches (77ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1257ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1103ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (867ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 8.98 ms, found 20 plugins.
+Preloading 3 native plugins for Editor in 0.22 ms.
+Unloading 34 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10767 unused Assets / (11.6 MB). Loaded Objects now: 11639.
+Memory consumption went from 206.4 MB to 194.8 MB.
+Total: 17.323000 ms (FindLiveObjects: 0.709600 ms CreateObjectMapping: 0.451600 ms MarkObjects: 12.544200 ms  DeleteObjects: 3.616500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 36506.767395 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Apple_Chopped.prefab
+  artifactKey: Guid(57fac217fefc9904db3288cbff2fe3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Apple_Chopped.prefab using Guid(57fac217fefc9904db3288cbff2fe3f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d808f4e67daca4d7713633fda072b88') in 0.4159168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Lasagna.prefab
+  artifactKey: Guid(b4bc12119c05f3e41917eb3082d12409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Lasagna.prefab using Guid(b4bc12119c05f3e41917eb3082d12409) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2f07c79a2252624046fdfcb1fb28f79') in 0.0166317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Black Coffee Cup.prefab
+  artifactKey: Guid(c281362843f585e48832395b63ac1d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Black Coffee Cup.prefab using Guid(c281362843f585e48832395b63ac1d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5049d2125dcc7f5f48f4d9e2058cef17') in 0.0160535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Chicken Sub.prefab
+  artifactKey: Guid(82d030224f9b8f94ebb6bb223dc99091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Chicken Sub.prefab using Guid(82d030224f9b8f94ebb6bb223dc99091) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f76ac7d1ee554004b4a81bfccf91b65') in 0.0182153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Egg.prefab
+  artifactKey: Guid(26dd2342357dc454bb29148a4339dd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Egg.prefab using Guid(26dd2342357dc454bb29148a4339dd1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2dc27dfbc2f032ca0d867a002b9bbf9') in 0.0176916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_HotDog Sandwich.001.prefab
+  artifactKey: Guid(6c61c96db5547f040af6dd99cbdbc93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_HotDog Sandwich.001.prefab using Guid(6c61c96db5547f040af6dd99cbdbc93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f511291212245734edd96aa86d4c85da') in 0.0185729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Chopped Lettuce.prefab
+  artifactKey: Guid(a39885acf60cabb49ae5f1ed9464e7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Chopped Lettuce.prefab using Guid(a39885acf60cabb49ae5f1ed9464e7b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd59279b462866613e168bd2bab888397') in 0.0150257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Chopped Tomato.prefab
+  artifactKey: Guid(84c1822a4f069684fb10b63ebaeb6c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Chopped Tomato.prefab using Guid(84c1822a4f069684fb10b63ebaeb6c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd45679ae1908f4acbe95f453d7759a23') in 0.0160259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Corn.prefab
+  artifactKey: Guid(4f166b533e80e054e839d72949c4a57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Corn.prefab using Guid(4f166b533e80e054e839d72949c4a57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4017350acb7d7c25c33cfac679faf53e') in 0.0135026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Ground Meat.prefab
+  artifactKey: Guid(70da43861d4c9b741b310ca202d69593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Ground Meat.prefab using Guid(70da43861d4c9b741b310ca202d69593) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '065e7c1aed9cdc2a40d4916bfd2c4cd9') in 0.0126301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Meatloaf.prefab
+  artifactKey: Guid(93f772423cc7e034fae4cf7f57961053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Meatloaf.prefab using Guid(93f772423cc7e034fae4cf7f57961053) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a829de9f04210728100e9b9477148b20') in 0.015931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Rice.prefab
+  artifactKey: Guid(30b514f0793b09641a844b6a4210870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Rice.prefab using Guid(30b514f0793b09641a844b6a4210870c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96181afe0cbb351c7841d815395afcd7') in 0.0137324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Pasta.prefab
+  artifactKey: Guid(e587153d97158e54cb4442ea55fbdf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Pasta.prefab using Guid(e587153d97158e54cb4442ea55fbdf6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a5df701b1c80dc3a080a781f4c578bc') in 0.0158327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Potato.prefab
+  artifactKey: Guid(c68bd0879681d2241845579839f5c99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Potato.prefab using Guid(c68bd0879681d2241845579839f5c99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6b60dbf5d2cf86b567af6d4a29ac092') in 0.0172218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Omelette.prefab
+  artifactKey: Guid(4cc60c1d84364a7459d7ce80ea270a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Omelette.prefab using Guid(4cc60c1d84364a7459d7ce80ea270a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '341bdb2265549a15131bbb8e7936874c') in 0.0189536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Philly Cheese Steaks.prefab
+  artifactKey: Guid(95bba697f9f78f448b68dc16456ff4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Philly Cheese Steaks.prefab using Guid(95bba697f9f78f448b68dc16456ff4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d5eeb949aff9f6f2245516619708da2') in 0.0154026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Salad.prefab
+  artifactKey: Guid(4ae2e15bd53dc614da112f9115fefbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Salad.prefab using Guid(4ae2e15bd53dc614da112f9115fefbfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88d0d6f16ba2becde41e4186d9a4d741') in 0.0160515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Taco.prefab
+  artifactKey: Guid(6d071a0891fd6734d8fc2a83ed8f4332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Taco.prefab using Guid(6d071a0891fd6734d8fc2a83ed8f4332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33620909175cbaab79a7c5b843845cf0') in 0.0178139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Tomato.prefab
+  artifactKey: Guid(85938f0c69ec2764089c4ae07951faf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Tomato.prefab using Guid(85938f0c69ec2764089c4ae07951faf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59ded903faa1a87d936a1dd692c05b19') in 0.0151762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Cup_03_Cover.prefab
+  artifactKey: Guid(9e0cfa51b9e7cae4a9826ba55aabb786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Cup_03_Cover.prefab using Guid(9e0cfa51b9e7cae4a9826ba55aabb786) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '56cc413f1493b88c9bcbf78b9e406a53') in 0.0140344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Sushi.prefab
+  artifactKey: Guid(98f5db16b231f564094b1ac509050adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Sushi.prefab using Guid(98f5db16b231f564094b1ac509050adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd55c57f21db5d61e3830e638df43ed41') in 0.0159482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_BurgerSpatula.prefab
+  artifactKey: Guid(475eadfedf936e243bcb337d8e2110f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_BurgerSpatula.prefab using Guid(475eadfedf936e243bcb337d8e2110f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f93b92266f8ff0009e2ec7a598b21e0e') in 0.0203054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Pea.prefab
+  artifactKey: Guid(d18f929552ea73b4e99fdfdb3d8d7651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Pea.prefab using Guid(d18f929552ea73b4e99fdfdb3d8d7651) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f018cfd7b12efe55dd5cd89b59ae2e9e') in 0.0170359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Fan_02.prefab
+  artifactKey: Guid(f57135c1ed5871c41aa7551b36f7ddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Fan_02.prefab using Guid(f57135c1ed5871c41aa7551b36f7ddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c47a005d341f3fbf39cac7028d1cfce') in 0.0179362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Frier.prefab
+  artifactKey: Guid(7f8bf37bb7a312f478ae92d0810f02b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Frier.prefab using Guid(7f8bf37bb7a312f478ae92d0810f02b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed0643c6d9cb1fd557d1a7f8a93c7f7c') in 0.0167991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Knife_02.prefab
+  artifactKey: Guid(0f8ebf61b4de07b46a17b832dff06697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Knife_02.prefab using Guid(0f8ebf61b4de07b46a17b832dff06697) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03d9e7f72a44a2c16612d9efc8aa8fe5') in 0.0151944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Knife_03.prefab
+  artifactKey: Guid(6973b2774b9402049910ce1023b01ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Knife_03.prefab using Guid(6973b2774b9402049910ce1023b01ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5f1fe9e5501398b2050b08a9911ed00') in 0.0132625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Knife_01.prefab
+  artifactKey: Guid(7faf413ddded778418c6fe63a2586002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Knife_01.prefab using Guid(7faf413ddded778418c6fe63a2586002) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4e782e537d3162a88b535f2a6daee36') in 0.0142363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_CuttingPlate.prefab
+  artifactKey: Guid(2f5b5d5c74133eb4da94c020922031a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_CuttingPlate.prefab using Guid(2f5b5d5c74133eb4da94c020922031a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '519b4c86b8a4222f60d8ac11ad54f0e5') in 0.0149009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_KitchenCabinet_01.prefab
+  artifactKey: Guid(d5d787b8a2e39b24d8a9c7e01c2506a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_KitchenCabinet_01.prefab using Guid(d5d787b8a2e39b24d8a9c7e01c2506a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7dca795ff64d713404f8777e45a8992e') in 0.014701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_MiniStove.prefab
+  artifactKey: Guid(e8c1fa26d90768b4eae93c605ff352cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_MiniStove.prefab using Guid(e8c1fa26d90768b4eae93c605ff352cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fba15aa0358e69fe760bb460a7e85202') in 0.0223538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Pan_03.prefab
+  artifactKey: Guid(11afbf2a0f84f974bb4b8ec4fa197bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Pan_03.prefab using Guid(11afbf2a0f84f974bb4b8ec4fa197bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '772cc3609ca8adfb8075733f3e604d2b') in 0.0196746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_MeasuringSpoon_02.prefab
+  artifactKey: Guid(cb8dd5cd5d0df32438bf3ded83ddb6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_MeasuringSpoon_02.prefab using Guid(cb8dd5cd5d0df32438bf3ded83ddb6d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bfd7db1dd0c523831cf22ff15791f23') in 0.0156922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Knife_05.prefab
+  artifactKey: Guid(a92e359905d533942a54eae60b56a29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Knife_05.prefab using Guid(a92e359905d533942a54eae60b56a29a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27b9009e464240ae292e71f2e3cb749f') in 0.0140092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Pan_02.prefab
+  artifactKey: Guid(6193058feee16f34aaa82c253523ec43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Pan_02.prefab using Guid(6193058feee16f34aaa82c253523ec43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3659ae965464348996a9f70b25af1086') in 0.0166309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Pot_01.prefab
+  artifactKey: Guid(358a37faea3a19c45baf9bb397ec3863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Pot_01.prefab using Guid(358a37faea3a19c45baf9bb397ec3863) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd719a5552f1cbfa313f87d52165c71f3') in 0.0137517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Bowel_05.prefab
+  artifactKey: Guid(2221062d665833a4cb3fad3c42851e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Bowel_05.prefab using Guid(2221062d665833a4cb3fad3c42851e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '581b6a3362ec9fc4175c32cad63fe779') in 0.0148519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Spatula_04.prefab
+  artifactKey: Guid(85caab21649df0f49b47c4ac39c6be0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Spatula_04.prefab using Guid(85caab21649df0f49b47c4ac39c6be0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd697adb0eb7feef4799c882eea017f7e') in 0.0144724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Tray.prefab
+  artifactKey: Guid(5266988b81c6ff44d833c591e20cd635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Tray.prefab using Guid(5266988b81c6ff44d833c591e20cd635) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62ac1c74b945e85f6424116a63e4b7bc') in 0.0117289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Spatula_01.prefab
+  artifactKey: Guid(70d5f57aec4385e4b8ebbbc679fb88ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Spatula_01.prefab using Guid(70d5f57aec4385e4b8ebbbc679fb88ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f75b79557ea68ce02ef4ebfb1acbef5') in 0.0137629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Bowel_01.prefab
+  artifactKey: Guid(853831eb758a2c3419f2a300203a4fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Bowel_01.prefab using Guid(853831eb758a2c3419f2a300203a4fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49e41b3edef0060cb40e009f36071574') in 0.0112385 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Knife_06.prefab
+  artifactKey: Guid(7670415b948d3954ab1b1793fc9e17de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Knife_06.prefab using Guid(7670415b948d3954ab1b1793fc9e17de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '817fd2f83cb632c6de6f2cfd6b03a6ee') in 0.0131889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_WhipMixer.prefab
+  artifactKey: Guid(4f04852b3a3372d45b4247abcdfdfed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_WhipMixer.prefab using Guid(4f04852b3a3372d45b4247abcdfdfed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5c39c4ff832d197fba6fc9d1798e7af') in 0.0152192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Cheese.prefab
+  artifactKey: Guid(faddb7582ea378c44a767cc63fe84c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Cheese.prefab using Guid(faddb7582ea378c44a767cc63fe84c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4419b18f936a0aedb3291c7d21e2c327') in 0.0143049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Susage.prefab
+  artifactKey: Guid(e41b9cce28c2aa542abacad6d2c5af47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Susage.prefab using Guid(e41b9cce28c2aa542abacad6d2c5af47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd58afa1cc744af65b9278695d32dc24') in 0.0139045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Bowel_04.prefab
+  artifactKey: Guid(4c5ebcc00a3ddca49802972d76f2a324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Bowel_04.prefab using Guid(4c5ebcc00a3ddca49802972d76f2a324) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '131b294dfe79a9dc344fe15f9ef532c6') in 0.0124521 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_StorageShelve.prefab
+  artifactKey: Guid(3a91f2e419e4058488ed8b7621e9abdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_StorageShelve.prefab using Guid(3a91f2e419e4058488ed8b7621e9abdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94aa66c9bb0547754a8245e21ddd2d0b') in 0.0145672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_TurkeyBreastChopped.prefab
+  artifactKey: Guid(ac4ab9cf1a51f024dac20dd5acbedb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_TurkeyBreastChopped.prefab using Guid(ac4ab9cf1a51f024dac20dd5acbedb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c03ea35706690a6724aaad855e8bc6ed') in 0.0125264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Pan_01.prefab
+  artifactKey: Guid(fd83c4156fa1b6c4a9f23c1fc1bbbff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Pan_01.prefab using Guid(fd83c4156fa1b6c4a9f23c1fc1bbbff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ec1828ac64c91562a2a14e1a89acb31') in 0.0140627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Oven_01.prefab
+  artifactKey: Guid(26963c43f9843f14a8567afb8520a54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Oven_01.prefab using Guid(26963c43f9843f14a8567afb8520a54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5a18373f3883a5a21d5e99d6d0801fe') in 0.0162756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Spatula_05.prefab
+  artifactKey: Guid(214a397aa29892b47b3ad2707f988cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Spatula_05.prefab using Guid(214a397aa29892b47b3ad2707f988cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a247e66c77c91151b0699ec465b00e39') in 0.0148821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_KitchenTable_02.prefab
+  artifactKey: Guid(8c31604f61cdc3e4288c7e7dfe0e4e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_KitchenTable_02.prefab using Guid(8c31604f61cdc3e4288c7e7dfe0e4e08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77a8ba26a38b7accc8de1f79057a17c3') in 0.0144253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Meet.prefab
+  artifactKey: Guid(78aa69274795dd6458edadb8e3efe5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Meet.prefab using Guid(78aa69274795dd6458edadb8e3efe5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f707ad275d47ceb14fa1a48adc300fd2') in 0.0137627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Meatballs Sub.prefab
+  artifactKey: Guid(897859a771092914295df61ba808f53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Meatballs Sub.prefab using Guid(897859a771092914295df61ba808f53d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65e10aa41a313539d21af531c59b2d07') in 0.0126186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Plate_03.prefab
+  artifactKey: Guid(26f217e91502c9b4c8ddc17d8728b261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Plate_03.prefab using Guid(26f217e91502c9b4c8ddc17d8728b261) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5413f28d15a3a2f8876fd2cbb610dcf') in 0.0150223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_TrayHolder.prefab
+  artifactKey: Guid(5af181918f5715d429e2f0e9a299ea6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_TrayHolder.prefab using Guid(5af181918f5715d429e2f0e9a299ea6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd029ebcb2082bdd1a4f9ad73f8e72c7') in 0.0131796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Spatula_02.prefab
+  artifactKey: Guid(30c6c3fa34cd7844b8dcc7feaa58f177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Spatula_02.prefab using Guid(30c6c3fa34cd7844b8dcc7feaa58f177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f0e2a57e2c7d557ee4b054517f03dad') in 0.021592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Cup_02_Cover.prefab
+  artifactKey: Guid(69e737c8f94cee34aa0f1e7186cf9911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Cup_02_Cover.prefab using Guid(69e737c8f94cee34aa0f1e7186cf9911) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '197ae8f03a10cf3d8a9eab454705cec4') in 0.0153803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Pot_06.prefab
+  artifactKey: Guid(45987550faabde540be54d643f693b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Pot_06.prefab using Guid(45987550faabde540be54d643f693b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9884951adf0526f5049451853382667') in 0.0169297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Spatula_08.prefab
+  artifactKey: Guid(5469bac6b8d5b6842a7184c4ba21cea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Spatula_08.prefab using Guid(5469bac6b8d5b6842a7184c4ba21cea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c90c596cbe0f569474f0f872b080672d') in 0.0132328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Fridge_03.prefab
+  artifactKey: Guid(2a6d561cbaf69f14d92dd9db7720e060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Fridge_03.prefab using Guid(2a6d561cbaf69f14d92dd9db7720e060) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0207c033d5f6886e233254acfd792173') in 0.0161903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_KitchenTable_08.prefab
+  artifactKey: Guid(ef7f53cab60ed47469e7ce5e187c7c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_KitchenTable_08.prefab using Guid(ef7f53cab60ed47469e7ce5e187c7c2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c868a6ea81f4f3fc9b2d6e4fd684f93') in 0.0160871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Pot_02.prefab
+  artifactKey: Guid(24d4964b45022c64f8d29af3794516ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Pot_02.prefab using Guid(24d4964b45022c64f8d29af3794516ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aae921861d3f3c9ce373edf093110295') in 0.0140374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Turkey Breast.prefab
+  artifactKey: Guid(734ba1b51a6460a47bcd7bae305ba996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Turkey Breast.prefab using Guid(734ba1b51a6460a47bcd7bae305ba996) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e368eebd6725fe6714554c64dbd2eb52') in 0.0113649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Faucet.prefab
+  artifactKey: Guid(2aff6043e8121544eb8107e3d8ade3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Faucet.prefab using Guid(2aff6043e8121544eb8107e3d8ade3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a81b08a900bc451de56bf995f81b971') in 0.012665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Knife_04.prefab
+  artifactKey: Guid(15433602e108aae4290663c9644a7298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Knife_04.prefab using Guid(15433602e108aae4290663c9644a7298) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd234d6f81f3053c205644c8de93c6e81') in 0.0130191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Bowel_02.prefab
+  artifactKey: Guid(1a4629ba2471df04b82c7bbeaf4788af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Bowel_02.prefab using Guid(1a4629ba2471df04b82c7bbeaf4788af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68986ade8fa496bb5a61b01ef1f4939b') in 0.0122237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Pot_04.prefab
+  artifactKey: Guid(772b12e3998be144eb54ea25ab1e1884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Pot_04.prefab using Guid(772b12e3998be144eb54ea25ab1e1884) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c72e9bbc1209c3baf34fe572ef8f11be') in 0.0143411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Seared Ground Beef.prefab
+  artifactKey: Guid(83aad64f3f078194b97e33a1d49fb2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Food_Seared Ground Beef.prefab using Guid(83aad64f3f078194b97e33a1d49fb2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b27bc6ee4250b93686abef8fad53073') in 0.0141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Stove.prefab
+  artifactKey: Guid(65aeeaef3d6863a428686ba3b34e8c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_Stove.prefab using Guid(65aeeaef3d6863a428686ba3b34e8c58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '957be335e7d80f7c860c3d59db2f35b0') in 0.0123137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_KitchenTable_04.prefab
+  artifactKey: Guid(5b64bcaaa6de77345bb5f15d719356d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Pandazole_Ultimate_Pack/Pandazole Kitchen Food/Prefabs/Prop_KitchenTable_04.prefab using Guid(5b64bcaaa6de77345bb5f15d719356d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b9d5044421fb8bf1fbf3eb58665aa71') in 0.0145637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 929.838478 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/auberginePiece_Burnt.prefab
+  artifactKey: Guid(f1627e573685b3246bda9a335d0a5d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/auberginePiece_Burnt.prefab using Guid(f1627e573685b3246bda9a335d0a5d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '304d28c18996a0149609ddf76cfd033b') in 0.0179318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/bacon_Burnt.prefab
+  artifactKey: Guid(d34f0d4b298c1b64ab19c3ac93740128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/bacon_Burnt.prefab using Guid(d34f0d4b298c1b64ab19c3ac93740128) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e39737e6c126b8e0c5efd75a4df35ed4') in 0.0122759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/CarrotBody.prefab
+  artifactKey: Guid(bdcb1163aaa701e47a05799e04111331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/CarrotBody.prefab using Guid(bdcb1163aaa701e47a05799e04111331) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abbd08ed422de1103ef606fec158744c') in 0.0140031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/beef_Steak_Burnt.prefab
+  artifactKey: Guid(12713fb5b8d11f843a999a6fd1f7563a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/beef_Steak_Burnt.prefab using Guid(12713fb5b8d11f843a999a6fd1f7563a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7be4a24919e0af1a374f33c0effd7fe') in 0.0131374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/burgerBun_Top.prefab
+  artifactKey: Guid(d855caf4144e99248bbd0067685fa6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/burgerBun_Top.prefab using Guid(d855caf4144e99248bbd0067685fa6ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65a3fde32d3ec6df7b158fa6a9e3cd57') in 0.0151407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/aubergineSlice_Burnt.prefab
+  artifactKey: Guid(761444af07d01bd4a86a42a2b2141f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/aubergineSlice_Burnt.prefab using Guid(761444af07d01bd4a86a42a2b2141f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81700f1af7a9ebffb5452fbf8f192dfa') in 0.0123514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/burgerBun_Bottom.prefab
+  artifactKey: Guid(7e1981e7585dae14f96b91844f507d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/burgerBun_Bottom.prefab using Guid(7e1981e7585dae14f96b91844f507d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '901d848ce074f18dadc6d10e7d1ee194') in 0.0137939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cheddarCheeseSlice.prefab
+  artifactKey: Guid(363955a43b263b04db87c074f8c0e964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cheddarCheeseSlice.prefab using Guid(363955a43b263b04db87c074f8c0e964) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc4782b8d4ec03b86e5ef6f2f2a5b609') in 0.016522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/aubergineSlice_Cooked.prefab
+  artifactKey: Guid(89bac38f57e4a4e4b81fdd41f4008075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/aubergineSlice_Cooked.prefab using Guid(89bac38f57e4a4e4b81fdd41f4008075) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9d2423c07571258133a63e3dd89d68b') in 0.0112517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/auberginePiece_Cooked.prefab
+  artifactKey: Guid(75ce162d0285baa46b392424af254e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/auberginePiece_Cooked.prefab using Guid(75ce162d0285baa46b392424af254e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b245ebc85a559f65ebb704586081360') in 0.0131507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/bacon_Cooked.prefab
+  artifactKey: Guid(34e35973ce913774d8913218b2fa9924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/bacon_Cooked.prefab using Guid(34e35973ce913774d8913218b2fa9924) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16a3e29cd42c1414b58ceaecfbf5a30b') in 0.0127318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cheddarCheeseSlice_Melted.prefab
+  artifactKey: Guid(e07133125b3d43f429d54b2689beea9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cheddarCheeseSlice_Melted.prefab using Guid(e07133125b3d43f429d54b2689beea9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43d958c403c442ba110c10f564721ea8') in 0.0143538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/burgerBun.prefab
+  artifactKey: Guid(68aca23de7f87be429d806227bcec685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/burgerBun.prefab using Guid(68aca23de7f87be429d806227bcec685) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75e39d85c7c26e07bda39226decbef0e') in 0.0137237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/bacon_Raw.prefab
+  artifactKey: Guid(0a11f0d465e90eb4ab0932a667ee109c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/bacon_Raw.prefab using Guid(0a11f0d465e90eb4ab0932a667ee109c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '405c5a32d436dc68736f82dbcfaf19d1') in 0.0142093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.838005 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cheeseSlice.prefab
+  artifactKey: Guid(b220d363cbed7d149a855714aee8593e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cheeseSlice.prefab using Guid(b220d363cbed7d149a855714aee8593e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b5c1f8af79647ef62d21953e6317d17') in 0.016266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cheeseSlice_Melted.prefab
+  artifactKey: Guid(2601b9b216a41b3439bee25abdfa6ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cheeseSlice_Melted.prefab using Guid(2601b9b216a41b3439bee25abdfa6ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6620de1026f6992028057a8527a4c0e8') in 0.0131428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cheeseTriangle_Wax.prefab
+  artifactKey: Guid(510f372e1f08fe346a3501ad02a1fa2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cheeseTriangle_Wax.prefab using Guid(510f372e1f08fe346a3501ad02a1fa2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ade286ae19149c90d4aad382f182d7e') in 0.0131454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cheeseTriangle.prefab
+  artifactKey: Guid(a0c760bed08e4c54f85e6dab0a8e5cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cheeseTriangle.prefab using Guid(a0c760bed08e4c54f85e6dab0a8e5cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ed3f1c9c85b9362fa21cb542e1ba860') in 0.0155819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.241248 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/chicken_Bone.prefab
+  artifactKey: Guid(dd2f68598f6c1094cb76232c107bcdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/chicken_Bone.prefab using Guid(dd2f68598f6c1094cb76232c107bcdab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04e0a1cf8c52194c9f59da5271709e82') in 0.0143016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/chicken_Cooked.prefab
+  artifactKey: Guid(e632d73b97f61ff4eb32c5c07bb19e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/chicken_Cooked.prefab using Guid(e632d73b97f61ff4eb32c5c07bb19e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9e1d52d304febbd7368b11d6a71ce7c8') in 0.012015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/chicken_Raw.prefab
+  artifactKey: Guid(34874ef459bf8644084e8f23a051a10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/chicken_Raw.prefab using Guid(34874ef459bf8644084e8f23a051a10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '533793213efd85fab6bcf1eb8c2a6745') in 0.0130482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.610914 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/corn_Cob.prefab
+  artifactKey: Guid(a66feedabe1321d44a37ca9bbe3ba510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/corn_Cob.prefab using Guid(a66feedabe1321d44a37ca9bbe3ba510) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28b433551f8744cd037ddc52be4d19e7') in 0.0208555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cucumberSlice_Quarter.prefab
+  artifactKey: Guid(03ba5c94a37ce2a4cbdc07ab269f12f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cucumberSlice_Quarter.prefab using Guid(03ba5c94a37ce2a4cbdc07ab269f12f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '029097b2207928128cb649e216251ba5') in 0.012323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cucumber.prefab
+  artifactKey: Guid(a6802b3cefc07924b90a908ec8e921f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cucumber.prefab using Guid(a6802b3cefc07924b90a908ec8e921f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '800b9c2eeb527c93419f4ca233c480c5') in 0.012081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cucumberSlice_Quarter_Shaved.prefab
+  artifactKey: Guid(2a98933edfe6bd34c9c267c1096653d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cucumberSlice_Quarter_Shaved.prefab using Guid(2a98933edfe6bd34c9c267c1096653d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e94554c5451a3d85df451cd290f11175') in 0.0134724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cucumber_Shaved_Half.prefab
+  artifactKey: Guid(032f452432c38174fb2c2b2333a1c657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cucumber_Shaved_Half.prefab using Guid(032f452432c38174fb2c2b2333a1c657) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3eea295a3bab39d68867695f984848e') in 0.0143949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.229279 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cucumberSlice_Shaved.prefab
+  artifactKey: Guid(9d15c7652bd19d14a8d2b6ab91cb4dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/cucumberSlice_Shaved.prefab using Guid(9d15c7652bd19d14a8d2b6ab91cb4dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee7a586b63df8eb103ad06060d34555d') in 0.014687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/egg_Boiled_Sliced_2_White.prefab
+  artifactKey: Guid(3bed50371071e544babdad3d03c9a11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/egg_Boiled_Sliced_2_White.prefab using Guid(3bed50371071e544babdad3d03c9a11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f695389ca8a9b1dfbbafb30dd2721ae') in 0.0157662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/egg_Cooked.prefab
+  artifactKey: Guid(5a13447a7da133c4fa98b14c804abf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/egg_Cooked.prefab using Guid(5a13447a7da133c4fa98b14c804abf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5598c9bd37a4141452635d9c1ac2d6a') in 0.0134849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/egg_Shell_Top.prefab
+  artifactKey: Guid(940a058fada59b548ac93771cd153ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/egg_Shell_Top.prefab using Guid(940a058fada59b548ac93771cd153ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '898537d417aca438b7bf201236e60e71') in 0.0143179 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/egg_Boiled_Sliced_2_Yellow.prefab
+  artifactKey: Guid(0ec05b4c6fff566489bd370545b30d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/egg_Boiled_Sliced_2_Yellow.prefab using Guid(0ec05b4c6fff566489bd370545b30d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c34f4a0fc4714851412df4f5b58bcc0') in 0.0149467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/egg.prefab
+  artifactKey: Guid(72427da3f2db798428c3426892365b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/egg.prefab using Guid(72427da3f2db798428c3426892365b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88309cc4e7021efaeb80ba0eb626eda6') in 0.0116103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/fish_Cooked.prefab
+  artifactKey: Guid(38f1efb542defe741b712c5ed07951ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/fish_Cooked.prefab using Guid(38f1efb542defe741b712c5ed07951ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f99edef2cb5180a198958191215762f') in 0.0163073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/fish.prefab
+  artifactKey: Guid(7ec86e54929ee164ab2ec71dd70b3f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/fish.prefab using Guid(7ec86e54929ee164ab2ec71dd70b3f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd443446c24eb40457e5eb87f028ace14') in 0.0118288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/lettuceSliced_0.prefab
+  artifactKey: Guid(15a1ecbb2fb56d941814b49a63c4b007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/lettuceSliced_0.prefab using Guid(15a1ecbb2fb56d941814b49a63c4b007) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b2dcec30d3ee8e2f9dac9a7d4401713') in 0.014074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/fish_Slice_1_Cooked.prefab
+  artifactKey: Guid(5823d6eff4a0db043ad2539aa1046cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/fish_Slice_1_Cooked.prefab using Guid(5823d6eff4a0db043ad2539aa1046cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ac4cb87745b635fdd14995e5ffc4696') in 0.0138267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/lettuce_square.prefab
+  artifactKey: Guid(12bc170328df26c46b8c238e0cfca259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/lettuce_square.prefab using Guid(12bc170328df26c46b8c238e0cfca259) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f61c238515283a7850a128f7b8194feb') in 0.0132465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/groundBeef_Burnt.prefab
+  artifactKey: Guid(988d8c8a4b22ded45b9a582eb31c5b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/groundBeef_Burnt.prefab using Guid(988d8c8a4b22ded45b9a582eb31c5b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f45c76ee36eac82dadd675cdedf5aa5') in 0.01592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/egg_Boiled_Sliced_1_Yellow.prefab
+  artifactKey: Guid(aaa9dbc24d9662540b58dd35518c7637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/egg_Boiled_Sliced_1_Yellow.prefab using Guid(aaa9dbc24d9662540b58dd35518c7637) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d93de0579aece35e26202711c41fdc8') in 0.0175298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/melon.prefab
+  artifactKey: Guid(42ffd3293300e494a9994204bd553347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/melon.prefab using Guid(42ffd3293300e494a9994204bd553347) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d76ba8d3cbf4056066c23e5cfc4ccf9') in 0.0121696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/melon_Sliced_Small_1.prefab
+  artifactKey: Guid(54964b05f749c6f43bc9212b6c7e547d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/melon_Sliced_Small_1.prefab using Guid(54964b05f749c6f43bc9212b6c7e547d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39b7c2967ca6314e88bc9e38578d159e') in 0.0155377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/mushroom_Cooked.prefab
+  artifactKey: Guid(3b90a8254c6b033499fa5bd83f0c8f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/mushroom_Cooked.prefab using Guid(3b90a8254c6b033499fa5bd83f0c8f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88139e3f5d4135dcaff7cc70f1ec8c7a') in 0.0144344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/lettuceSliced_1.prefab
+  artifactKey: Guid(739b5ac4387763e4cbfc9e82efe6ece0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/lettuceSliced_1.prefab using Guid(739b5ac4387763e4cbfc9e82efe6ece0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94d9822c2f3283faf354f72839e78b46') in 0.0123495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/egg_Boiled_Burnt.prefab
+  artifactKey: Guid(52c4239a97a88c348a251a8ba7603659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/egg_Boiled_Burnt.prefab using Guid(52c4239a97a88c348a251a8ba7603659) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd16c68e5eb8aaa37911323dc7e624f68') in 0.0126836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.254618 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/mushroom_Hollow_Burnt.prefab
+  artifactKey: Guid(00bfd5e551da18b4e89ee65f6c5832f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/mushroom_Hollow_Burnt.prefab using Guid(00bfd5e551da18b4e89ee65f6c5832f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a15e72c7ed01fc46b8f0f5c7f1fca1d') in 0.0125754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/mushroom_Raw.prefab
+  artifactKey: Guid(df725eb4ad4dcbf42b853cbd291dd553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/mushroom_Raw.prefab using Guid(df725eb4ad4dcbf42b853cbd291dd553) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48e9be5574f1b3a3fc10ba300435d929') in 0.0125353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/onion_Ring.prefab
+  artifactKey: Guid(52becfe3247a3b94f9595ae258529e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/onion_Ring.prefab using Guid(52becfe3247a3b94f9595ae258529e66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f70f81281900c9f4deb0b6cb49b3855') in 0.015726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/mushroom_Sliced_Cooked.prefab
+  artifactKey: Guid(21f892f3e113fb442a43bdf58fddddcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/mushroom_Sliced_Cooked.prefab using Guid(21f892f3e113fb442a43bdf58fddddcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28bcbfdb14f38d856cc6e04c6827a41f') in 0.0171878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.366046 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/onion_Ring_Fried.prefab
+  artifactKey: Guid(8ad32adf99278b14aa04d2ca31350936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/onion_Ring_Fried.prefab using Guid(8ad32adf99278b14aa04d2ca31350936) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82fdf5777c0b430caf48da7114adb39d') in 0.0147393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/pancake_Raw.prefab
+  artifactKey: Guid(1f30b43e84c38484bb4c0e44629f2dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/pancake_Raw.prefab using Guid(1f30b43e84c38484bb4c0e44629f2dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87a8fff810b52cd5493cafd1879c72c0') in 0.0123242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/pancake_Cooked.prefab
+  artifactKey: Guid(54b13146b8ce4ea4aab849152c3d7223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/pancake_Cooked.prefab using Guid(54b13146b8ce4ea4aab849152c3d7223) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70f15e8e4f4629f7f71c6c39737ef8c2') in 0.0110381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_AppleSlice.prefab
+  artifactKey: Guid(db1983a1515f11a4491c9bfe58ceb975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_AppleSlice.prefab using Guid(db1983a1515f11a4491c9bfe58ceb975) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18e7c21a171dc14526924a60432bbe38') in 0.0131106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato.prefab
+  artifactKey: Guid(6825c05e6229a8d4496869a918acbecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato.prefab using Guid(6825c05e6229a8d4496869a918acbecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b4e72739c1eb02751f32d774f512d8e') in 0.0116511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/popcorn_1.prefab
+  artifactKey: Guid(498aa980d1c3dcb4ebd0160e705a8b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/popcorn_1.prefab using Guid(498aa980d1c3dcb4ebd0160e705a8b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e981d91a4a79f7550b6445d2e027ac13') in 0.0126296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/popcorn_2.prefab
+  artifactKey: Guid(4aa5dbcebfdbaf8409eadb817bbfeba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/popcorn_2.prefab using Guid(4aa5dbcebfdbaf8409eadb817bbfeba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a28feaf7c77bf2f234bca7799b61da8') in 0.0121943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/onion_White.prefab
+  artifactKey: Guid(a1df86e9064b07043b74eb68305ef751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/onion_White.prefab using Guid(a1df86e9064b07043b74eb68305ef751) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa690e839612dcee46672ed715def0dd') in 0.0128562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/onion_Spring_Slice.prefab
+  artifactKey: Guid(01ebadad3d42f9d48b9ac254fbd8ae26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/onion_Spring_Slice.prefab using Guid(01ebadad3d42f9d48b9ac254fbd8ae26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3afd485d448e6c2c506d93fbc832729f') in 0.0193194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.308040 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Chip_1_Raw.prefab
+  artifactKey: Guid(90f6199055806e94fafd56bf466e0cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Chip_1_Raw.prefab using Guid(90f6199055806e94fafd56bf466e0cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffc08dea64a8cca73d41e02d9f52938b') in 0.0136906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Chip_3_Burnt.prefab
+  artifactKey: Guid(df4488e6c26701e4ca954a9760f7b61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Chip_3_Burnt.prefab using Guid(df4488e6c26701e4ca954a9760f7b61d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01e6aa4fc09d245dc2f289feb8bc4375') in 0.0123098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Cooked.prefab
+  artifactKey: Guid(33185300def29894b8f41693c498f0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Cooked.prefab using Guid(33185300def29894b8f41693c498f0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be82edb160121d2c5eeaf66987858b6e') in 0.0126899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Chip_2_Raw.prefab
+  artifactKey: Guid(a5ab09a4e0353e349a719f8e68f6bb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Chip_2_Raw.prefab using Guid(a5ab09a4e0353e349a719f8e68f6bb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88b75e7fbe98b92531721a8121ca50e1') in 0.0115555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.510921 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Half_1.prefab
+  artifactKey: Guid(06afdfd9180951147811d26d0741e5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Half_1.prefab using Guid(06afdfd9180951147811d26d0741e5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ada791c13b87cc40c9c5a4fe08bb5b8') in 0.0144167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Half_2_Burnt.prefab
+  artifactKey: Guid(28f8b1d47643d7a4a900c2f9792d582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Half_2_Burnt.prefab using Guid(28f8b1d47643d7a4a900c2f9792d582d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b50c888e2642a2be3fddb33f1e799334') in 0.0129524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.390468 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Peeled_AppleSlice.prefab
+  artifactKey: Guid(6c5b0844b257cee4faa71f54609c4ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Peeled_AppleSlice.prefab using Guid(6c5b0844b257cee4faa71f54609c4ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffdc80aaf678fa48025a7dde83636d4d') in 0.0148564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Peeled_Half_1.prefab
+  artifactKey: Guid(b223ec547717003409c10a220cc97c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Peeled_Half_1.prefab using Guid(b223ec547717003409c10a220cc97c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e201a55e79eda5ccdd64ec601ac5065') in 0.011827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Peeled_Half_1_Cooked.prefab
+  artifactKey: Guid(48f33d9ba78534f41ad6e475afbe66f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Peeled_Half_1_Cooked.prefab using Guid(48f33d9ba78534f41ad6e475afbe66f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4935ab071a3bf6fbb45f9717d9fb9fba') in 0.0120263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Sliced.prefab
+  artifactKey: Guid(5a719a0001157004596aeb5699356a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/potato_Sliced.prefab using Guid(5a719a0001157004596aeb5699356a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cb4e36c11e2fff5d48efbe0d658dced') in 0.015602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.533767 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/sandwichBun_Bottom.prefab
+  artifactKey: Guid(b62528de3ec2bfe4886fa334e0ff6545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/sandwichBun_Bottom.prefab using Guid(b62528de3ec2bfe4886fa334e0ff6545) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9940d66e316fe7b3d4374580dff4afa') in 0.0147083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/sausage_Packed.prefab
+  artifactKey: Guid(ca8a5dfa632e6184f973325634d09f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/sausage_Packed.prefab using Guid(ca8a5dfa632e6184f973325634d09f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '195d16953cc3b8ded7d28e438feb2481') in 0.0135544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/tomatoSlice_Half.prefab
+  artifactKey: Guid(e18e7a44ffb9f8a4e828999e665c4c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/tomatoSlice_Half.prefab using Guid(e18e7a44ffb9f8a4e828999e665c4c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '410f0fce00a70d6accc0f9e95e30156e') in 0.0131988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/tomatoSlice.prefab
+  artifactKey: Guid(7985cb9eff186a545b6d64a3a08f3aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/tomatoSlice.prefab using Guid(7985cb9eff186a545b6d64a3a08f3aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e4affd6cae6a870a821148f063c5def') in 0.011666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/sweetPotato.prefab
+  artifactKey: Guid(576e4354b75c61f4ca382d29e088c540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/sweetPotato.prefab using Guid(576e4354b75c61f4ca382d29e088c540) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a91ea6d1b52d75972de450585444780e') in 0.0154123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006494 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/tomatoSliceWedge.prefab
+  artifactKey: Guid(fccf3c440acfe4340830b2cfe9b9fc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/tomatoSliceWedge.prefab using Guid(fccf3c440acfe4340830b2cfe9b9fc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6afe7bb0d7c7580584b8e0234f7f0b9e') in 0.0132038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/watermelon_Sliced_Small_3.prefab
+  artifactKey: Guid(4f4232d584e897443a2a5acc09af932a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toony Kitchen Ingredients Free/Prefabs/Ingredients/watermelon_Sliced_Small_3.prefab using Guid(4f4232d584e897443a2a5acc09af932a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98273b6cab65c6862d41da09e7324c96') in 0.0127511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
