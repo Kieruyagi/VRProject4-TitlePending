@@ -1,0 +1,460 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.13f1 (abdb44fca7f7) revision 11262788'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 16225 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Cp96FGwMqFM7FdZsI03vT" at "2025-12-09T09:15:51.761451Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-09T09:15:51Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/kille/OneDrive/Documents/GitHub/VRProject4-TitlePending
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+52160
+-licensingIpc
+LicenseClient-Cp96FGwMqFM7FdZsI03vT
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/kille/OneDrive/Documents/GitHub/VRProject4-TitlePending
+C:/Users/kille/OneDrive/Documents/GitHub/VRProject4-TitlePending
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9860]  Target information:
+
+Player connection [9860]  * "[IP] 192.168.0.40 [Port] 0 [Flags] 2 [Guid] 3567081778 [EditorId] 3567081778 [Version] 1048832 [Id] WindowsEditor(7,Cringe) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9860] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9860] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 20.11 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.72 ms.
+Initialize engine version: 6000.2.13f1 (abdb44fca7f7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kille/OneDrive/Documents/GitHub/VRProject4-TitlePending/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 (ID=0x2882)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Cp96FGwMqFM7FdZsI03vT"
+[Licensing::IpcConnector] LicenseClient-Cp96FGwMqFM7FdZsI03vT channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kille-6000.2.13" at "2025-12-09T09:15:53.8071967Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              fddaa09c01354b3f96770b3b823ecd8b
+  Correlation Id:          9fe7cdc998d434ca47592ad655a9ccf7
+  External correlation Id: 3645196205689432121
+  Machine Id:              1SdEpfSobjKflCshH1UoIGa4c/M=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-kille-6000.2.13" (connect: 0.00s, validation: 0.00s, handshake: 1.70s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kille-6000.2.13-notifications" at "2025-12-09T09:15:55.5047483Z"
+[Licensing::Module] Licensing Background thread has ended after 3.74s
+[Licensing::Module] Licensing is initialized (took 2.96s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475879748731-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 2.962733 seconds.
+- Loaded All Assemblies, in  3.357 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 207 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.611 seconds
+Domain Reload Profiling: 3966ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (3011ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (143ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (127ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (611ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (565ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (341ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.811 seconds
+Refreshing native plugins compatible for Editor in 8.24 ms, found 14 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:312 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0008c] in .\Library\PackageCache\com.unity.xr.oculus@44578ba4bd45\Runtime\OculusLoader.cs:297 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <bed9669261d44da0a59448ecde2b1a5c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00087] in <1a7e38f6fac74b0d95602c9f9166f28a>:0 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.410 seconds
+Domain Reload Profiling: 2215ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (564ms)
+		LoadAssemblies (376ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (277ms)
+			TypeCache.Refresh (194ms)
+				TypeCache.ScanAssembly (178ms)
+			BuildScriptInfoCaches (65ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1411ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1208ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (910ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 10.60 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8160 unused Assets / (10.6 MB). Loaded Objects now: 8976.
+Memory consumption went from 170.1 MB to 159.4 MB.
+Total: 23.935400 ms (FindLiveObjects: 1.583300 ms CreateObjectMapping: 0.907600 ms MarkObjects: 16.127100 ms  DeleteObjects: 5.315500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8475.079069 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_03
+  artifactKey: Guid(1296f2740c0fed04dbf206c562335310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_03 using Guid(1296f2740c0fed04dbf206c562335310) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b07ca39eceffc0ce03a6bee8fad4fe35') in 0.0049137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024959 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_03/support_03_AO.png
+  artifactKey: Guid(3203e6a9bde34784e9f2e8056ac2de97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_03/support_03_AO.png using Guid(3203e6a9bde34784e9f2e8056ac2de97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae757a91a1e9df71954289c35964e587') in 0.0590963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.167292 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/lame
+  artifactKey: Guid(ff0e067255354fc4ab424904f1d67284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/lame using Guid(ff0e067255354fc4ab424904f1d67284) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9c4ee192436aa16da4b744c75a2348b') in 0.0007704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023736 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/lame/Lame_AO.png
+  artifactKey: Guid(8789bfcc36eb9d1448d65bb8770f4b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/lame/Lame_AO.png using Guid(8789bfcc36eb9d1448d65bb8770f4b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd09cd99c7fc31c854be403ba95e0a9e') in 0.0125403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/lame/Lame_Roughness.png
+  artifactKey: Guid(1b742d6308390b0449be71e9a4c04d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/lame/Lame_Roughness.png using Guid(1b742d6308390b0449be71e9a4c04d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26229b4732aa1d40324cf1e2b8da0e9c') in 0.0424303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.411949 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_02
+  artifactKey: Guid(b897259a3b1df894a8fe229579032ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_02 using Guid(b897259a3b1df894a8fe229579032ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b160eaaa467224465f05da960569a44') in 0.0007883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027090 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_02/support_02_AO.png
+  artifactKey: Guid(1e689c44b98cd894881366c031d5382d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_02/support_02_AO.png using Guid(1e689c44b98cd894881366c031d5382d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '961e46966f53babbd76c136c4a2823d8') in 0.0078281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_02/support_02_Normal_DirectX.png
+  artifactKey: Guid(878c4cc9efadc8d46b51d5991a523213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_02/support_02_Normal_DirectX.png using Guid(878c4cc9efadc8d46b51d5991a523213) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb410398200192d4d7bf9d4da674a914') in 0.0198196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_02/support_02_Metallic.png
+  artifactKey: Guid(bd5ebd29623ffa84b9880b4cf35a300a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_02/support_02_Metallic.png using Guid(bd5ebd29623ffa84b9880b4cf35a300a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfb4f758967f2e2d329bd6cb7a6cc7b2') in 0.013846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_02/support_02_Height.png
+  artifactKey: Guid(4e23dccbd35c2e1498bf89ac22304b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_02/support_02_Height.png using Guid(4e23dccbd35c2e1498bf89ac22304b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12c3b09cbb0a1f1628ba174e4c6daa5f') in 0.0638753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.288607 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_01
+  artifactKey: Guid(768e3d3088db44e4db2772475163ba2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_01 using Guid(768e3d3088db44e4db2772475163ba2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ead33928e6ac92856f1a592b0a042d2b') in 0.0006973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.238678 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_01/support_01_AO.png
+  artifactKey: Guid(f4ed0305102317c429dbc95a64d06821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_01/support_01_AO.png using Guid(f4ed0305102317c429dbc95a64d06821) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f41a448c11377a27309f6d7cdb0b80fc') in 0.0310553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_01/support_01_Normal.png
+  artifactKey: Guid(b9ad1721fd93ecc41831b4a1fdb23b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_01/support_01_Normal.png using Guid(b9ad1721fd93ecc41831b4a1fdb23b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a7a6a5355996d7cac301ca88308b3b9') in 0.0280107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_01/support_01_Metallic.png
+  artifactKey: Guid(262a750b3f699bc47a1e454080097fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/support_01/support_01_Metallic.png using Guid(262a750b3f699bc47a1e454080097fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e601eb34f2225c86041954633b5a0313') in 0.0611141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.061259 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/manche
+  artifactKey: Guid(83a776ee320128549b0cd9a333c5057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/manche using Guid(83a776ee320128549b0cd9a333c5057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f68ff865098721dd200662ef01fe85ae') in 0.0007024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.453897 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/bout
+  artifactKey: Guid(ebf04c7d8fec9f946b80c6fea26c1a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/bout using Guid(ebf04c7d8fec9f946b80c6fea26c1a3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01dae600ce1948c02256513e2c6ebc87') in 0.0007518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047226 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/bout/Bout_AO.png
+  artifactKey: Guid(1b1a7a3e70a9b8b49a96d1ae4afcb1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/bout/Bout_AO.png using Guid(1b1a7a3e70a9b8b49a96d1ae4afcb1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6ef98f6a2e26d6d5e15b8837dc4691e') in 0.019879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/bout/Bout_Roughness.png
+  artifactKey: Guid(35763d90e9ed3454bbb43b0a9baa3b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/bout/Bout_Roughness.png using Guid(35763d90e9ed3454bbb43b0a9baa3b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17867a5447a788ea820a0d65cbd06a1c') in 0.0264695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 214.111511 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/manche/Manche_AO.png
+  artifactKey: Guid(a12adb56e52aafa4196355ffbb5054a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/manche/Manche_AO.png using Guid(a12adb56e52aafa4196355ffbb5054a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8389e55aa2a281cc655f2ee118faa520') in 0.0193433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/manche/Manche_Roughness.png
+  artifactKey: Guid(0acea802eda3f324c8200c9944618a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/manche/Manche_Roughness.png using Guid(0acea802eda3f324c8200c9944618a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b32256141b8b2973a76ad83362e052b3') in 0.016129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/manche/Manche_Height.png
+  artifactKey: Guid(c9b781f97e5e3d04a9a471fd681f3df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/sword-of-rupture-enuma-elish-ea/source/EA/EA/manche/Manche_Height.png using Guid(c9b781f97e5e3d04a9a471fd681f3df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b546ce77291fa95efde5e67415a140ce') in 0.0193775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
