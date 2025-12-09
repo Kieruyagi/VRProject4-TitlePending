@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/staging' branch; Version is '6000.2.13f1 (abdb44fca7f7) revision 11262788'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Cp96FGwMqFM7FdZsI03vT" at "2025-12-09T07:28:18.7608119Z"
 OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 16225 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Cp96FGwMqFM7FdZsI03vT" at "2025-12-09T08:20:13.2043504Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-12-09T07:28:18Z
+Date: 2025-12-09T08:20:13Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.2.13f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ C:/Users/kille/OneDrive/Documents/GitHub/VRProject4-TitlePending
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55051
+56265
 -licensingIpc
 LicenseClient-Cp96FGwMqFM7FdZsI03vT
 -job-worker-count
@@ -65,12 +65,12 @@ C:/Users/kille/OneDrive/Documents/GitHub/VRProject4-TitlePending
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [14512]  Target information:
+Player connection [10652]  Target information:
 
-Player connection [14512]  * "[IP] 192.168.0.40 [Port] 0 [Flags] 2 [Guid] 1645422465 [EditorId] 1645422465 [Version] 1048832 [Id] WindowsEditor(7,Cringe) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10652]  * "[IP] 192.168.0.40 [Port] 0 [Flags] 2 [Guid] 2750993864 [EditorId] 2750993864 [Version] 1048832 [Id] WindowsEditor(7,Cringe) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [14512] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [14512] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10652] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10652] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -82,8 +82,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 959.54 ms, found 14 plugins.
-Preloading 1 native plugins for Editor in 0.89 ms.
+Refreshing native plugins compatible for Editor in 953.82 ms, found 14 plugins.
+Preloading 1 native plugins for Editor in 0.76 ms.
 Initialize engine version: 6000.2.13f1 (abdb44fca7f7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/kille/OneDrive/Documents/GitHub/VRProject4-TitlePending/Assets
@@ -98,26 +98,28 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.17.4'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Cp96FGwMqFM7FdZsI03vT"
 [Licensing::IpcConnector] LicenseClient-Cp96FGwMqFM7FdZsI03vT channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kille-6000.2.13" at "2025-12-09T07:28:21.0692613Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kille-6000.2.13" at "2025-12-09T08:20:15.2459999Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              192809ebf32045459f2faaa4c9fe0396
-  Correlation Id:          ede83306cf1a8a9183d6a452a28b150f
-  External correlation Id: 1535388874232236677
+  Session Id:              e2d70e7b9ecf431f811e566baefc8e60
+  Correlation Id:          b4f19e152a99f8a36dcfbe21ad0826a6
+  External correlation Id: 1028395459044448454
   Machine Id:              1SdEpfSobjKflCshH1UoIGa4c/M=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-kille-6000.2.13" (connect: 0.00s, validation: 0.00s, handshake: 2.54s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kille-6000.2.13-notifications" at "2025-12-09T07:28:23.6126649Z"
-[Licensing::Module] Licensing Background thread has ended after 4.85s
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-kille-6000.2.13" (connect: 0.00s, validation: 0.00s, handshake: 1.93s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-kille-6000.2.13-notifications" at "2025-12-09T08:20:17.177342Z"
+[Licensing::Module] Licensing Background thread has ended after 3.97s
+[Licensing::Module] Licensing is initialized (took 2.04s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 2475879748731-UnityPersXXXX
@@ -127,43 +129,43 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.009613 seconds.
-- Loaded All Assemblies, in  4.458 seconds
+Registered in 2.423050 seconds.
+- Loaded All Assemblies, in  3.457 seconds
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 226 ms
+Android Extension - Scanning For ADB Devices 248 ms
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.674 seconds
-Domain Reload Profiling: 5130ms
-	BeginReloadAssembly (4137ms)
+- Finished resetting the current domain, in  0.681 seconds
+Domain Reload Profiling: 4136ms
+	BeginReloadAssembly (203ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (207ms)
-		LoadAssemblies (4147ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (2469ms)
+	LoadAllAssembliesAndSetupDomain (733ms)
+		LoadAssemblies (204ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (186ms)
-			TypeCache.Refresh (184ms)
-				TypeCache.ScanAssembly (173ms)
+		AnalyzeDomain (727ms)
+			TypeCache.Refresh (725ms)
+				TypeCache.ScanAssembly (714ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (674ms)
+	FinalizeReload (682ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (614ms)
+		SetupLoadedEditorAssemblies (634ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (373ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (125ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
+			InitializePlatformSupportModulesInManaged (394ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -173,8 +175,8 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  0.948 seconds
-Refreshing native plugins compatible for Editor in 8.58 ms, found 14 plugins.
+- Loaded All Assemblies, in 16.972 seconds
+Refreshing native plugins compatible for Editor in 17.51 ms, found 14 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
@@ -207,39 +209,39 @@ Mono: successfully reloaded assembly
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.388 seconds
-Domain Reload Profiling: 2328ms
-	BeginReloadAssembly (168ms)
+- Finished resetting the current domain, in  1.773 seconds
+Domain Reload Profiling: 18733ms
+	BeginReloadAssembly (183ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (692ms)
-		LoadAssemblies (491ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (16690ms)
+		LoadAssemblies (16270ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (290ms)
-			TypeCache.Refresh (195ms)
-				TypeCache.ScanAssembly (179ms)
-			BuildScriptInfoCaches (77ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1389ms)
+		AnalyzeDomain (520ms)
+			TypeCache.Refresh (355ms)
+				TypeCache.ScanAssembly (323ms)
+			BuildScriptInfoCaches (131ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (1774ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1174ms)
+		SetupLoadedEditorAssemblies (1401ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (897ms)
-			ProcessInitializeOnLoadMethodAttributes (111ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (187ms)
+			ProcessInitializeOnLoadAttributes (1041ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
@@ -276,67 +278,177 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 7.73 ms, found 14 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 10.75 ms, found 14 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 8160 unused Assets / (11.2 MB). Loaded Objects now: 8976.
-Memory consumption went from 167.8 MB to 156.6 MB.
-Total: 19.202200 ms (FindLiveObjects: 0.660500 ms CreateObjectMapping: 0.654900 ms MarkObjects: 12.783200 ms  DeleteObjects: 5.102400 ms)
+Unloading 8160 unused Assets / (10.7 MB). Loaded Objects now: 8976.
+Memory consumption went from 166.1 MB to 155.4 MB.
+Total: 19.126900 ms (FindLiveObjects: 0.664900 ms CreateObjectMapping: 0.671000 ms MarkObjects: 13.142500 ms  DeleteObjects: 4.646600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1996.045539 seconds.
+  Time since last request: 5128.397172 seconds.
+  path: Assets/Scenes/BedroomScenes/FirstBedroom.unity
+  artifactKey: Guid(d68fa5a022bc318428aff9fd93e07060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BedroomScenes/FirstBedroom.unity using Guid(d68fa5a022bc318428aff9fd93e07060) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '275af65fa00bd23aef0b71b5a84b0366') in 0.0057948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scenes/BedroomScenes
+  artifactKey: Guid(26dd486cc2be5454fb2e2594acdb22ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/BedroomScenes using Guid(26dd486cc2be5454fb2e2594acdb22ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a19823ef06ea3ffd6b6fcc1278accbda') in 0.0006292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
   path: Assets/Readme.asset
   artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7564957e633b305f4e69560a9de8e20a') in 0.022619 seconds
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7564957e633b305f4e69560a9de8e20a') in 0.0182136 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.365661 seconds.
-  path: Assets/XR
-  artifactKey: Guid(50554da1a917e7a46b5e674543e299ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR using Guid(50554da1a917e7a46b5e674543e299ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa790061cd2b02e49168c9beb401ac70') in 0.0006527 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 54.093963 seconds.
+  path: Assets/Prefabs/Guitar.prefab
+  artifactKey: Guid(e29a480a127f6d344a7fb0efcb24dd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Guitar.prefab using Guid(e29a480a127f6d344a7fb0efcb24dd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59afe26a6cf90584c493d2c22efe7a41') in 2.5686048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.020964 seconds.
-  path: Assets/Textures
-  artifactKey: Guid(397bbb87bfc4f4045b45758c4592e55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures using Guid(397bbb87bfc4f4045b45758c4592e55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f30a40cb7229d7450adf6cb0fe5a1d95') in 0.0005272 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 2.659469 seconds.
+  path: Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/textures/alfombra.jpeg
+  artifactKey: Guid(1d007d421401304459a933a40f35911a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/textures/alfombra.jpeg using Guid(1d007d421401304459a933a40f35911a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: 'df7db6f3d86060c0428896a6a1a544c8') in 0.0291283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.576834 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(0cfac3b428e2cbb45b52c0d9e41dbf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(0cfac3b428e2cbb45b52c0d9e41dbf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77e5c025f8043cbed5a2d25076e796cb') in 0.0005236 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/textures/encuentro.jpeg
+  artifactKey: Guid(4133f11232410614d83e52d943f8132f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/textures/encuentro.jpeg using Guid(4133f11232410614d83e52d943f8132f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14d55e0d594007e54f02cb14c7ab6c70') in 0.0216837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.664241 seconds.
-  path: Assets/Settings
-  artifactKey: Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings using Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3daf5943cade026999cb2baf358ade14') in 0.0005238 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000037 seconds.
+  path: Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/textures/madre.jpeg
+  artifactKey: Guid(b431ebfe7b223a942b42098cb76ce6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/textures/madre.jpeg using Guid(b431ebfe7b223a942b42098cb76ce6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1eb655c26258d0461da48cfe33ed675') in 0.016765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.974506 seconds.
-  path: Assets/Scenes/BedroomScenes
-  artifactKey: Guid(26dd486cc2be5454fb2e2594acdb22ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BedroomScenes using Guid(26dd486cc2be5454fb2e2594acdb22ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a19823ef06ea3ffd6b6fcc1278accbda') in 0.0005187 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/textures/baño.jpeg
+  artifactKey: Guid(d77f9e6764c89024e851f82b689056b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/textures/baño.jpeg using Guid(d77f9e6764c89024e851f82b689056b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76d9bbd8fc532a8a3f8126766a8b4460') in 0.0180228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.318718 seconds.
-  path: Assets/Scenes/BedroomScenes/FirstBedroom.unity
-  artifactKey: Guid(d68fa5a022bc318428aff9fd93e07060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/BedroomScenes/FirstBedroom.unity using Guid(d68fa5a022bc318428aff9fd93e07060) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae741cf9424e356d4aef79fc347fc26e') in 0.0005982 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/textures/wood_cabinet_worn_long_diff_2k.jpeg
+  artifactKey: Guid(71058edd43ac1894986ac1a0d372c0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/textures/wood_cabinet_worn_long_diff_2k.jpeg using Guid(71058edd43ac1894986ac1a0d372c0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '082015671d6c69bf86ed78cd2972b06f') in 0.0185209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/textures/uncle_Fred.jpeg
+  artifactKey: Guid(db84a0bbc307c9644895a9f34eed80e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/textures/uncle_Fred.jpeg using Guid(db84a0bbc307c9644895a9f34eed80e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fc5391ed2c0f27336022a58560e56099') in 0.0179897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/textures/seaside_rock_diff_2k.jpeg
+  artifactKey: Guid(171f50db23a8a6d4583092a9117c3015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/textures/seaside_rock_diff_2k.jpeg using Guid(171f50db23a8a6d4583092a9117c3015) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '818b60a35d5735d7f67dd7b1c871f0e8') in 0.0186468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/textures/wood_planks_dirt_diff_2k.jpeg
+  artifactKey: Guid(1ffd27b8942aa0047bb56104e8232287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/textures/wood_planks_dirt_diff_2k.jpeg using Guid(1ffd27b8942aa0047bb56104e8232287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '121d59c0029fee6d3a6ddf70c38117ad') in 0.0172808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/textures/luna2.jpeg
+  artifactKey: Guid(204f502ef07a75b4d9f70e6b7b9dc254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/textures/luna2.jpeg using Guid(204f502ef07a75b4d9f70e6b7b9dc254) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7af32569289154b94a333863bf51396d') in 0.0161403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.695283 seconds.
+  path: Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/source/Casa_agallas_subir/Casa_agallas_subir/alfombra.jpg
+  artifactKey: Guid(9f22a6eb5d5b96a40b076347011f7696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/source/Casa_agallas_subir/Casa_agallas_subir/alfombra.jpg using Guid(9f22a6eb5d5b96a40b076347011f7696) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e1cdb30d180c87ad4b6b89bcd037daa') in 0.0209856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/source/Casa_agallas_subir/Casa_agallas_subir/Comedor-1.jpg
+  artifactKey: Guid(6a3f05e4e41080d4bbb3ddb661aecea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/source/Casa_agallas_subir/Casa_agallas_subir/Comedor-1.jpg using Guid(6a3f05e4e41080d4bbb3ddb661aecea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8789c2f34798460a71854df58be67def') in 0.052024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/source/Casa_agallas_subir/Casa_agallas_subir/boda_2.jpg
+  artifactKey: Guid(984ecdca65ee41b4d8d7df352a3d8569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/source/Casa_agallas_subir/Casa_agallas_subir/boda_2.jpg using Guid(984ecdca65ee41b4d8d7df352a3d8569) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bf624920ba0f80681447bf6d76c4a3a') in 0.019586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/source/Casa_agallas_subir/Casa_agallas_subir/tele.jpg
+  artifactKey: Guid(744566c037590e04881c46fce61667c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/source/Casa_agallas_subir/Casa_agallas_subir/tele.jpg using Guid(744566c037590e04881c46fce61667c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e33041d8814a58ff658e4580668f2c81') in 0.0200459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/source/Casa_agallas_subir/Casa_agallas_subir/silla.jpg
+  artifactKey: Guid(82604e3508de21c4c9a00cfda358a9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/source/Casa_agallas_subir/Casa_agallas_subir/silla.jpg using Guid(82604e3508de21c4c9a00cfda358a9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0adf4c6dde69b87303e60cc3618d7138') in 0.0147836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/source/Casa_agallas_subir/Casa_agallas_subir/uncle_Fred.jpg
+  artifactKey: Guid(c6b3562714d07e24493368896929fa27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/source/Casa_agallas_subir/Casa_agallas_subir/uncle_Fred.jpg using Guid(c6b3562714d07e24493368896929fa27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afaa48772ab12a74f19e4a61c1a7fafe') in 0.0069701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/source/Casa_agallas_subir/Casa_agallas_subir/madre.jpg
+  artifactKey: Guid(f13e79f4fc7e88645b2133173414b387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/courage-the-cowardly-dog-bagge-farmhouse/source/Casa_agallas_subir/Casa_agallas_subir/madre.jpg using Guid(f13e79f4fc7e88645b2133173414b387) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6236efd5ed12e0e884b7afebe6736f1') in 0.0181504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
