@@ -1,11 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 //Ingredient Detector - STK
 //
 
-public class IngredientDetect : MonoBehaviour
+public class MiniGameBurger : MonoBehaviour
 {
     //Tags of ingredients
     private List<string> recipeList = new List<string>()
@@ -20,10 +21,14 @@ public class IngredientDetect : MonoBehaviour
     public List<GameObject> ingredientsInside = new List<GameObject>();
     //List of images to show on order details
     public List<GameObject> imagesIngredients = new List<GameObject>();
+    //List of images to end day
+    public List<GameObject> endDay = new List<GameObject>();
     //Total orders
     public int totalOrders = 3;
     //Reference to ingredient spawner
     public GameObject ingredientSpawner;
+    //entire floor teleportation collider
+    public GameObject teleportFloor;
 
     private int recipesCompleted = 0;
     private int randomNum = 0;
@@ -101,6 +106,10 @@ public class IngredientDetect : MonoBehaviour
             clearOrder();
             timerRun = false;
             ingredientSpawner.GetComponent<spawnIngredient>().removeObjects();
+            teleportFloor.SetActive(true);
+            //Change sign to say exit
+            endDay[0].GetComponent<TextMeshProUGUI>().enabled = false;
+            endDay[1].GetComponent<TextMeshProUGUI>().enabled = true;
             this.enabled = false;
         }     
     }

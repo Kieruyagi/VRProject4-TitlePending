@@ -9,6 +9,7 @@ public class spawnIngredient : MonoBehaviour
     public List<GameObject> ingredients = new List<GameObject>();
     private List<GameObject> bin = new List<GameObject>();
 
+
     //on start spawns objects for debug
     public void Start()
     {
@@ -23,7 +24,7 @@ public class spawnIngredient : MonoBehaviour
         {
             Debug.Log($"{obj} spawning");
             //add objects to list for cleanup later
-            bin.Add(Instantiate(obj, new Vector3((-0.5f + i), 1.4f, 24.5f), Quaternion.identity));
+            bin.Add(Instantiate(obj, new Vector3((transform.position.x + i), transform.position.y, transform.position.z), Quaternion.identity));
             i += 0.3f;
         }
     }

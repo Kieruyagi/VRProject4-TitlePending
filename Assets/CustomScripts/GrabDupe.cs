@@ -3,7 +3,6 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class SpawnCopyOnGrab : MonoBehaviour
 {
-    [Header("Prefab to Spawn (leave empty to use this object)")]
     public GameObject objectPrefab;
 
     private UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable grabInteractable;
@@ -18,10 +17,8 @@ public class SpawnCopyOnGrab : MonoBehaviour
 
         if (objectPrefab == null)
         {
-            // Default to duplicating this object
             objectPrefab = gameObject;
         }
-       
 
         grabInteractable.selectEntered.AddListener(OnGrab);
     }
@@ -33,18 +30,9 @@ public class SpawnCopyOnGrab : MonoBehaviour
 
     private void OnGrab(SelectEnterEventArgs args)
     {
-        // Spawn copy where the original is
-        GameObject clone = Instantiate(
-            objectPrefab,
-            transform.position,
-            transform.rotation
-        );
-        Destroy(scriptOG);
-        rb.useGravity = true;
+        GameObject clone = Instantiate(objectPrefab, transform.position, transform.rotation);
 
-        
 
-        // Ensure the new object is grabbable
         if (!clone.TryGetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>(out _))
         {
             clone.AddComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
