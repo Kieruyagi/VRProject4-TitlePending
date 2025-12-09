@@ -10,14 +10,23 @@ EditorBuildSettings:
     guid: 947f7e2f3eb19c74ea5c905ceb76fd3b
   - enabled: 1
     path: Assets/Scenes/FastFoomScenes/FastFoodScene2.unity
-    guid: fc0bac5a7f37df94681e4d2e4bf30285
+    guid: 13f37dc3fe40b944da89856bbece9cab
   - enabled: 1
     path: Assets/Scenes/FastFoomScenes/FastFoodScene3.unity
-    guid: 5b0880229dee5404992005de95557d9d
+    guid: b051cff817eefe74a9076322774e5c7e
+  - enabled: 1
+    path: Assets/Scenes/BedroomScenes/FirstBedroom.unity
+    guid: 52138737bcbd57c47bec55fbf9705aa9
+  - enabled: 1
+    path: Assets/Scenes/BedroomScenes/MiddleBedroom.unity
+    guid: 3a7cd52d7603c1549982af5fe39d9739
+  - enabled: 1
+    path: Assets/Scenes/BedroomScenes/FinalBedroom.unity
+    guid: 67173570b067d2c4697fca74215351a9
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8c9b21ba35f3308429af569d6e982746, type: 2}
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d38beb61659bc784e9eb882042e5be01, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 0cb9ef500efcf1b458dbe7712bc469fb, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8748d5ad82a7dfa45be1c87c3ada487a, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a317d05fcb39c6246a81e907d1a4a629, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 1c62176490a139b44ab4f01cce102b29, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4e4d30d6fcd05b54ab3023496c638d17, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 502a09880ce3a5e4d99f20a608e3a2f6, type: 2}
   m_UseUCBPForAssetBundles: 0
