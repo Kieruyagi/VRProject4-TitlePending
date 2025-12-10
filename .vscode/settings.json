@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "VRProject4-TitlePending.slnx"
+    "dotnet.defaultSolution": "proj4VR.slnx"
 }
